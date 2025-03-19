@@ -6,9 +6,19 @@ using namespace std;
 
 class Member {
     public:
-    Member(int name,int age,int yearsOfExperience,int ID,char gender);
+    Member(string name,int age,int yearsOfExperience,int ID,char gender);
+    string getName();
+    void setName(string name);
+    void setAge(int age);
+    int getAge();
+    int getyearsOfExperience();
+    void setyearsOfExperience(int yearsOfExperience);
+    int getID();
+    void setID(int ID);
+    char getGender();
+    void setGender(char gender);
     private:
-    int name;
+    string name;
     int age;
     int yearsOfExperience;
     int ID;
