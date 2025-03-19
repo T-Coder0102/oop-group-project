@@ -6,7 +6,6 @@
 #include "Client.h"
 #include "MemberDirect/Member.h"
 using namespace std;
-
 class Hotel {
     public:
     Hotel();

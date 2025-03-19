@@ -1,5 +1,7 @@
-//
-// Created by Timur Joldasbayev on 3/18/25.
-//
-
 #include "../MemberDirect/Manager.h"
+
+Manager::Manager(string name, int age, int yearsOfExperience, int ID, char gender):Member(name,age,yearsOfExperience,ID,gender)
+{
+
+}
+

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.30)
+cmake_minimum_required(VERSION 3.29)
 project(oop-group-project)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -6,8 +6,8 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(oop-group-project main.cpp
         RoomDirect/Room.cpp
         RoomDirect/Room.h
-        RoomDirect/Restaurant.cpp
-        RoomDirect/Restaurant.h
+        Restaurant.cpp
+        Restaurant.h
         RoomDirect/Standart.cpp
         RoomDirect/Standart.h
         RoomDirect/Lyuks.cpp

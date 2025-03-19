@@ -3,7 +3,7 @@
 #include "Member.h"
 class Manager : public Member {
 public:
-    Manager(int name,int age,int yearsOfExperience,int ID,char gender);
+    Manager(string name,int age,int yearsOfExperience,int ID,char gender);
 private:
 };
 

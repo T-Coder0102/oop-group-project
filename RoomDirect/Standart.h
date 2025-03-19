@@ -4,6 +4,7 @@
 
 class Standart: public Room {
 public:
+    Standart(int roomNum,int price);
 
 private:
 

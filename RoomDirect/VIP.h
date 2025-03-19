@@ -5,6 +5,7 @@
 
 class VIP: public Room {
 public:
+    VIP(int roomNum,int price);
 
 private:
 
