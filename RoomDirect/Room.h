@@ -8,7 +8,9 @@ class Room {
 private:
     int roomNum;
     int price;
-    bool isBooked;
+    bool isBooked=false;
+    int numberOfroom=2;
+    int numOfclient=0;
 public:
     Room(int roomNum,int price);
     void setPrice(int price);
@@ -16,5 +18,8 @@ public:
     int getPrice();
     bool getIsBooked();
     int getRoomNum();
+    int getNumOfclient();
+    int getNumOfroom();
+    void setNumOfclient(int num);
 };
 #endif //ROOM_H

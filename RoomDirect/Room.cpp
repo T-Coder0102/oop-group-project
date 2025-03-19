@@ -14,11 +14,20 @@ int Room::getRoomNum() {
 bool Room::getIsBooked() {
     return isBooked;
 }
+int Room::getNumOfclient() {
+    return numOfclient;
+}
+int Room::getNumOfroom() {
+    return numberOfroom;
+}
 void Room::setIsBooked(bool isBooked) {
     this->isBooked = isBooked;
 }
 void Room::setPrice(int price) {
     this->price = price;
+}
+void Room::setNumOfclient(int numOfclient) {
+    this->numOfclient = numOfclient;
 }
 
 
