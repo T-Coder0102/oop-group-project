@@ -5,12 +5,7 @@ using namespace std;
 
 class Room {
 
-private:
-    int roomNum;
-    int price;
-    bool isBooked=false;
-    int numberOfroom=2;
-    int numOfclient=0;
+
 public:
     Room(int roomNum,int price);
     void setPrice(int price);
@@ -21,5 +16,11 @@ public:
     int getNumOfclient();
     int getNumOfroom();
     void setNumOfclient(int num);
+private:
+    int roomNum;
+    int price;
+    bool isBooked=false;
+    int numberOfroom=2;
+    int numOfclient=0;
 };
 #endif //ROOM_H

@@ -6,10 +6,12 @@ using namespace std;
 
 class Member {
     public:
-    Member(int name,int age,int yearsOfExperience);
+    Member(int name,int age,int yearsOfExperience,int ID,char gender);
     private:
     int name;
     int age;
     int yearsOfExperience;
+    int ID;
+    char gender;
 };
 #endif //MEMBER_H
