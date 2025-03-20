@@ -10,8 +10,8 @@ add_executable(oop-group-project main.cpp
         Restaurant.h
         RoomDirect/Standart.cpp
         RoomDirect/Standart.h
-        RoomDirect/Lyuks.cpp
-        RoomDirect/Lyuks.h
+        RoomDirect/Lux.cpp
+        RoomDirect/Lux.h
         RoomDirect/VIP.cpp
         RoomDirect/VIP.h
         MemberDirect/Member.cpp
