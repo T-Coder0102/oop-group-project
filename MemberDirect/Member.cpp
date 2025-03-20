@@ -36,4 +36,10 @@ char Member::getGender() {
 void Member::setGender(char gender) {
     this->gender = gender;
 }
+double Member::getSalary() {
+    return salary;
+}
+void Member::setSalary(double salary) {
+    this->salary = salary;
+}
 

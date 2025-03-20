@@ -14,6 +14,8 @@ class Member {
     int getyearsOfExperience();
     void setyearsOfExperience(int yearsOfExperience);
     int getID();
+    double getSalary();
+    void setSalary(double salary);
     void setID(int ID);
     char getGender();
     void setGender(char gender);
@@ -23,5 +25,6 @@ class Member {
     int yearsOfExperience;
     int ID;
     char gender;
+    double salary;
 };
 #endif //MEMBER_H
