@@ -7,8 +7,8 @@ class Room {
 
 
 public:
-    Room(int roomNum,int price);
-    void setPrice(int price);
+    Room(int roomNum,double price);
+    void setPrice(double price);
      void setIsBooked(bool isBooked);
     int getPrice();
     bool getIsBooked();
@@ -16,9 +16,10 @@ public:
     int getNumOfclient();
     int getNumOfroom();
     void setNumOfclient(int num);
+    virtual void displayInfo()=0;
 private:
     int roomNum;
-    int price;
+    double price;
     bool isBooked=false;
     int numberOfroom=2;
     int numOfclient=0;
