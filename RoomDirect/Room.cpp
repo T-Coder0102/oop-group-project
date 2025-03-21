@@ -2,7 +2,7 @@
 using namespace std;
 
 
-Room::Room(int roomNum, double price) {
+Room::Room(int roomNum, int price) {
     this->roomNum = roomNum;
     this->price = price;
 }
@@ -24,7 +24,7 @@ int Room::getNumOfroom() {
 void Room::setIsBooked(bool isBooked) {
     this->isBooked = isBooked;
 }
-void Room::setPrice(double price) {
+void Room::setPrice(int price) {
     this->price = price;
 }
 void Room::setNumOfclient(int numOfclient) {

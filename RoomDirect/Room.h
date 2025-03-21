@@ -9,7 +9,7 @@ class Room {
 public:
     Room(int roomNum,int price);
     void setPrice(int price);
-     void setIsBooked(bool isBooked);
+    void setIsBooked(bool isBooked);
     int getPrice();
     bool getIsBooked();
     int getRoomNum();

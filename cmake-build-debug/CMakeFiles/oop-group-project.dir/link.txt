@@ -1,3 +1,3 @@
-"C:\IT Installations\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\oop-group-project.dir/objects.a
-C:\ITINST~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\oop-group-project.dir/objects.a @CMakeFiles\oop-group-project.dir\objects1.rsp
-C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\oop-group-project.dir/objects.a -Wl,--no-whole-archive -o oop-group-project.exe -Wl,--out-implib,liboop-group-project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\oop-group-project.dir\linkLibs.rsp
+"D:\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\oop-group-project.dir/objects.a
+"D:\CLion 2024.2.0.1\bin\mingw\bin\ar.exe" qc CMakeFiles\oop-group-project.dir/objects.a @CMakeFiles\oop-group-project.dir\objects1.rsp
+"D:\CLion 2024.2.0.1\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\oop-group-project.dir/objects.a -Wl,--no-whole-archive -o oop-group-project.exe -Wl,--out-implib,liboop-group-project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\oop-group-project.dir\linkLibs.rsp
