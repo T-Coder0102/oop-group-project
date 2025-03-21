@@ -16,6 +16,8 @@ public:
     int getNumOfclient();
     int getNumOfroom();
     void setNumOfclient(int num);
+    // adding getDetails ()
+    void getDetails();
 private:
     int roomNum;
     int price;

@@ -1,4 +1,5 @@
 #include "Room.h"
+using namespace std;
 
 
 Room::Room(int roomNum, int price) {
@@ -29,6 +30,15 @@ void Room::setPrice(int price) {
 void Room::setNumOfclient(int numOfclient) {
     this->numOfclient = numOfclient;
 }
+
+// adding getDetails()
+void Room::getDetails() {
+    cout<<"Room Number: "<<roomNum<<endl;
+    cout<<"Price: $"<<price<<endl;
+    cout<<"Status: "<<(isBooked?"Booked": "Not booked");
+    cout<<"Number of client: "<<numOfclient<<endl;
+}
+
 
 
 
