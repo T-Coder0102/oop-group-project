@@ -47,19 +47,33 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = "D:\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
 RM = "D:\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+=======
+CMAKE_COMMAND = "C:\IT Installations\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe"
+
+# The command to remove a file.
+RM = "C:\IT Installations\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+>>>>>>> 3e95765a6c349b8554e1463bbdb04912d431410e
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:\Users\user\oop-group-project
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Users\user\oop-group-project\cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = "D:\IT files\L_assignments\oop-group-project"
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = "D:\IT files\L_assignments\oop-group-project\cmake-build-debug"
+>>>>>>> 3e95765a6c349b8554e1463bbdb04912d431410e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +81,11 @@ CMAKE_BINARY_DIR = C:\Users\user\oop-group-project\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
+<<<<<<< HEAD
 	"D:\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+=======
+	"C:\IT Installations\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+>>>>>>> 3e95765a6c349b8554e1463bbdb04912d431410e
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +95,11 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
+<<<<<<< HEAD
 	"D:\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	"C:\IT Installations\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 3e95765a6c349b8554e1463bbdb04912d431410e
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +108,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\oop-group-project\cmake-build-debug\CMakeFiles C:\Users\user\oop-group-project\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\user\oop-group-project\cmake-build-debug\CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" "D:\IT files\L_assignments\oop-group-project\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" 0
+>>>>>>> 3e95765a6c349b8554e1463bbdb04912d431410e
 .PHONY : all
 
 # The main clean target

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/user/oop-group-project
+=======
+# Install script for directory: D:/IT files/L_assignments/oop-group-project
+>>>>>>> 3e95765a6c349b8554e1463bbdb04912d431410e
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +38,11 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
+<<<<<<< HEAD
   set(CMAKE_OBJDUMP "D:/CLion 2024.2.0.1/bin/mingw/bin/objdump.exe")
+=======
+  set(CMAKE_OBJDUMP "C:/IT Installations/CLion 2024.2.0.1/bin/mingw/bin/objdump.exe")
+>>>>>>> 3e95765a6c349b8554e1463bbdb04912d431410e
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +53,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Users/user/oop-group-project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "D:/IT files/L_assignments/oop-group-project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 3e95765a6c349b8554e1463bbdb04912d431410e
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
