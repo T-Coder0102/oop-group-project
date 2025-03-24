@@ -1,7 +1,7 @@
 #include "Standart.h"
 using namespace std;
 
-Standart::Standart(int roomNum, int price):Room(roomNum,price)
+Standart::Standart(int roomNum, double price):Room(roomNum,price)
 {
     facilities = {"TV", "Free WiFi", "Air Conditioning"};
 }

@@ -2,11 +2,11 @@
 using namespace std;
 
 
-Room::Room(int roomNum, int price) {
+Room::Room(int roomNum, double price) {
     this->roomNum = roomNum;
     this->price = price;
 }
-int Room::getPrice() {
+double Room::getPrice() {
     return price;
 }
 int Room::getRoomNum() {
@@ -24,7 +24,7 @@ int Room::getNumOfroom() {
 void Room::setIsBooked(bool isBooked) {
     this->isBooked = isBooked;
 }
-void Room::setPrice(int price) {
+void Room::setPrice(double price) {
     this->price = price;
 }
 void Room::setNumOfclient(int numOfclient) {

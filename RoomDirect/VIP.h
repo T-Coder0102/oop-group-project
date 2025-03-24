@@ -7,7 +7,7 @@ using namespace std;
 
 class VIP: public Room {
 public:
-    VIP(int roomNum,int price);
+    VIP(int roomNum,double price);
     string getRoomType();
     void display();
 private:

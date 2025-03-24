@@ -1,7 +1,7 @@
 #include "Lux.h"
 using namespace std;
 
-Lux::Lux(int roomNum,int price):Room(roomNum,price){
+Lux::Lux(int roomNum,double price):Room(roomNum,price){
     facilities = {"Sea view", "Smart TV", "..."};
 }
 

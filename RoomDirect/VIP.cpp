@@ -2,7 +2,7 @@
 using namespace std;
 
 
-VIP::VIP(int roomNum, int price):Room(roomNum,price){
+VIP::VIP(int roomNum, double price):Room(roomNum,price){
     facilities = {"Private balcony", "Voice control system", "..."};
 }
 

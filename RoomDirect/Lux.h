@@ -6,7 +6,7 @@
 // adding getRoomType (), displayRoomDetails(), and vector ;
 class Lux:public Room {
 public:
-  Lux(int roomNum,int price);
+  Lux(int roomNum,double price);
   string getRoomType();
   void display();
 private:

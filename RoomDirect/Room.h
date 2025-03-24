@@ -7,10 +7,10 @@ class Room {
 
 
 public:
-    Room(int roomNum,int price);
-    void setPrice(int price);
+    Room(int roomNum,double price);
+    void setPrice(double price);
     void setIsBooked(bool isBooked);
-    int getPrice();
+    double getPrice();
     bool getIsBooked();
     int getRoomNum();
     int getNumOfclient();
@@ -20,7 +20,8 @@ public:
     void getDetails();
 private:
     int roomNum;
-    int price;
+    double price;
+    // price should be double
     bool isBooked=false;
     int numberOfroom=2;
     int numOfclient=0;

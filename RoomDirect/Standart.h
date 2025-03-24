@@ -8,7 +8,7 @@
 
 class Standart: public Room {
 public:
-    Standart(int roomNum,int price);
+    Standart(int roomNum,double price);
     void display();
     string getRoomType();
 private:
