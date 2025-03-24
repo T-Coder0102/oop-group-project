@@ -1,5 +1,7 @@
 #include "Client.h"
 
+#include "MemberDirect/Member.h"
+
 Client::Client(string name, int age,char gender,int clientId,int roomId) {
     this->name = name;
     this->age = age;
@@ -31,5 +33,14 @@ void Client::setroomID(int roomID) {
 void Client::setcalTotalbill(double bill) {
     this->calTotalbill += bill;
 }
+void Client::displayinfo() {
+    cout << "Name: " << this->name << endl;
+    cout << "Age: " << this->age << endl;
+    cout << "Gender: " << this->gender << endl;
+    cout<<"Client ID"<< this->clientId << endl;
+    cout << "Room ID: " << this->roomId << endl;
+
+}
+
 
 

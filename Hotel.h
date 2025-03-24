@@ -8,7 +8,11 @@
 using namespace std;
 class Hotel {
     public:
-    Hotel();
+
+    vector<Client*> getClientsList();
+    void setClientsList(Client* client);
+    vector<Member*> getMembersList();
+    void setMembersList(Member* member);
 private:
     vector<Client*> clients;
     vector<Member*> members;

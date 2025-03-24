@@ -17,6 +17,7 @@ class Client {
     int getroomID();
     void setroomID(int roomID);
     void setcalTotalbill(double bill);
+    void displayinfo();
 private:
     string name;
     int age;

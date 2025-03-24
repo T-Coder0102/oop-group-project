@@ -19,6 +19,7 @@ class Member {
     void setID(int ID);
     char getGender();
     void setGender(char gender);
+    void displayinfo();
     private:
     string name;
     int age;
