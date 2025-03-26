@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/o.abdirahmonov/CLionProjects/oop-group-project
+CMAKE_SOURCE_DIR = /Users/t.joldasbayev/CLionProjects/oop-group-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/o.abdirahmonov/CLionProjects/oop-group-project/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/t.joldasbayev/CLionProjects/oop-group-project/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.abdirahmonov/CLionProjects/oop-group-project/cmake-build-debug/CMakeFiles /Users/o.abdirahmonov/CLionProjects/oop-group-project/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/t.joldasbayev/CLionProjects/oop-group-project/cmake-build-debug/CMakeFiles /Users/t.joldasbayev/CLionProjects/oop-group-project/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/o.abdirahmonov/CLionProjects/oop-group-project/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/t.joldasbayev/CLionProjects/oop-group-project/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,30 @@ Hotel.s: Hotel.cpp.s
 Hotel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop-group-project.dir/build.make CMakeFiles/oop-group-project.dir/Hotel.cpp.s
 .PHONY : Hotel.cpp.s
+
+MemberDirect/Chef.o: MemberDirect/Chef.cpp.o
+.PHONY : MemberDirect/Chef.o
+
+# target to build an object file
+MemberDirect/Chef.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop-group-project.dir/build.make CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.o
+.PHONY : MemberDirect/Chef.cpp.o
+
+MemberDirect/Chef.i: MemberDirect/Chef.cpp.i
+.PHONY : MemberDirect/Chef.i
+
+# target to preprocess a source file
+MemberDirect/Chef.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop-group-project.dir/build.make CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.i
+.PHONY : MemberDirect/Chef.cpp.i
+
+MemberDirect/Chef.s: MemberDirect/Chef.cpp.s
+.PHONY : MemberDirect/Chef.s
+
+# target to generate assembly for a file
+MemberDirect/Chef.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop-group-project.dir/build.make CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.s
+.PHONY : MemberDirect/Chef.cpp.s
 
 MemberDirect/Manager.o: MemberDirect/Manager.cpp.o
 .PHONY : MemberDirect/Manager.o
@@ -456,6 +480,9 @@ help:
 	@echo "... Hotel.o"
 	@echo "... Hotel.i"
 	@echo "... Hotel.s"
+	@echo "... MemberDirect/Chef.o"
+	@echo "... MemberDirect/Chef.i"
+	@echo "... MemberDirect/Chef.s"
 	@echo "... MemberDirect/Manager.o"
 	@echo "... MemberDirect/Manager.i"
 	@echo "... MemberDirect/Manager.s"

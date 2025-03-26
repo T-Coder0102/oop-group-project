@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/oop-group-project.dir/Client.cpp.o.d"
   "CMakeFiles/oop-group-project.dir/Hotel.cpp.o"
   "CMakeFiles/oop-group-project.dir/Hotel.cpp.o.d"
+  "CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.o"
+  "CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.o.d"
   "CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.o"
   "CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.o.d"
   "CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.o"
