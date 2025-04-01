@@ -1,4 +1,4 @@
-# Install script for directory: /Users/t.joldasbayev/CLionProjects/oop-group-project
+# Install script for directory: /Users/o.abdirahmonov/CLionProjects/oop-group-project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/t.joldasbayev/CLionProjects/oop-group-project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/o.abdirahmonov/CLionProjects/oop-group-project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

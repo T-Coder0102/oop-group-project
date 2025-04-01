@@ -4,8 +4,6 @@
 using namespace std;
 
 class Room {
-
-
 public:
     Room(int roomNum,double price);
     void setPrice(double price);
