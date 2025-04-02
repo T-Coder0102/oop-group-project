@@ -7,7 +7,7 @@ using namespace std;
 class Restaurant {
 public:
     Restaurant(vector<string> menu,int capacity);
-    void setMenu();
+    void setMenu(string Food,int a);
     vector<string> getMenu();
     void TakeOrder();
     void calTotalCost();
