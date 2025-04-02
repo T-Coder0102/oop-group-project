@@ -16,14 +16,14 @@ int main() {
     for (int i=0;i<50;)
 
     // Creating 5 Clients
-    Client* client1 = new Client("Alice", 28, 'F');
+    // Client* client6 = new Client("Alice", 28, 'F');
     Client* client2 = new Client("Bob", 35, 'M');
     Client* client3 = new Client("Charlie", 40, 'M');
     Client* client4 = new Client("Diana", 22, 'F');
     Client* client5 = new Client("Eve", 30, 'F');
 
     // Adding clients to the hotel
-    myHotel.setClientsList(client1);
+    // myHotel.setClientsList(client6);
     myHotel.setClientsList(client2);
     myHotel.setClientsList(client3);
     myHotel.setClientsList(client4);

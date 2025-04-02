@@ -2,9 +2,10 @@
 using namespace std;
 
 
-Room::Room(int roomNum, double price) {
+Room::Room(int roomNum, double price,string status) {
     this->roomNum = roomNum;
     this->price = price;
+    this->status = status;
 }
 double Room::getPrice() {
     return price;
