@@ -2,12 +2,11 @@
 
 #include "MemberDirect/Member.h"
 
-Client::Client(string name, int age,char gender,int clientId,int roomId) {
+Client::Client(string name, int age,char gender) {
     this->name = name;
     this->age = age;
     this->gender = gender;
-    this->clientId = clientId;
-    this->roomId = roomId;
+
 }
  const int Client::getID() {
     return clientId;

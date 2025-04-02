@@ -13,13 +13,14 @@ using namespace std;
 int main() {
     // Create a hotel instance
     Hotel myHotel;
+    for (int i=0;i<50;)
 
     // Creating 5 Clients
-    Client* client1 = new Client("Alice", 28, 'F', 101, 1);
-    Client* client2 = new Client("Bob", 35, 'M', 102, 2);
-    Client* client3 = new Client("Charlie", 40, 'M', 103, 3);
-    Client* client4 = new Client("Diana", 22, 'F', 104, 4);
-    Client* client5 = new Client("Eve", 30, 'F', 105, 5);
+    Client* client1 = new Client("Alice", 28, 'F');
+    Client* client2 = new Client("Bob", 35, 'M');
+    Client* client3 = new Client("Charlie", 40, 'M');
+    Client* client4 = new Client("Diana", 22, 'F');
+    Client* client5 = new Client("Eve", 30, 'F');
 
     // Adding clients to the hotel
     myHotel.setClientsList(client1);

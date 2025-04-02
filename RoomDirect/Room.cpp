@@ -30,6 +30,9 @@ void Room::setPrice(double price) {
 void Room::setNumOfclient(int numOfclient) {
     this->numOfclient = numOfclient;
 }
+string Room::getStatus() {
+    return status;
+}
 
 // adding getDetails()
 void Room::getDetails() {

@@ -2,6 +2,7 @@
 #define RECEPTION_H
 #include "Member.h"
 #include "../Hotel.h"
+#include "../RoomDirect/Room.h"
 class Reception : public Member {
     private:
     Hotel hotel;
@@ -11,7 +12,7 @@ class Reception : public Member {
     void GiveRoomInfo();
     void AskInfo();
     void CheckOut();
-    void bookRoom();
+    void bookRoom(string type);
 };
 
 

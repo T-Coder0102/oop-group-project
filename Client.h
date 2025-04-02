@@ -8,7 +8,7 @@ using namespace std;
 
 class Client {
     public:
-    Client(string name,int age,char gender,int clientId,int roomId);
+    Client(string name,int age,char gender);
     const int getID();
     double getcalTotalbill();
     const string getName();
