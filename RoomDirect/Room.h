@@ -22,6 +22,6 @@ private:
     // price should be double
     bool isBooked=false;
     int numberOfroom=2;
-    int numOfclient=0;
+    int numOfclient=0;          D
 };
 #endif //ROOM_H

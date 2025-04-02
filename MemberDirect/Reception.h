@@ -1,4 +1,4 @@
-#ifndef RECEPTION_H
+ #ifndef RECEPTION_H
 #define RECEPTION_H
 #include "Member.h"
 #include "../Hotel.h"
