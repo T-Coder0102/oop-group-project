@@ -3,7 +3,7 @@
 #include "Member.h"
 class Waiter : public Member {
     public:
-    Waiter(string name,int age,int yearsOfExperience,int ID,char gender);
+    Waiter(string name,int age,int yearsOfExperience,int ID,char gender,string status);
     void giveMenu();
     void bookOrder(string meal);
 };

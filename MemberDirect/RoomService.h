@@ -5,7 +5,7 @@
 #include "../RoomDirect/Room.h"
 class RoomService : public Member {
     public:
-    RoomService(string name,int age,int yearsOfExperience,int ID,char gender);
+    RoomService(string name,int age,int yearsOfExperience,int ID,char gender,string status);
     void cleanRoom(int id);
     void serveFood(string meal);
     void giveMenu(Restaurant &res);

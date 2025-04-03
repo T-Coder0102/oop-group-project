@@ -1,10 +1,11 @@
 #include "Member.h"
-Member::Member(string name, int age, int yearsOfExperience,int ID, char gender) {
+Member::Member(string name, int age, int yearsOfExperience,int ID, char gender,string status) {
     this->name = name;
     this->age = age;
     this->yearsOfExperience = yearsOfExperience;
     this->gender = gender;
     this->ID = ID;
+    this->status = status;
 }
 string Member::getName() {
     return name;
@@ -45,9 +46,10 @@ void Member::setSalary(double salary) {
 void Member::displayinfo() {
     cout << "Name: " << this->name << "\n";
     cout << "Age: " << this->age << "\n";
-    cout<<"experience"<<this->yearsOfExperience<<"\n";
-    cout<<"gender"<<this->gender<<"\n";
+    cout<<"Years of Experience: "<<this->yearsOfExperience<<"\n";
+    cout<<"Gender: "<<this->gender<<"\n";
     cout<<"ID: "<<this->ID<<"\n";
+    cout<<"Position: "<<status<<endl;
 }
 
 

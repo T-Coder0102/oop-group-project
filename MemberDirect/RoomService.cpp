@@ -5,7 +5,7 @@
 
 #include "../Restaurant.h"
 Restaurant *restaurant;
-RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, char gender):Member(name,age,yearsOfExperience,ID,gender)
+RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, char gender,string status):Member(name,age,yearsOfExperience,ID,gender,status)
 {
 
 }
