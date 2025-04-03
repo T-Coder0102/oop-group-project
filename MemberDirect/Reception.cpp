@@ -1,11 +1,11 @@
 #include "Reception.h"
 
-Reception::Reception(string name, int age, int yearsOfExperience, int ID, char gender):Member(name,age,yearsOfExperience,ID,gender)
+Reception::Reception(string name, int age, int yearsOfExperience, int ID, char gender,string status):Member(name,age,yearsOfExperience,ID,gender,status)
 {
 }
 
 
-void Reception::AskInfo() {
+void Reception::AskInfo(Hotel &hotel) {
     string name;int age;char gender;
     cout<<"What is your name:"<<endl;
     cin>>name;
@@ -13,8 +13,16 @@ void Reception::AskInfo() {
     cin>>age;
     cout<<"What is your gender:"<<endl;
     cin>>gender;
-    Client client(name,age,gender);
-    setClientsList(&client);
+    Client *c=new Client(name,age,gender);
+    hotel.setClientsList(c);
+    for (Client *a: hotel.getClientsList()) {
+        if (hotel.getClientsList().size()==0) {
+            c->setRoomId(hotel.getClientsList().size()+1);
+        }else {
+        }
+    }
+    cout<<"Thank you for your information"<<endl;
+
 
 }
 void Reception::GiveRoomInfo(Hotel &hotel) {

@@ -5,14 +5,16 @@
 
 #include "../Restaurant.h"
 Restaurant *restaurant;
-RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, char gender):Member(name,age,yearsOfExperience,ID,gender)
+RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, char gender,string status):Member(name,age,yearsOfExperience,ID,gender,status)
 {
 
 }
-void RoomService::cleanRoom()
+void RoomService::cleanRoom(int id)
 {
+    cout<<"We are cleaning now!!"<<endl;
+    this_thread::sleep_for(chrono::seconds(2));
     cout<<"Room will be ready in a few minutes"<<endl;
-    this_thread::sleep_for(chrono::seconds(1));
+    this_thread::sleep_for(chrono::seconds(2));
     cout<<"Your room is ready"<<endl;
 }
 void RoomService::serveFood(string meal)
@@ -29,5 +31,12 @@ void RoomService::serveFood(string meal)
 
 
 }
+void RoomService::giveMenu(Restaurant &res) {
+    cout<<"The list of meals in the menu: "<<endl;
+    for(string a:res.getMenu()) {
+        cout<<a<<endl;
+    }
+}
+
 
 

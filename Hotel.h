@@ -18,6 +18,7 @@ class Hotel {
     vector<Room*> getNFRoomsList();
     void addNewRoom(Room* room);
     void removeRoom(Room* room);
+    void addMember(Member* member);
 private:
     vector<Client*> clients;
     vector<Member*> members;

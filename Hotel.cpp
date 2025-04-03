@@ -37,3 +37,6 @@ void Hotel::removeRoom(Room* room)
         }
     }
 }
+void Hotel::addMember(Member* member) {
+    members.push_back(member);
+}

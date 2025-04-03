@@ -26,6 +26,10 @@ const int Client::getAge() {
 const string Client::getName() {
     return name;
 }
+void Client::setRoomId(int roomId) {
+    this->roomId = roomId;
+}
+
 void Client::setroomID(int roomID) {
     this->roomId = roomId;
 }
