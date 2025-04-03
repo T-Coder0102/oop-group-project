@@ -10,9 +10,6 @@ public:
     void addMember(Member &member,Hotel &hotel);
 private:
     Hotel hotel;
-    string status;
-
-
 };
 
 #endif //MANAGER_H

@@ -15,12 +15,6 @@ void Reception::AskInfo(Hotel &hotel) {
     cin>>gender;
     Client *c=new Client(name,age,gender);
     hotel.setClientsList(c);
-    for (Client *a: hotel.getClientsList()) {
-        if (hotel.getClientsList().size()==0) {
-            c->setRoomId(hotel.getClientsList().size()+1);
-        }else {
-        }
-    }
     cout<<"Thank you for your information"<<endl;
 
 
