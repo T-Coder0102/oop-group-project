@@ -32,7 +32,7 @@ private:
     void getDetails()
     {
         cout<<"Name of meal: "<<name<<endl;
-        cout<<"Price of meal: "<<price<<endl;
+        cout<<"Price of meal: $"<<price<<endl;
     }
 };
 

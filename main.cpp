@@ -43,9 +43,9 @@ for(int i = 0; i < 50; i++)
     boss->addMember(*chef,myHotel);
     boss->addMember(*boss,myHotel);
     boss->addMember(*waiter,myHotel);
-    waiter->giveMenu(myRes);
-    // reception->AskInfo(myHotel);
-    // boss->displayMembers(myHotel);
+//    waiter->giveMenu(myRes);
+     reception->AskInfo(myHotel);
+//     boss->displayMembers(myHotel);
     // boss->displayClients(myHotel);
 
     // chef->addMeal("Desert",myRes);

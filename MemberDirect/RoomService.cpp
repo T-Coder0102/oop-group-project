@@ -19,9 +19,9 @@ void RoomService::cleanRoom(int id)
 }
 void RoomService::serveFood(string meal, Restaurant &restaurant)
 {
-    for(string a:restaurant.getMenu())
+    for(Meal* a:restaurant.getMenu())
     {
-        if(a == meal)
+        if(a->getName()== meal)
         {
             cout<<"OK, your order will be delivered in a few minutes."<<endl;
             return;
@@ -33,8 +33,8 @@ void RoomService::serveFood(string meal, Restaurant &restaurant)
 }
 void RoomService::giveMenu(Restaurant &res) {
     cout<<"The list of meals in the menu: "<<endl;
-    for(string a:res.getMenu()) {
-        cout<<a<<endl;
+    for(Meal* a:res.getMenu()) {
+        a->getDetails();
     }
 }
 

@@ -8,25 +8,17 @@ vector<Meal*> Restaurant::getMenu() {
 }
 void Restaurant::addMealToMenu(Meal* meal)
 {
+    menu.push_back(meal);
 }
 void Restaurant::removeMealFromMenu(string meal)
 {
-
-}
-
-
-void Restaurant::setMenu(Meal* food,int a) {
-    if (a==-1) {
-        for (int i=0;i<menu.size();i++) {
-            if (menu[i]->getName()==food->getName()) {
-                menu.erase(menu.begin()+i);
-            }
+    for(int i =0; i<menu.size();i++){
+        if(meal==menu[i]->getName()){
+            menu.erase(menu.begin()+i);
         }
     }
-    else {
-        menu.push_back(food);
-    }
 }
+
 
 
 
