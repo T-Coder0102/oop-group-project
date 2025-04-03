@@ -8,9 +8,9 @@ RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, ch
 {
 
 }
-void RoomService::cleanRoom(int id,Client &client)
+void RoomService::cleanRoom(int id)
 {
-    if()
+    if(id==id){}
     cout<<"We are cleaning now!!"<<endl;
     this_thread::sleep_for(chrono::seconds(2));
     cout<<"Room will be ready in a few minutes"<<endl;
