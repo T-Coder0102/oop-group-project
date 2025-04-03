@@ -16,7 +16,7 @@ int main() {
    //  // Create a hotel instance
     Hotel myHotel;
     Restaurant myRes;
-    Manager *boss=new Manager("Oybek",18,0,232,'M',"Manager");
+    Manager *boss=new Manager("Oybek",18,0,232,'M',"Manager",5000);
 
 for(int i = 0; i < 50; i++)
 {
@@ -32,10 +32,10 @@ for(int i = 0; i < 50; i++)
         Room *room= new Room(300+i,1000,"VIP");
         myHotel.addNewRoom(room);
     }
-    RoomService *roomServicer= new RoomService("ASile",43,1,343,'M',"RoomServicer");
-    Reception *reception= new Reception("Mike",34,13,204,'M',"Reception");
-    Chef *chef= new Chef("Oybek",18,1,204,'M',"Chef");
-    Waiter *waiter=new Waiter("Og'abek",18,1,204,'M',"Waiter");
+    RoomService *roomServicer= new RoomService("ASile",43,1,343,'M',"RoomServicer",1000);
+    Reception *reception= new Reception("Mike",34,13,204,'M',"Reception",1500);
+    Chef *chef= new Chef("Oybek",18,1,204,'M',"Chef",2000);
+    Waiter *waiter=new Waiter("Og'abek",18,1,204,'M',"Waiter",1200);
     Meal* newMeal= new Meal("Desert",30);
     chef->addMeal(newMeal,myRes);
     boss->addMember(*roomServicer,myHotel);
@@ -44,8 +44,8 @@ for(int i = 0; i < 50; i++)
     boss->addMember(*boss,myHotel);
     boss->addMember(*waiter,myHotel);
 //    waiter->giveMenu(myRes);
-     reception->AskInfo(myHotel);
-//     boss->displayMembers(myHotel);
+     // reception->AskInfo(myHotel);
+     boss->displayMembers(myHotel);
     // boss->displayClients(myHotel);
 
     // chef->addMeal("Desert",myRes);

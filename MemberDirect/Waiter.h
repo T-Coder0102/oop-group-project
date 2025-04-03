@@ -4,7 +4,7 @@
 #include "../Restaurant.h"
 class Waiter : public Member {
     public:
-    Waiter(string name,int age,int yearsOfExperience,int ID,char gender,string status);
+    Waiter(string name,int age,int yearsOfExperience,int ID,char gender,string status,double salary);
     void giveMenu(Restaurant &res);
     void bookOrder(string meal,Restaurant &res);
 };

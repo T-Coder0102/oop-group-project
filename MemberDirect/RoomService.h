@@ -6,7 +6,7 @@
 #include "../Client.h"
 class RoomService : public Member {
     public:
-    RoomService(string name,int age,int yearsOfExperience,int ID,char gender,string status);
+    RoomService(string name,int age,int yearsOfExperience,int ID,char gender,string status,double salary);
     void cleanRoom(int id);
     void serveFood(string meal,Restaurant &restaurant);
     void giveMenu(Restaurant &res);

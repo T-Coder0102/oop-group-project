@@ -2,7 +2,7 @@
 
 #include <regex>
 
-Manager::Manager(string name, int age, int yearsOfExperience, int ID, char gender,string status):Member(name,age,yearsOfExperience,ID,gender,status)
+Manager::Manager(string name, int age, int yearsOfExperience, int ID, char gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
 {
 }
 void Manager::displayMembers(Hotel &hotel) {

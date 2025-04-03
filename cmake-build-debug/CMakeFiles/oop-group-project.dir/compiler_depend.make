@@ -473,6 +473,7 @@ CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj: D:/IT\ files/L_assig
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  D:/IT\ files/L_assignments/oop-group-project/Meal.h \
   D:/IT\ files/L_assignments/oop-group-project/Restaurant.h \
   D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Chef.h \
   D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Member.h
@@ -1213,6 +1214,7 @@ CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj: D:/IT\ files/
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
   D:/IT\ files/L_assignments/oop-group-project/Client.h \
+  D:/IT\ files/L_assignments/oop-group-project/Meal.h \
   D:/IT\ files/L_assignments/oop-group-project/Restaurant.h \
   D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h \
   D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Member.h \
@@ -1374,6 +1376,7 @@ CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj: D:/IT\ files/L_ass
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  D:/IT\ files/L_assignments/oop-group-project/Meal.h \
   D:/IT\ files/L_assignments/oop-group-project/Restaurant.h \
   D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Member.h \
   D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Waiter.h
@@ -1534,6 +1537,7 @@ CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj: D:/IT\ files/L_assignments/
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+  D:/IT\ files/L_assignments/oop-group-project/Meal.h \
   D:/IT\ files/L_assignments/oop-group-project/Restaurant.h
 
 CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.cpp \
@@ -1847,6 +1851,7 @@ CMakeFiles/oop-group-project.dir/main.cpp.obj: D:/IT\ files/L_assignments/oop-gr
   C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
   D:/IT\ files/L_assignments/oop-group-project/Client.h \
   D:/IT\ files/L_assignments/oop-group-project/Hotel.h \
+  D:/IT\ files/L_assignments/oop-group-project/Meal.h \
   D:/IT\ files/L_assignments/oop-group-project/Restaurant.h \
   D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h \
   D:/IT\ files/L_assignments/oop-group-project/Client.h \
@@ -2215,6 +2220,8 @@ D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Member.h:
 D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h:
 
 D:/IT\ files/L_assignments/oop-group-project/Hotel.cpp:
+
+D:/IT\ files/L_assignments/oop-group-project/Meal.h:
 
 C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h:
 

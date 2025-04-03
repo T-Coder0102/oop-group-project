@@ -6,7 +6,7 @@ using namespace std;
 
 class Member {
     public:
-    Member(string name,int age,int yearsOfExperience,int ID,char gender,string status);
+    Member(string name,int age,int yearsOfExperience,int ID,char gender,string status,double salary);
     string getName();
     void setName(string name);
     void setAge(int age);

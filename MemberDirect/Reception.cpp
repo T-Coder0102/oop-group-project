@@ -1,6 +1,6 @@
 #include "Reception.h"
 
-Reception::Reception(string name, int age, int yearsOfExperience, int ID, char gender,string status):Member(name,age,yearsOfExperience,ID,gender,status)
+Reception::Reception(string name, int age, int yearsOfExperience, int ID, char gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
 {
 }
 void Reception::AskInfo(Hotel &hotel) {
