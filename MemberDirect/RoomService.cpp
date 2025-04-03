@@ -4,13 +4,13 @@
 #include <thread>
 
 #include "../Restaurant.h"
-Restaurant *restaurant;
 RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, char gender,string status):Member(name,age,yearsOfExperience,ID,gender,status)
 {
 
 }
-void RoomService::cleanRoom(int id)
+void RoomService::cleanRoom(int id,Client &client)
 {
+    if()
     cout<<"We are cleaning now!!"<<endl;
     this_thread::sleep_for(chrono::seconds(2));
     cout<<"Room will be ready in a few minutes"<<endl;

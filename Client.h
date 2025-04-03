@@ -27,5 +27,6 @@ private:
     int roomId=0;
     double calTotalbill=0;
 
+
 };
 #endif //CLIENT_H
