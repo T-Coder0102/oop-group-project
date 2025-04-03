@@ -17,9 +17,9 @@ void RoomService::cleanRoom(int id)
     this_thread::sleep_for(chrono::seconds(2));
     cout<<"Your room is ready"<<endl;
 }
-void RoomService::serveFood(string meal)
+void RoomService::serveFood(string meal, Restaurant &restaurant)
 {
-    for(string a:restaurant->getMenu())
+    for(string a:restaurant.getMenu())
     {
         if(a == meal)
         {

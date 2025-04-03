@@ -3,8 +3,6 @@
 Reception::Reception(string name, int age, int yearsOfExperience, int ID, char gender,string status):Member(name,age,yearsOfExperience,ID,gender,status)
 {
 }
-
-
 void Reception::AskInfo(Hotel &hotel) {
     string name;int age;char gender;
     cout<<"What is your name:"<<endl;
