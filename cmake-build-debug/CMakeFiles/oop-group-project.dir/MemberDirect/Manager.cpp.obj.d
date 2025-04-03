@@ -160,4 +160,51 @@ CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj: \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
  D:/IT\ files/L_assignments/oop-group-project/Client.h \
  D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h \
- D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Member.h
+ D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Member.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/regex \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bitset \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stack \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_stack.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tree.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex_constants.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex_error.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex_automaton.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex_automaton.tcc \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex_scanner.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex_scanner.tcc \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex_compiler.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex_compiler.tcc \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex.tcc \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex_executor.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/regex_executor.tcc

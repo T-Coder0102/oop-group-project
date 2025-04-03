@@ -152,17 +152,22 @@ CMakeFiles/oop-group-project.dir/main.cpp.obj: \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
  D:\IT\ files\L_assignments\oop-group-project\MemberDirect/RoomService.h \
  D:\IT\ files\L_assignments\oop-group-project\MemberDirect/Member.h \
- D:\IT\ files\L_assignments\oop-group-project\Hotel.h \
+ D:/IT\ files/L_assignments/oop-group-project/Restaurant.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
+ D:/IT\ files/L_assignments/oop-group-project/Meal.h \
+ D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h \
+ D:/IT\ files/L_assignments/oop-group-project/Client.h \
+ D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h \
+ D:\IT\ files\L_assignments\oop-group-project\Hotel.h \
  D:\IT\ files\L_assignments\oop-group-project\Client.h \
- D:\IT\ files\L_assignments\oop-group-project\RoomDirect/Room.h \
  D:\IT\ files\L_assignments\oop-group-project\MemberDirect/Member.h \
+ D:\IT\ files\L_assignments\oop-group-project\RoomDirect/Room.h \
+ D:\IT\ files\L_assignments\oop-group-project\MemberDirect/Chef.h \
  D:\IT\ files\L_assignments\oop-group-project\MemberDirect/Manager.h \
  D:/IT\ files/L_assignments/oop-group-project/Hotel.h \
  D:\IT\ files\L_assignments\oop-group-project\MemberDirect/Waiter.h \
- D:\IT\ files\L_assignments\oop-group-project\MemberDirect/Reception.h \
- D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h
+ D:\IT\ files\L_assignments\oop-group-project\MemberDirect/Reception.h

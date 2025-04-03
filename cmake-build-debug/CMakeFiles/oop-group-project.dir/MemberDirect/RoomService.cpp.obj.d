@@ -152,6 +152,16 @@ CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj: \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ D:/IT\ files/L_assignments/oop-group-project/Restaurant.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
+ D:/IT\ files/L_assignments/oop-group-project/Meal.h \
+ D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h \
+ D:/IT\ files/L_assignments/oop-group-project/Client.h \
+ D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
@@ -163,11 +173,6 @@ CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj: \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
- C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
- C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
- C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
- C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
- C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
@@ -210,5 +215,4 @@ CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj: \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/semaphore_base.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_timed_wait.h \
  C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/this_thread_sleep.h \
- C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/semaphore.h \
- D:/IT\ files/L_assignments/oop-group-project/Restaurant.h
+ C:/IT\ Installations/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/semaphore.h

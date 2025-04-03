@@ -161,4 +161,5 @@ CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj: \
  D:/IT\ files/L_assignments/oop-group-project/Client.h \
  D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h \
  D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Member.h \
+ D:/IT\ files/L_assignments/oop-group-project/Client.h \
  D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.h

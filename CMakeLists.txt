@@ -23,4 +23,6 @@ add_executable(oop-group-project main.cpp
         Hotel.cpp
         Hotel.h
         MemberDirect/Chef.cpp
-        MemberDirect/Chef.h)
+        MemberDirect/Chef.h
+        Meal.h
+)
