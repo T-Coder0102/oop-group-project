@@ -8,12 +8,11 @@ using namespace std;
 
 class Chef:public Member {
     public:
-    Chef(string name,int age,int yearsOfExperience,int ID,char gender,int people_capacity);
+    Chef(string name,int age,int yearsOfExperience,int ID,char gender);
 
-    void addMeal(string meal);
+    void addMeal(string meal,Restaurant &restaurant);
     void removeMeal(string meal);
     private:
-    int people_capacity;
 
     // vector<string> menu;?
 
