@@ -45,6 +45,7 @@ for(int i = 0; i < 50; i++)
     boss->addMember(*waiter,myHotel);
 //    waiter->giveMenu(myRes);
      // reception->AskInfo(myHotel);
+    boss->setSalary(myHotel,1800,204);
      boss->displayMembers(myHotel);
     // boss->displayClients(myHotel);
 
