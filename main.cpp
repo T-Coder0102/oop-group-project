@@ -65,6 +65,7 @@ for(int i = 0; i < 50; i++)
     // boss->setSalary(myHotel,1800,204);
      // boss->displayMembers(myHotel);
     // boss->displayClients(myHotel);
+    reception->bookRoom("Lux",myHotel,*client);
     waiter->takeOrder("Desert",*client,myRes);
     waiter->takeOrder("Desert1",*client,myRes);
     waiter->takeOrder("Desert2",*client,myRes);
@@ -72,7 +73,9 @@ for(int i = 0; i < 50; i++)
     waiter->takeOrder("Desert4",*client,myRes);
     waiter->takeOrder("Desert3",*client,myRes);
     waiter->takeOrder("Desert6",*client,myRes);
-    cout<<client->getcalTotalbill();
+    cout<<client->getcalTotalbill()<<endl;
+    reception->CheckOut(*client,myHotel);
+    cout<<myHotel.getTotalRevenue();
 
     // chef->addMeal("Desert",myRes);
     // reception->GiveRoomInfo(myHotel);

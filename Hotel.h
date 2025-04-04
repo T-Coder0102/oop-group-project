@@ -19,7 +19,10 @@ class Hotel {
     void addNewRoom(Room* room);
     void removeRoom(Room* room);
     void addMember(Member* member);
+    void addTotalRevenue(double totalRevenue);
+    double getTotalRevenue();
 private:
+    double totalRevenue=0;
     vector<Client*> clients;
     vector<Member*> members;
     vector<Room*> Freerooms;

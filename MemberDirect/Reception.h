@@ -11,7 +11,7 @@ private:
     // Reception(Hotel *hotel);
     void GiveRoomInfo(Hotel &hotel);
     void AskInfo(Hotel &hotel);
-    void CheckOut();
+    void CheckOut(Client &client,Hotel &hotel);
     void bookRoom(string type,Hotel &hotel,Client&client);
 };
 

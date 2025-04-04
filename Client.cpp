@@ -14,7 +14,7 @@ Client::Client(string name, int age,char gender) {
 double Client::getcalTotalbill() {
     return calTotalbill;
 }
- int Client::getroomID() {
+ int Client::getRoomID() {
     return roomId;
 }
 const char Client::getGender() {

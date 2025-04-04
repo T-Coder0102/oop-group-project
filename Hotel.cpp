@@ -40,3 +40,9 @@ void Hotel::removeRoom(Room* room)
 void Hotel::addMember(Member* member) {
     members.push_back(member);
 }
+void Hotel::addTotalRevenue(double totalRevenue) {
+    this->totalRevenue += totalRevenue;
+}
+double Hotel::getTotalRevenue() {
+    return totalRevenue;
+}

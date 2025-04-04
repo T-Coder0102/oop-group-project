@@ -30,10 +30,18 @@ void Reception::bookRoom(string type,Hotel &hotel,Client &client) {
             client.setRoomId(hotel.getFRoomsList()[i]->getRoomNum());
             client.setcalTotalbill(hotel.getFRoomsList()[i]->getPrice());
             hotel.removeRoom(hotel.getFRoomsList()[i]);
+            return;
         }
     }
 }
-
+void Reception::CheckOut(Client &client,Hotel &hotel) {
+   for (int i=0;i<hotel.getNFRoomsList().size();i++) {
+       if (hotel.getNFRoomsList()[i]->getRoomNum()==client.getRoomID()) {
+           hotel.addNewRoom(hotel.getNFRoomsList()[i]);
+       };
+   }
+   hotel.addTotalRevenue(client.getcalTotalbill());
+}
 
 
 

@@ -14,7 +14,7 @@ class Client {
     const string getName();
     const int getAge();
     const char getGender();
-    int getroomID();
+    int getRoomID();
     void setRoomId(int roomId);
     void setcalTotalbill(double bill);
     void displayinfo();
