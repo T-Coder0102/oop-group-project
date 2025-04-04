@@ -21,5 +21,11 @@ void Manager::displayClients(Hotel &hotel) {
 void Manager::addMember(Member &member,Hotel &hotel) {
     hotel.addMember(&member);
 }
-
+void Manager::setSalary(Hotel &hotel, double newSalary,int ID) {
+    for (Member *member : hotel.getMembersList()) {
+        if (member->getID() == ID) {
+            member->setSalary(newSalary);
+        }
+    }
+}
 
