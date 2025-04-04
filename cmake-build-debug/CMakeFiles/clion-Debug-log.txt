@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /Users/t.joldasbayev/CLionProjects/oop-group-project -B /Users/t.joldasbayev/CLionProjects/oop-group-project/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /Users/o.abdirahmonov/CLionProjects/oop-group-project -B /Users/o.abdirahmonov/CLionProjects/oop-group-project/cmake-build-debug
 -- The C compiler identification is AppleClang 15.0.0.15000309
 -- The CXX compiler identification is AppleClang 15.0.0.15000309
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done (0.6s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/t.joldasbayev/CLionProjects/oop-group-project/cmake-build-debug
+-- Build files have been written to: /Users/o.abdirahmonov/CLionProjects/oop-group-project/cmake-build-debug

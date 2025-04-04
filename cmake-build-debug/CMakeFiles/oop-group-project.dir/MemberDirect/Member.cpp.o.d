@@ -1,6 +1,6 @@
 CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.o: \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Member.cpp \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Member.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/MemberDirect/Member.cpp \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/MemberDirect/Member.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \

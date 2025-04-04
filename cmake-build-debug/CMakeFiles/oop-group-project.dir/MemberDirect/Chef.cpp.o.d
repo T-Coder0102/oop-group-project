@@ -1,6 +1,6 @@
 CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.o: \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Chef.cpp \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Chef.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/MemberDirect/Chef.cpp \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/MemberDirect/Chef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -824,7 +824,7 @@ CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/../Restaurant.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/MemberDirect/../Restaurant.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__format/formatter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__format/format_fwd.h \
@@ -851,5 +851,5 @@ CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/.././Meal.h \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Member.h
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/MemberDirect/.././Meal.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/MemberDirect/Member.h

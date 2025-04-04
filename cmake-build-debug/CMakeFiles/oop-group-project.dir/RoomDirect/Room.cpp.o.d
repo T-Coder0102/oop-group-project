@@ -1,6 +1,6 @@
 CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.o: \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/RoomDirect/Room.cpp \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/RoomDirect/Room.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/RoomDirect/Room.cpp \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/RoomDirect/Room.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \

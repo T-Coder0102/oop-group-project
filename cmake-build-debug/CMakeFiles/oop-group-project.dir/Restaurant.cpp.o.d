@@ -1,6 +1,6 @@
 CMakeFiles/oop-group-project.dir/Restaurant.cpp.o: \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/Restaurant.cpp \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/Restaurant.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/Restaurant.cpp \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/Restaurant.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -850,4 +850,4 @@ CMakeFiles/oop-group-project.dir/Restaurant.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/./Meal.h
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/./Meal.h

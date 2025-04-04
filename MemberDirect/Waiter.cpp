@@ -4,13 +4,14 @@ Waiter::Waiter(string name, int age, int yearsOfExperience, int ID, char gender,
 {
 
 }
-void Waiter::bookOrder(string meal,Restaurant &res)
+void Waiter::takeOrder(string meal,Client &client,Restaurant &res)
 {
         for(int i=0;i<res.getMenu().size();i++)
         {
                 if(res.getMenu()[i]->getName()==meal)
                 {
                         cout<<"You ordered the meal: "<<meal<<endl;
+                        client.setcalTotalbill(res.getMenu()[i]->getPrice());
                         return;
                 }
         }

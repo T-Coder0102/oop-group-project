@@ -1,6 +1,6 @@
 CMakeFiles/oop-group-project.dir/Client.cpp.o: \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/Client.cpp \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/Client.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/Client.cpp \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/Client.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -824,5 +824,5 @@ CMakeFiles/oop-group-project.dir/Client.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/RoomDirect/Room.h \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Member.h
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/RoomDirect/Room.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/MemberDirect/Member.h

@@ -1,6 +1,6 @@
 CMakeFiles/oop-group-project.dir/Hotel.cpp.o: \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/Hotel.cpp \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/Hotel.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/Hotel.cpp \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/Hotel.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -850,6 +850,6 @@ CMakeFiles/oop-group-project.dir/Hotel.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bitset \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/Client.h \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/RoomDirect/Room.h \
-  /Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Member.h
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/Client.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/RoomDirect/Room.h \
+  /Users/o.abdirahmonov/CLionProjects/oop-group-project/MemberDirect/Member.h

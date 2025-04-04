@@ -11,7 +11,6 @@ public:
     void addMealToMenu(Meal* meal);
     void removeMealFromMenu(string meal);
     vector<Meal*> getMenu();
-    void TakeOrder();
     void calTotalCost();
 private:
     vector<Meal*> menu;
