@@ -29,10 +29,6 @@ const string Client::getName() {
 void Client::setRoomId(int roomId) {
     this->roomId = roomId;
 }
-
-void Client::setroomID(int roomID) {
-    this->roomId = roomId;
-}
 void Client::setcalTotalbill(double bill) {
     this->calTotalbill += bill;
 }

@@ -24,8 +24,14 @@ void Reception::GiveRoomInfo(Hotel &hotel) {
         cout<<endl;
     }
 }
-void Reception::bookRoom(string type) {
-
+void Reception::bookRoom(string type,Hotel &hotel,Client &client) {
+    for (int i=0;i<hotel.getFRoomsList().size();i++) {
+        if (hotel.getFRoomsList()[i]->getStatus()==type) {
+            client.setRoomId(hotel.getFRoomsList()[i]->getRoomNum());
+            client.setcalTotalbill(hotel.getFRoomsList()[i]->getPrice());
+            hotel.removeRoom(hotel.getFRoomsList()[i]);
+        }
+    }
 }
 
 

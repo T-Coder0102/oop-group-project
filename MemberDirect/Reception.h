@@ -12,7 +12,7 @@ private:
     void GiveRoomInfo(Hotel &hotel);
     void AskInfo(Hotel &hotel);
     void CheckOut();
-    void bookRoom(string type);
+    void bookRoom(string type,Hotel &hotel,Client&client);
 };
 
 
