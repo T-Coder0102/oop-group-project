@@ -11,7 +11,7 @@ void Reception::AskInfo(Hotel &hotel) {
     cin>>age;
     cout<<"What is your gender:"<<endl;
     cin>>gender;
-    Client *c=new Client(name,age,gender);
+    Client *c=new Client(name,age,gender,1334);
     hotel.setClientsList(c);
     cout<<"Thank you for your information"<<endl;
 
@@ -34,14 +34,14 @@ void Reception::bookRoom(string type,Hotel &hotel,Client &client) {
         }
     }
 }
-void Reception::CheckOut(Client &client,Hotel &hotel) {
-   for (int i=0;i<hotel.getNFRoomsList().size();i++) {
-       if (hotel.getNFRoomsList()[i]->getRoomNum()==client.getRoomID()) {
-           hotel.addNewRoom(hotel.getNFRoomsList()[i]);
-       };
-   }
-   hotel.addTotalRevenue(client.getcalTotalbill());
-}
+// void Reception::CheckOut(Client &client,Hotel &hotel) {
+//    for (int i=0;i<hotel.getNFRoomsList().size();i++) {
+//        if (hotel.getNFRoomsList()[i]->getRoomNum()==client.getRoomID()) {
+//            hotel.addNewRoom(hotel.getNFRoomsList()[i]);
+//        };
+//    }
+//    hotel.addTotalRevenue(client.getcalTotalbill());
+// }
 
 
 

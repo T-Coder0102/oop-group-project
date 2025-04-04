@@ -44,7 +44,7 @@ for(int i = 0; i < 50; i++)
     Meal* newMeal4= new Meal("Desert4",30);
     Meal* newMeal5= new Meal("Desert5",50);
     Meal* newMeal6= new Meal("Desert6",40);
-    Client *client = new Client("aziz",13,'M');
+    // Client *client = new Client("aziz",13,'M');
 
     chef->addMeal(newMeal,myRes);
     chef->addMeal(newMeal1,myRes);
@@ -61,21 +61,24 @@ for(int i = 0; i < 50; i++)
     boss->addMember(*waiter,myHotel);
 
 //    waiter->giveMenu(myRes);
-     // reception->AskInfo(myHotel);
+     reception->AskInfo(myHotel);
     // boss->setSalary(myHotel,1800,204);
      // boss->displayMembers(myHotel);
-    // boss->displayClients(myHotel);
-    reception->bookRoom("Lux",myHotel,*client);
-    waiter->takeOrder("Desert",*client,myRes);
-    waiter->takeOrder("Desert1",*client,myRes);
-    waiter->takeOrder("Desert2",*client,myRes);
-    waiter->takeOrder("Desert3",*client,myRes);
-    waiter->takeOrder("Desert4",*client,myRes);
-    waiter->takeOrder("Desert3",*client,myRes);
-    waiter->takeOrder("Desert6",*client,myRes);
-    cout<<client->getcalTotalbill()<<endl;
-    reception->CheckOut(*client,myHotel);
-    cout<<myHotel.getTotalRevenue();
+    boss->displayClients(myHotel);
+    // reception->bookRoom("Lux",myHotel,*client);
+    // waiter->takeOrder("Desert",*client,myRes);
+    // waiter->takeOrder("Desert1",*client,myRes);
+    // client->getcalTotalbill();
+    // waiter->takeOrder("Desert2",*client,myRes);
+    // waiter->takeOrder("Desert3",*client,myRes);
+    // waiter->takeOrder("Desert4",*client,myRes);
+    // waiter->takeOrder("Desert3",*client,myRes);
+    // waiter->takeOrder("Desert6",*client,myRes);
+    // chef->removeMeal("Desert4",myRes);
+    // waiter->giveMenu(myRes);
+    // cout<<client->getcalTotalbill()<<endl;
+    // reception->CheckOut(*client,myHotel);
+    // cout<<myHotel.getTotalRevenue();
 
     // chef->addMeal("Desert",myRes);
     // reception->GiveRoomInfo(myHotel);

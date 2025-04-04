@@ -8,7 +8,8 @@ using namespace std;
 
 class Client {
     public:
-    Client(string name,int age,char gender);
+    // added clientId into initializer
+    Client(string name,int age,char gender,int clientId);
     const int getID();
     double getcalTotalbill();
     const string getName();
@@ -18,6 +19,9 @@ class Client {
     void setRoomId(int roomId);
     void setcalTotalbill(double bill);
     void displayinfo();
+    //I have added only the clientId getters and setters
+    int getClientID();
+    void setClientID(int clientID);
 private:
     string name;
     int age;

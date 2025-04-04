@@ -9,8 +9,6 @@ public:
     void displayMembers(Hotel &hotel);
     void addMember(Member &member,Hotel &hotel);
     void setSalary(Hotel &hotel,double newSalary,int ID);
-private:
-    Hotel hotel;
 };
 
 #endif //MANAGER_H

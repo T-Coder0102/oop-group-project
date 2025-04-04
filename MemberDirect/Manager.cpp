@@ -1,7 +1,4 @@
 #include "../MemberDirect/Manager.h"
-
-#include <regex>
-
 Manager::Manager(string name, int age, int yearsOfExperience, int ID, char gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
 {
 }

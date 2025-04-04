@@ -2,7 +2,6 @@
 #include "../Restaurant.h"
 Waiter::Waiter(string name, int age, int yearsOfExperience, int ID, char gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
 {
-
 }
 void Waiter::takeOrder(string meal,Client &client,Restaurant &res)
 {
@@ -15,7 +14,7 @@ void Waiter::takeOrder(string meal,Client &client,Restaurant &res)
                         return;
                 }
         }
-        cout<<"We don't the meal you chose: "<<endl;
+        cout<<"We don't have the meal you chose!! "<<endl;
 
 }
 void Waiter::giveMenu(Restaurant &res)
