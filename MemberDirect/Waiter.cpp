@@ -3,7 +3,6 @@
 Waiter::Waiter(string name, int age, int yearsOfExperience, int ID, char gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
 {
 }
-//newly added
 void Waiter::takeOrder(string meal,Client &client,Restaurant &res)
 {
         for(int i=0;i<res.getMenu().size();i++)

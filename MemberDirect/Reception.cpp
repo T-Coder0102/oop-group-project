@@ -5,7 +5,7 @@
 Reception::Reception(string name, int age, int yearsOfExperience, int ID, char gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
 {
 }
-//newly added
+
 void Reception::AskInfo(Hotel &hotel) {
     srand(time(0));
     string name;int age;char gender;
@@ -38,7 +38,7 @@ void Reception::bookRoom(string type,Hotel &hotel,Client &client) {
         }
     }
 }
-//newly added
+
 void Reception::CheckOut(Client &client,Hotel &hotel) {
    for (int i=0;i<hotel.getNFRoomsList().size();i++) {
        if (hotel.getNFRoomsList()[i]->getRoomNum()==client.getRoomID()) {

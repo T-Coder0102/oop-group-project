@@ -8,17 +8,15 @@ RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, ch
 {
 
 }
-//newly added
+
 void RoomService::setRoomsToClean(int id)
 {
     roomsToClean.push_back(id);
 }
-//newly added
 vector<int> RoomService::getRoomsToClean()
 {
     return roomsToClean;
 }
-//newly added
 void RoomService::cleanRoom(int id)
 {
     for(int i = 0; i < roomsToClean.size(); i++)
@@ -34,7 +32,6 @@ void RoomService::cleanRoom(int id)
     }
 
 }
-//newly added
 void RoomService::serveFood(string meal, Restaurant &restaurant,Client &client)
 {
     for(Meal* a:restaurant.getMenu())
