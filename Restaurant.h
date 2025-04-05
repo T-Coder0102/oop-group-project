@@ -15,6 +15,6 @@ public:
 private:
     vector<Meal*> menu;
     int capacity;
-//abc
+
 };
 #endif //RESTAURANT_H
