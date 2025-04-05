@@ -8,7 +8,6 @@ using namespace std;
 
 class Client {
     public:
-    // added clientId into initializer
     Client(string name,int age,char gender,int clientId);
     const int getID();
     double getcalTotalbill();

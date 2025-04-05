@@ -8,22 +8,41 @@ RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, ch
 {
 
 }
+//newly added
+void RoomService::setRoomsToClean(int id)
+{
+    roomsToClean.push_back(id);
+}
+//newly added
+vector<int> RoomService::getRoomsToClean()
+{
+    return roomsToClean;
+}
+//newly added
 void RoomService::cleanRoom(int id)
 {
-    if(id==id){}
-    cout<<"We are cleaning now!!"<<endl;
-    this_thread::sleep_for(chrono::seconds(3));
-    cout<<"Room will be ready in a few minutes"<<endl;
-    this_thread::sleep_for(chrono::seconds(2));
-    cout<<"Your room is ready"<<endl;
+    for(int i = 0; i < roomsToClean.size(); i++)
+    {
+        if(roomsToClean[i] == id)
+        {
+            cout<<"We are cleaning now!!"<<endl;
+            this_thread::sleep_for(chrono::seconds(3));
+            cout<<"Room will be ready in a few minutes"<<endl;
+            this_thread::sleep_for(chrono::seconds(2));
+            cout<<"Your room is ready"<<endl;
+        }
+    }
+
 }
-void RoomService::serveFood(string meal, Restaurant &restaurant)
+//newly added
+void RoomService::serveFood(string meal, Restaurant &restaurant,Client &client)
 {
     for(Meal* a:restaurant.getMenu())
     {
         if(a->getName()== meal)
         {
             cout<<"OK, your order will be delivered in a few minutes."<<endl;
+            client.setcalTotalbill(a->getPrice());
             return;
         }
     }

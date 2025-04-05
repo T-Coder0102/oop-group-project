@@ -1,9 +1,13 @@
 #include "Reception.h"
+#include <ctime>
+#include <cstdlib>
 
 Reception::Reception(string name, int age, int yearsOfExperience, int ID, char gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
 {
 }
+//newly added
 void Reception::AskInfo(Hotel &hotel) {
+    srand(time(0));
     string name;int age;char gender;
     cout<<"What is your name:"<<endl;
     cin>>name;
@@ -11,7 +15,7 @@ void Reception::AskInfo(Hotel &hotel) {
     cin>>age;
     cout<<"What is your gender:"<<endl;
     cin>>gender;
-    Client *c=new Client(name,age,gender,1334);
+    Client *c=new Client(name,age,gender,1000+rand()%1000);
     hotel.setClientsList(c);
     cout<<"Thank you for your information"<<endl;
 
@@ -34,14 +38,16 @@ void Reception::bookRoom(string type,Hotel &hotel,Client &client) {
         }
     }
 }
-// void Reception::CheckOut(Client &client,Hotel &hotel) {
-//    for (int i=0;i<hotel.getNFRoomsList().size();i++) {
-//        if (hotel.getNFRoomsList()[i]->getRoomNum()==client.getRoomID()) {
-//            hotel.addNewRoom(hotel.getNFRoomsList()[i]);
-//        };
-//    }
-//    hotel.addTotalRevenue(client.getcalTotalbill());
-// }
+//newly added
+void Reception::CheckOut(Client &client,Hotel &hotel) {
+   for (int i=0;i<hotel.getNFRoomsList().size();i++) {
+       if (hotel.getNFRoomsList()[i]->getRoomNum()==client.getRoomID()) {
+           hotel.addNewRoom(hotel.getNFRoomsList()[i]);
+           hotel.removeClient(client);
+       };
+   }
+   hotel.addTotalRevenue(client.getcalTotalbill());
+}
 
 
 

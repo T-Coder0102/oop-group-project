@@ -19,6 +19,7 @@ class Hotel {
     void addNewRoom(Room* room);
     void removeRoom(Room* room);
     void addMember(Member* member);
+    void removeClient(Client &client);
     void addTotalRevenue(double totalRevenue);
     double getTotalRevenue();
 private:

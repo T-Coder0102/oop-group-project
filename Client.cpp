@@ -33,7 +33,6 @@ void Client::setRoomId(int roomId) {
 void Client::setcalTotalbill(double bill) {
     this->calTotalbill += bill;
 }
-// I just put colon in front of Client ID string and put some space and created getters and setters for clientId; T-Coder0102
 void Client::displayinfo() {
     cout << "Name: " << this->name << endl;
     cout << "Age: " << this->age << endl;
