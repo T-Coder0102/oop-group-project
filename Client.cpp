@@ -33,7 +33,7 @@ void Client::setRoomId(int roomId) {
 void Client::setcalTotalbill(double bill) {
     this->calTotalbill += bill;
 }
-void Client::displayinfo() {
+void Client::displayInfo() {
     cout << "Name: " << this->name << endl;
     cout << "Age: " << this->age << endl;
     cout << "Gender: " << this->gender << endl;

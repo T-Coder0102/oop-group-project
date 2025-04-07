@@ -17,7 +17,7 @@ class Client {
     int getRoomID();
     void setRoomId(int roomId);
     void setcalTotalbill(double bill);
-    void displayinfo();
+    void displayInfo();
     //I have added only the clientId getters and setters
     int getClientID();
     void setClientID(int clientID);
