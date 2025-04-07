@@ -48,5 +48,7 @@ void Client::setClientID(int clientId)
 {
     this->clientId = clientId;
 }
-
+void Client::askRoomInfo() {
+    cout<<"Could you tell what kind of rooms do you have right now??"<<endl;
+}
 

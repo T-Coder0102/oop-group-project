@@ -44,7 +44,7 @@ for(int i = 0; i < 50; i++)
     Meal* newMeal4= new Meal("Desert4",30);
     Meal* newMeal5= new Meal("Desert5",50);
     Meal* newMeal6= new Meal("Desert6",40);
-    // Client *client = new Client("aziz",13,'M',1334);
+    // Client *client = new Client("aziz",13,'M', 1334);
     // myHotel.setClientsList(client);
 
     chef->addMeal(newMeal,myRes);
@@ -60,7 +60,7 @@ for(int i = 0; i < 50; i++)
     boss->addMember(*chef,myHotel);
     boss->addMember(*boss,myHotel);
     boss->addMember(*waiter,myHotel);
-    cmain(*reception,myHotel);
+    cmain(*reception,myHotel,*roomServicer,myRes);
 //    waiter->giveMenu(myRes);
      // reception->AskInfo(myHotel);
     // boss->setSalary(myHotel,1800,204);
@@ -87,7 +87,7 @@ for(int i = 0; i < 50; i++)
 
     // chef->addMeal("Desert",myRes);
     // reception->GiveRoomInfo(myHotel);
-boss->displayClients(myHotel);
+// boss->displayClients(myHotel);
 
 
 

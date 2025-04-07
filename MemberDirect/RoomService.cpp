@@ -17,11 +17,11 @@ vector<int> RoomService::getRoomsToClean()
 {
     return roomsToClean;
 }
-void RoomService::cleanRoom(int id)
+void RoomService::cleanRoom(int id,Hotel hotel)
 {
-    for(int i = 0; i < roomsToClean.size(); i++)
+    for(int i = 0; i < hotel.getNFRoomsList().size(); i++)
     {
-        if(roomsToClean[i] == id)
+        if(hotel.getNFRoomsList()[i]->getRoomNum() == id)
         {
             cout<<"We are cleaning now!!"<<endl;
             this_thread::sleep_for(chrono::seconds(3));

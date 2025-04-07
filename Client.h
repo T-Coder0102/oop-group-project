@@ -21,6 +21,7 @@ class Client {
     //I have added only the clientId getters and setters
     int getClientID();
     void setClientID(int clientID);
+    void askRoomInfo();
 private:
     string name;
     int age;
