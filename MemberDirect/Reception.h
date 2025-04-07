@@ -13,6 +13,4 @@ private:
     void CheckOut(Client &client,Hotel &hotel);
     void bookRoom(Hotel &hotel,Client&client);
 };
-
-
 #endif //RECEPTION_H

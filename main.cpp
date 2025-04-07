@@ -60,7 +60,7 @@ for(int i = 0; i < 50; i++)
     boss->addMember(*chef,myHotel);
     boss->addMember(*boss,myHotel);
     boss->addMember(*waiter,myHotel);
-    cmain(*reception,myHotel,*roomServicer,myRes);
+    cmain(*reception,myHotel,*roomServicer,myRes, *waiter);
 //    waiter->giveMenu(myRes);
      // reception->AskInfo(myHotel);
     // boss->setSalary(myHotel,1800,204);
