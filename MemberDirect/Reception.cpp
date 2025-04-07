@@ -6,7 +6,7 @@ Reception::Reception(string name, int age, int yearsOfExperience, int ID, char g
 {
 }
 
-void Reception::AskInfo(Hotel &hotel) {
+Client * Reception::AskInfo(Hotel &hotel) {
     srand(time(0));
     string name;int age;char gender;
     cout<<"What is your name:"<<endl;
@@ -15,11 +15,10 @@ void Reception::AskInfo(Hotel &hotel) {
     cin>>age;
     cout<<"What is your gender:"<<endl;
     cin>>gender;
-    Client *c=new Client(name,age,gender,1000+rand()%1000);
+    Client *c = new Client(name,age,gender,1000+rand()%1000);
     hotel.setClientsList(c);
     cout<<"Thank you for your information"<<endl;
-
-
+    return c;
 }
 void Reception::GiveRoomInfo(Hotel &hotel) {
     cout<<"The list of free rooms:"<<endl;

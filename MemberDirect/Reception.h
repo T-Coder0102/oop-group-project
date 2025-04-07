@@ -9,7 +9,7 @@ private:
     public:
     Reception(string name,int age,int yearsOfExperience,int ID,char gender,string status,double salary );
     void GiveRoomInfo(Hotel &hotel);
-    void AskInfo(Hotel &hotel);
+    Client * AskInfo(Hotel &hotel);
     void CheckOut(Client &client,Hotel &hotel);
     void bookRoom(string type,Hotel &hotel,Client&client);
 };

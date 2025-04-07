@@ -9,7 +9,7 @@
 #include "MemberDirect/Waiter.h"
 #include "MemberDirect/Reception.h"
 #include "RoomDirect/Room.h"
-
+#include "ClientMain.h"
 using namespace std;
 
 int main() {
@@ -60,18 +60,18 @@ for(int i = 0; i < 50; i++)
     boss->addMember(*chef,myHotel);
     boss->addMember(*boss,myHotel);
     boss->addMember(*waiter,myHotel);
-
+    cmain(*reception,myHotel);
 //    waiter->giveMenu(myRes);
      // reception->AskInfo(myHotel);
     // boss->setSalary(myHotel,1800,204);
      // boss->displayMembers(myHotel);
 
-    reception->bookRoom("VIP",myHotel,*client);
+    // reception->bookRoom("VIP",myHotel,*client);
     boss->displayClients(myHotel);
     // waiter->takeOrder("Desert",*client,myRes);
     // waiter->takeOrder("Desert1",*client,myRes);
     // client->getcalTotalbill();
-    roomServicer->serveFood("Desert",myRes,*client);
+    // roomServicer->serveFood("Desert",myRes,*client);
     // waiter->takeOrder("Desert2",*client,myRes);
     // waiter->takeOrder("Desert3",*client,myRes);
     // waiter->takeOrder("Desert4",*client,myRes);
@@ -80,10 +80,10 @@ for(int i = 0; i < 50; i++)
     // chef->removeMeal("Desert4",myRes);
     // waiter->giveMenu(myRes);
     // cout<<client->getcalTotalbill()<<endl;
-    reception->CheckOut(*client,myHotel);
+    // reception->CheckOut(*client,myHotel);
     cout<<endl;
-    boss->displayClients(myHotel);
-    cout<<myHotel.getTotalRevenue();
+    // boss->displayClients(myHotel);
+    // cout<<myHotel.getTotalRevenue();
 
     // chef->addMeal("Desert",myRes);
     // reception->GiveRoomInfo(myHotel);
