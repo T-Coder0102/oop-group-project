@@ -3,9 +3,9 @@
 #include "MemberDirect/Reception.h"
 #include "future"
 void cmain(Reception reception, Hotel hotel,RoomService room_servicer,Restaurant res, Waiter waiter){
-  Client *temp = reception.AskInfo(hotel);
+  Client *temp = reception.askInfo(hotel);
   temp->askRoomInfo();
-  reception.GiveRoomInfo(hotel);
+  reception.giveRoomInfo(hotel);
   reception.bookRoom(hotel,*temp);
   cout<<"Thank you very much!!!"<<endl;
   while (true) {
@@ -62,8 +62,8 @@ void cmain(Reception reception, Hotel hotel,RoomService room_servicer,Restaurant
   string response;
   cin>>response;
   if(response=="Yes"){
-      reception.CheckOut(*temp,hotel);
-      cout<<"Here is your total expenses during your stay in our hotel: $"<<temp->getcalTotalbill()<<endl;
+      reception.checkOut(*temp,hotel);
+      cout<<"Here is your total expenses during your stay in our hotel: $"<<temp->getTotalbill()<<endl;
       cout<<"Thank you for staying in our hotel!!!"<<endl;
       break;
 

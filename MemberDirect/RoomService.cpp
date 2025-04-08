@@ -9,19 +9,12 @@ RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, ch
 
 }
 
-void RoomService::setRoomsToClean(int id)
-{
-    roomsToClean.push_back(id);
-}
-vector<int> RoomService::getRoomsToClean()
-{
-    return roomsToClean;
-}
+
 void RoomService::cleanRoom(int id,Hotel hotel)
 {
-    for(int i = 0; i < hotel.getNFRoomsList().size(); i++)
+    for(int i = 0; i < hotel.getNFreeRoomsList().size(); i++)
     {
-        if(hotel.getNFRoomsList()[i]->getRoomNum() == id)
+        if(hotel.getNFreeRoomsList()[i]->getRoomNum() == id)
         {
             cout<<"We are cleaning now!!"<<endl;
             this_thread::sleep_for(chrono::seconds(3));
@@ -39,7 +32,7 @@ void RoomService::serveFood(string meal, Restaurant &restaurant,Client &client)
         if(a->getName()== meal)
         {
             cout<<"OK, your order will be delivered in a few minutes."<<endl;
-            client.setcalTotalbill(a->getPrice());
+            client.setTotalbill(a->getPrice());
             return;
         }
     }

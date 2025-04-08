@@ -11,11 +11,11 @@ class Hotel {
     public:
 
     vector<Client*> getClientsList();
-    void setClientsList(Client* client);
+    void addClientsToList(Client* client);
     vector<Member*> getMembersList();
-    void setMembersList(Member* member);
-    vector<Room*> getFRoomsList();
-    vector<Room*> getNFRoomsList();
+    void addMembersToList(Member* member);
+    vector<Room*> getFreeRoomsList();
+    vector<Room*> getNFreeRoomsList();
     void addNewRoom(Room* room);
     void removeRoom(Room* room);
     void addMember(Member* member);
@@ -27,7 +27,7 @@ private:
     vector<Client*> clients;
     vector<Member*> members;
     vector<Room*> Freerooms;
-    vector<Room*> NfreeRooms;
+    vector<Room*> NFreeRooms;
 
 };
 #endif //HOTEL_H

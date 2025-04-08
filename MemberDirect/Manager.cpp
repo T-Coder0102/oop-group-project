@@ -5,7 +5,7 @@ Manager::Manager(string name, int age, int yearsOfExperience, int ID, char gende
 void Manager::displayMembers(Hotel &hotel) {
     cout<<"The list of Hotel members:"<<endl;
     for (int i=0;i<hotel.getMembersList().size();i++) {
-        hotel.getMembersList()[i]->displayinfo();
+        hotel.getMembersList()[i]->displayInfo();
         cout<<endl;
     }
 }

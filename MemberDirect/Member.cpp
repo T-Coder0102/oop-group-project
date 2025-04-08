@@ -20,10 +20,10 @@ int Member::getAge() {
 void Member::setAge(int age) {
     this->age=age;
 }
-int Member::getyearsOfExperience() {
+int Member::getYearsOfExperience() {
     return yearsOfExperience;
 }
-void Member::setyearsOfExperience(int y) {
+void Member::setYearsOfExperience(int y) {
     this->yearsOfExperience=y;
 }
 int Member::getID() {
@@ -44,7 +44,7 @@ double Member::getSalary() {
 void Member::setSalary(double salary) {
     this->salary = salary;
 }
-void Member::displayinfo() {
+void Member::displayInfo() {
     cout << "Name: " << this->name << "\n";
     cout << "Age: " << this->age << "\n";
     cout<<"Salary: $" << this->salary << "\n";

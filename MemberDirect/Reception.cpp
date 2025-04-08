@@ -6,7 +6,7 @@ Reception::Reception(string name, int age, int yearsOfExperience, int ID, char g
 {
 }
 
-Client * Reception::AskInfo(Hotel &hotel) {
+Client * Reception::askInfo(Hotel &hotel) {
     srand(time(0));
     string name;int age;char gender;
     cout<<"What is your name:"<<endl;
@@ -16,21 +16,21 @@ Client * Reception::AskInfo(Hotel &hotel) {
     cout<<"What is your gender:"<<endl;
     cin>>gender;
     Client *c = new Client(name,age,gender,1000+rand()%1000);
-    hotel.setClientsList(c);
+    hotel.addClientsToList(c);
     cout<<"Thank you for your information"<<endl;
     return c;
 }
-void Reception::GiveRoomInfo(Hotel &hotel) {
+void Reception::giveRoomInfo(Hotel &hotel) {
     cout<<"The list of free rooms:"<<endl;
     int standart=0,lux=0,vip=0;
-    for (int i=0;i<hotel.getFRoomsList().size();i++) {
-          if (hotel.getFRoomsList()[i]->getPrice()==300) {
+    for (int i=0;i<hotel.getFreeRoomsList().size();i++) {
+          if (hotel.getFreeRoomsList()[i]->getPrice()==300) {
               standart++;
           }
-        if (hotel.getFRoomsList()[i]->getPrice()==700) {
+        if (hotel.getFreeRoomsList()[i]->getPrice()==700) {
             lux++;
         }
-        if (hotel.getFRoomsList()[i]->getPrice()==1000) {
+        if (hotel.getFreeRoomsList()[i]->getPrice()==1000) {
             vip++;
         }
     }
@@ -45,25 +45,25 @@ void Reception::bookRoom(Hotel &hotel,Client &client) {
     string type;
     cout<<"What kind room are you looking for? (Standart, Lux, VIP)"<<endl;
     cin>>type;
-    for (int i=0;i<hotel.getFRoomsList().size();i++) {
-        if (hotel.getFRoomsList()[i]->getStatus()==type) {
-            client.setRoomId(hotel.getFRoomsList()[i]->getRoomNum());
-            client.setcalTotalbill(hotel.getFRoomsList()[i]->getPrice());
-            hotel.removeRoom(hotel.getFRoomsList()[i]);
-            cout<<"Your room number is: "<<hotel.getFRoomsList()[i]->getRoomNum()<<endl;
+    for (int i=0;i<hotel.getFreeRoomsList().size();i++) {
+        if (hotel.getFreeRoomsList()[i]->getStatus()==type) {
+            client.setRoomId(hotel.getFreeRoomsList()[i]->getRoomNum());
+            client.setTotalbill(hotel.getFreeRoomsList()[i]->getPrice());
+            hotel.removeRoom(hotel.getFreeRoomsList()[i]);
+            cout<<"Your room number is: "<<hotel.getFreeRoomsList()[i]->getRoomNum()<<endl;
             return;
         }
     }
 }
 
-void Reception::CheckOut(Client &client,Hotel &hotel) {
-   for (int i=0;i<hotel.getNFRoomsList().size();i++) {
-       if (hotel.getNFRoomsList()[i]->getRoomNum()==client.getRoomID()) {
-           hotel.addNewRoom(hotel.getNFRoomsList()[i]);
+void Reception::checkOut(Client &client,Hotel &hotel) {
+   for (int i=0;i<hotel.getNFreeRoomsList().size();i++) {
+       if (hotel.getNFreeRoomsList()[i]->getRoomNum()==client.getRoomID()) {
+           hotel.addNewRoom(hotel.getNFreeRoomsList()[i]);
            hotel.removeClient(client);
        };
    }
-   hotel.addTotalRevenue(client.getcalTotalbill());
+   hotel.addTotalRevenue(client.getTotalbill());
 }
 
 

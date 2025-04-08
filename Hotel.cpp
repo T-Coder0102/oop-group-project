@@ -2,7 +2,7 @@
 vector<Client *> Hotel::getClientsList() {
     return clients;
 }
-void Hotel::setClientsList(Client* client) {
+void Hotel::addClientsToList(Client* client) {
     clients.push_back(client);
 }
 
@@ -20,32 +20,32 @@ void Hotel::removeClient(Client& client)
 vector<Member*> Hotel::getMembersList() {
     return members;
 }
-void Hotel::setMembersList(Member* member) {
+void Hotel::addMembersToList(Member* member) {
     members.push_back(member);
 }
-vector<Room *> Hotel::getFRoomsList() {
+vector<Room *> Hotel::getFreeRoomsList() {
     return Freerooms;
 }
 
-vector<Room*> Hotel::getNFRoomsList()
+vector<Room*> Hotel::getNFreeRoomsList()
 {
-    return NfreeRooms;
+    return NFreeRooms;
 }
 
 void Hotel::addNewRoom(Room* room)
 {
     Freerooms.push_back(room);
-    for (int i = 0; i < NfreeRooms.size(); i++)
+    for (int i = 0; i < NFreeRooms.size(); i++)
     {
-        if (NfreeRooms[i]->getRoomNum() == room->getRoomNum())
+        if (NFreeRooms[i]->getRoomNum() == room->getRoomNum())
         {
-            NfreeRooms.erase(NfreeRooms.begin() + i);
+            NFreeRooms.erase(NFreeRooms.begin() + i);
         }
     }
 }
 void Hotel::removeRoom(Room* room)
 {
-    NfreeRooms.push_back(room);
+    NFreeRooms.push_back(room);
     for (int i = 0; i < Freerooms.size(); i++)
     {
         if (Freerooms[i]->getRoomNum() == room->getRoomNum())

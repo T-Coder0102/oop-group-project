@@ -11,15 +11,15 @@ class Member {
     void setName(string name);
     void setAge(int age);
     int getAge();
-    int getyearsOfExperience();
-    void setyearsOfExperience(int yearsOfExperience);
+    int getYearsOfExperience();
+    void setYearsOfExperience(int yearsOfExperience);
     int getID();
     double getSalary();
     void setSalary(double salary);
     void setID(int ID);
     char getGender();
     void setGender(char gender);
-    void displayinfo();
+    void displayInfo();
     private:
     string name;
     int age;
