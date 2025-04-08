@@ -11,10 +11,8 @@ class RoomService : public Member {
     void cleanRoom(int id,Hotel hotel);
     void serveFood(string meal,Restaurant &restaurant,Client &client);
     void giveMenu(Restaurant &res);
-    vector<int>getRoomsToClean();
-    void setRoomsToClean(int id);
 private:
-    vector<int> roomsToClean;
+
 
 };
 

@@ -11,7 +11,7 @@ void Waiter::takeOrder(string meal,Client &client,Restaurant &res)
                 {
                         cout<<"You ordered the meal: "<<meal<<endl;
                         //newly added
-                        client.setcalTotalbill(res.getMenu()[i]->getPrice());
+                        client.setTotalbill(res.getMenu()[i]->getPrice());
                         return;
                 }
         }

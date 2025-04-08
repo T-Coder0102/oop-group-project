@@ -13,18 +13,6 @@ double Room::getPrice() {
 int Room::getRoomNum() {
     return roomNum;
 }
-// bool Room::getIsBooked() {
-//     return isBooked;
-// }
-// int Room::getNumOfclient() {
-//     return numOfclient;
-// }
-// int Room::getNumOfroom() {
-//     return numberOfroom;
-// }
-// void Room::setIsBooked(bool isBooked) {
-//     this->isBooked = isBooked;
-// }
 void Room::setPrice(double price) {
     this->price = price;
 }

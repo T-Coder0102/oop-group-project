@@ -10,13 +10,13 @@ class Client {
     public:
     Client(string name,int age,char gender,int clientId);
     const int getID();
-    double getcalTotalbill();
+    double getTotalbill();
     const string getName();
     const int getAge();
     const char getGender();
     int getRoomID();
     void setRoomId(int roomId);
-    void setcalTotalbill(double bill);
+    void setTotalbill(double bill);
     void displayInfo();
     //I have added only the clientId getters and setters
     int getClientID();

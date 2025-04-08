@@ -12,7 +12,7 @@ Client::Client(string name, int age,char gender,int clientId) {
  const int Client::getID() {
     return clientId;
 }
-double Client::getcalTotalbill() {
+double Client::getTotalbill() {
     return calTotalbill;
 }
  int Client::getRoomID() {
@@ -30,7 +30,7 @@ const string Client::getName() {
 void Client::setRoomId(int roomId) {
     this->roomId = roomId;
 }
-void Client::setcalTotalbill(double bill) {
+void Client::setTotalbill(double bill) {
     this->calTotalbill += bill;
 }
 void Client::displayInfo() {
