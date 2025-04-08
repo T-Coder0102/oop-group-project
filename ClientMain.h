@@ -67,8 +67,12 @@ void cmain(Reception reception, Hotel hotel,RoomService room_servicer,Restaurant
       cout<<"Thank you for staying in our hotel!!!"<<endl;
       break;
 
-  }else{
-      cout<<"THK"<<endl;
+  }if (response=="No"){
+      for (Client *c :hotel.getClientsList()) {
+          c->displayInfo();
+      }
+
+      break;
   }
     }
   }

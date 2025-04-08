@@ -44,8 +44,7 @@ for(int i = 0; i < 50; i++)
     Meal* newMeal4= new Meal("Desert4",30);
     Meal* newMeal5= new Meal("Desert5",50);
     Meal* newMeal6= new Meal("Desert6",40);
-    // Client *client = new Client("aziz",13,'M', 1334);
-    // myHotel.setClientsList(client);
+
 
     chef->addMeal(newMeal,myRes);
     chef->addMeal(newMeal1,myRes);
@@ -60,43 +59,21 @@ for(int i = 0; i < 50; i++)
     boss->addMember(*chef,myHotel);
     boss->addMember(*boss,myHotel);
     boss->addMember(*waiter,myHotel);
-    cmain(*reception,myHotel,*roomServicer,myRes, *waiter);
-//    waiter->giveMenu(myRes);
-     // reception->AskInfo(myHotel);
-    // boss->setSalary(myHotel,1800,204);
-     // boss->displayMembers(myHotel);
-
-    // reception->bookRoom("VIP",myHotel,*client);
+    while (true) {
+        int input;
+        cout<<"What is your Status?(client-1,manager-2,reception-3)"<<endl;
+        cin>>input;
+        if(input==1) {
+            cmain(*reception,myHotel,*roomServicer,myRes, *waiter);
+        }
+        else {
+            break;
+        }
+    }
+    // for (Client* client : myHotel.getClientsList()) {
+    //     client->displayInfo();
+    // }
     // boss->displayClients(myHotel);
-    // waiter->takeOrder("Desert",*client,myRes);
-    // waiter->takeOrder("Desert1",*client,myRes);
-    // client->getcalTotalbill();
-    // roomServicer->serveFood("Desert",myRes,*client);
-    // waiter->takeOrder("Desert2",*client,myRes);
-    // waiter->takeOrder("Desert3",*client,myRes);
-    // waiter->takeOrder("Desert4",*client,myRes);
-    // waiter->takeOrder("Desert3",*client,myRes);
-    // waiter->takeOrder("Desert6",*client,myRes);
-    // chef->removeMeal("Desert4",myRes);
-    // waiter->giveMenu(myRes);
-    // cout<<client->getcalTotalbill()<<endl;
-    // reception->CheckOut(*client,myHotel);
-    cout<<endl;
-    // boss->displayClients(myHotel);
-    // cout<<myHotel.getTotalRevenue();
-
-    // chef->addMeal("Desert",myRes);
-    // reception->GiveRoomInfo(myHotel);
-// boss->displayClients(myHotel);
-
-
-
-
-
-
-
-
-
 
 
     return 0;
