@@ -58,19 +58,20 @@ void cmain(Reception reception, Hotel hotel,RoomService room_servicer,Restaurant
     }
     else {
       cout<<"Thank you very much!!!"<<endl;
-      break;
-    }
-  }
-  cout<<"Do you want to check out?? (Yes or No)"<<endl;
+        cout<<"Do you want to check out?? (Yes or No)"<<endl;
   string response;
   cin>>response;
   if(response=="Yes"){
       reception.CheckOut(*temp,hotel);
       cout<<"Here is your total expenses during your stay in our hotel: $"<<temp->getcalTotalbill()<<endl;
       cout<<"Thank you for staying in our hotel!!!"<<endl;
+      break;
 
   }else{
       cout<<"THK"<<endl;
   }
+    }
+  }
+
 }
 #endif //CLIENTMAIN_H
