@@ -43,15 +43,19 @@ void Reception::giveRoomInfo(Hotel &hotel) {
 }
 void Reception::bookRoom(Hotel &hotel,Client &client) {
     string type;
-    cout<<"What kind room are you looking for? (Standart, Lux, VIP)"<<endl;
-    cin>>type;
-    for (int i=0;i<hotel.getFreeRoomsList().size();i++) {
-        if (hotel.getFreeRoomsList()[i]->getStatus()==type) {
-            client.setRoomId(hotel.getFreeRoomsList()[i]->getRoomNum());
-            client.setTotalbill(hotel.getFreeRoomsList()[i]->getPrice());
-            hotel.removeRoom(hotel.getFreeRoomsList()[i]);
-            cout<<"Your room number is: "<<hotel.getFreeRoomsList()[i]->getRoomNum()<<endl;
-            return;
+    while (true) {
+        cout<<"What kind room are you looking for? (Standart, Lux, VIP)"<<endl;
+        cin>>type;
+        if (type=="Standart" || type=="Lux" || type=="VIP") {
+            for (int i=0;i<hotel.getFreeRoomsList().size();i++) {
+                if (hotel.getFreeRoomsList()[i]->getStatus()==type) {
+                    client.setRoomId(hotel.getFreeRoomsList()[i]->getRoomNum());
+                    client.setTotalbill(hotel.getFreeRoomsList()[i]->getPrice());
+                    cout<<"Your room number is: "<<hotel.getFreeRoomsList()[i]->getRoomNum()<<endl;
+                    hotel.removeRoom(hotel.getFreeRoomsList()[i]);
+                    return;
+                }
+            }
         }
     }
 }

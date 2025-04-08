@@ -2,7 +2,7 @@
 #define CLIENTMAIN_H
 #include "MemberDirect/Reception.h"
 #include "future"
-void cmain(Reception reception, Hotel hotel,RoomService room_servicer,Restaurant res, Waiter waiter){
+void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaurant &res, Waiter &waiter){
   Client *temp = reception.askInfo(hotel);
   temp->askRoomInfo();
   reception.giveRoomInfo(hotel);
@@ -68,10 +68,6 @@ void cmain(Reception reception, Hotel hotel,RoomService room_servicer,Restaurant
       break;
 
   }if (response=="No"){
-      for (Client *c :hotel.getClientsList()) {
-          c->displayInfo();
-      }
-
       break;
   }
     }

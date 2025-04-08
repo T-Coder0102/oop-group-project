@@ -27,7 +27,7 @@ private:
     int age;
     char gender;
     int clientId=0;
-    int roomId=0;
+    int roomId;
     double calTotalbill=0;
 
 

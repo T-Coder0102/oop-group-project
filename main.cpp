@@ -18,17 +18,17 @@ int main() {
     Restaurant myRes;
     Manager *boss=new Manager("Oybek",18,0,232,'M',"Manager",5000);
 
-for(int i = 0; i < 50; i++)
+for(int i = 1; i <= 50; i++)
 {
     Room *room= new Room(100+i,300,"Standart");
     myHotel.addNewRoom(room);
 }
-    for(int i = 0; i < 35; i++)
+    for(int i = 1; i <= 35; i++)
     {
         Room *room= new Room(200+i,700,"Lux");
         myHotel.addNewRoom(room);
     }
-    for(int i = 0; i < 15; i++) {
+    for(int i = 1; i <=15; i++) {
         Room *room= new Room(300+i,1000,"VIP");
         myHotel.addNewRoom(room);
     }
@@ -70,10 +70,12 @@ for(int i = 0; i < 50; i++)
             break;
         }
     }
-    // for (Client* client : myHotel.getClientsList()) {
-    //     client->displayInfo();
-    // }
-    // boss->displayClients(myHotel);
+
+    boss->displayClients(myHotel);
+    for (Room *r : myHotel.getFreeRoomsList()) {
+        r->giveDetails();
+    }
+    // reception->giveRoomInfo(myHotel);
 
 
     return 0;
