@@ -23,6 +23,14 @@ vector<Member*> Hotel::getMembersList() {
 void Hotel::addMembersToList(Member* member) {
     members.push_back(member);
 }
+void Hotel::removeMember(int ID) {
+    for (int i = 0; i < members.size(); i++) {
+        if (members[i]->getID()==ID) {
+            members.erase(members.begin()+i);
+        }
+    }
+}
+
 vector<Room *> Hotel::getFreeRoomsList() {
     return Freerooms;
 }

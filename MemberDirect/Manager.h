@@ -8,6 +8,7 @@ public:
     void displayClients(Hotel &hotel);
     void displayMembers(Hotel &hotel);
     void addMember(Member &member,Hotel &hotel);
+    void removeMember(int ID,Hotel &hotel);
     void setSalary(Hotel &hotel,double newSalary,int ID);
 };
 

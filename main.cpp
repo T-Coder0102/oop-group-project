@@ -10,6 +10,7 @@
 #include "MemberDirect/Reception.h"
 #include "RoomDirect/Room.h"
 #include "ClientMain.h"
+#include "ManagerMain.h"
 using namespace std;
 
 int main() {
@@ -66,16 +67,14 @@ for(int i = 1; i <= 50; i++)
         if(input==1) {
             cmain(*reception,myHotel,*roomServicer,myRes, *waiter);
         }
+        else if(input==2) {
+            managerMain(myHotel,*boss);
+        }
         else {
             break;
         }
     }
 
-    boss->displayClients(myHotel);
-    for (Room *r : myHotel.getFreeRoomsList()) {
-        r->giveDetails();
-    }
-    // reception->giveRoomInfo(myHotel);
 
 
     return 0;

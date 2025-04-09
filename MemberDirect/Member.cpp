@@ -44,6 +44,14 @@ double Member::getSalary() {
 void Member::setSalary(double salary) {
     this->salary = salary;
 }
+string Member::getStatus() {
+    return status;
+}
+void Member::setStatus(string status) {
+    this->status = status;
+}
+
+
 void Member::displayInfo() {
     cout << "Name: " << this->name << "\n";
     cout << "Age: " << this->age << "\n";

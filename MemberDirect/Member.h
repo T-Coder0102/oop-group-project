@@ -20,6 +20,8 @@ class Member {
     char getGender();
     void setGender(char gender);
     void displayInfo();
+    void setStatus(string status);
+    string getStatus();
     private:
     string name;
     int age;
