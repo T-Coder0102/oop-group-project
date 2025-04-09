@@ -13,6 +13,7 @@ void Manager::displayClients(Hotel &hotel) {
     cout<<"The list of Clients:"<<endl;
     for (int i=0;i<hotel.getClientsList().size();i++) {
         hotel.getClientsList()[i]->displayInfo();
+        cout<<endl;
     }
 };
 void Manager::addMember(Member &member,Hotel &hotel) {
