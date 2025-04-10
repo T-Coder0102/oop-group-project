@@ -10,6 +10,8 @@ public:
     void addMember(Member &member,Hotel &hotel);
     void removeMember(int ID,Hotel &hotel);
     void setSalary(Hotel &hotel,double newSalary,int ID);
+    void setEmployeeSalary(double newSalary,int ID,Hotel &hotel);
+
 };
 
 #endif //MANAGER_H

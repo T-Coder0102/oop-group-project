@@ -6,6 +6,17 @@ void Hotel::addClientsToList(Client* client) {
     clients.push_back(client);
 }
 
+void Hotel::setSalaryOfEmployee(double salaryOfEmployee, int ID)
+{
+    for (int i = 0; i < members.size(); i++)
+    {
+        if (members[i]->getID()==ID)
+        {
+            members[i]->setSalary(salaryOfEmployee);
+        }
+    }
+}
+
 void Hotel::removeClient(Client& client)
 {
     for(int i=0; i<clients.size(); i++)

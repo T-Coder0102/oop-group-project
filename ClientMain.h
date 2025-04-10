@@ -7,9 +7,9 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
   temp->askRoomInfo();
   reception.giveRoomInfo(hotel);
   reception.bookRoom(hotel,*temp);
-  cout<<"Thank you very much!!!"<<endl;
+  cout<<"Thank you!"<<endl;
   while (true) {
-    cout<<"Reception: What kind of service do you want?? (Cleaning room, Delivering food to your room or other )"<<endl;
+    cout<<"Reception: What kind of service do you want? (Cleaning room, Delivering food to your room or other )"<<endl;
     string choice;
     cin>>choice;
     if (choice == "clean") {
@@ -57,8 +57,8 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
         }
     }
     else {
-      cout<<"Thank you very much!!!"<<endl;
-        cout<<"Do you want to check out?? (Yes or No)"<<endl;
+      cout<<"Thank you!"<<endl;
+        cout<<"Do you want to check out? (Yes or No)"<<endl;
   string response;
   cin>>response;
   if(response=="Yes"){

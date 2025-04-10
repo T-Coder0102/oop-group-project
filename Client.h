@@ -30,6 +30,5 @@ private:
     int roomId;
     double calTotalbill=0;
 
-
 };
 #endif //CLIENT_H

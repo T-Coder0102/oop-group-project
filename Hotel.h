@@ -22,6 +22,7 @@ class Hotel {
     void removeMember(int ID);
     void removeClient(Client &client);
     void addTotalRevenue(double totalRevenue);
+    void setSalaryOfEmployee(double salaryOfEmployee,int ID);
     double getTotalRevenue();
 private:
     double totalRevenue=0;

@@ -70,5 +70,3 @@ void Reception::checkOut(Client &client,Hotel &hotel) {
    hotel.addTotalRevenue(client.getTotalbill());
 }
 
-
-

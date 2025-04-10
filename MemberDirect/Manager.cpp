@@ -29,4 +29,7 @@ void Manager::setSalary(Hotel &hotel, double newSalary,int ID) {
         }
     }
 }
+void Manager::setEmployeeSalary(double newSalary,int ID,Hotel &hotel) {
+    hotel.setSalaryOfEmployee(newSalary,ID);
+}
 
