@@ -19,7 +19,8 @@ Client * Reception::askInfo(Hotel &hotel) {
     cin>>userName;
     cout<<"Enter your password:"<<endl;
     cin>>userPassword;
-    Client *c = new Client(name,age,gender,1000+rand()%1000,userName,userPassword);
+    int id=1000+rand()%1000;
+    Client *c = new Client(name,age,gender,id,userName,userPassword);
     hotel.addClientsToList(c);
     cout<<"Thank you for your information"<<endl;
     return c;
