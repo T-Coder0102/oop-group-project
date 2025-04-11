@@ -61,17 +61,24 @@ for(int i = 1; i <= 50; i++)
     boss->addMember(*boss,myHotel);
     boss->addMember(*waiter,myHotel);
     while (true) {
-        cout << "\n==========================================" << endl;
-        cout << "         WELCOME TO OUR SYSTEM            " << endl;
+        cout << "\n";
+        this_thread::sleep_for(chrono::milliseconds(400));
         cout << "==========================================" << endl;
+        cout << "         WELCOME TO OUR SYSTEM            " << endl;
+        this_thread::sleep_for(chrono::milliseconds(400));
+        cout << "==========================================" << endl;
+        this_thread::sleep_for(chrono::milliseconds(400));
         cout << "               MAIN MENU                  " << endl;
+        this_thread::sleep_for(chrono::milliseconds(400));
         cout << "------------------------------------------" << endl;
         cout << " Please select your position:             " << endl;
+        this_thread::sleep_for(chrono::milliseconds(400));
         cout << "                                          " << endl;
         cout << "   [1] Client                             " << endl;
         cout << "   [2] Manager                            " << endl;
         cout << "   [Any other keys to Exit]               " << endl;
         cout << "------------------------------------------" << endl;
+        this_thread::sleep_for(chrono::milliseconds(400));
         cout << " Enter the number of your choice: ";
 
         int input;
