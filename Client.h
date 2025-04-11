@@ -2,13 +2,14 @@
 #define CLIENT_H
 #include <iostream>
 #include<string>
+#include <vector>
 
 #include "RoomDirect/Room.h"
 using namespace std;
 
 class Client {
     public:
-    Client(string name,int age,char gender,int clientId);
+    Client(string name,int age,char gender,int clientId,string userName,string userPassword);
     const int getID();
     double getTotalbill();
     const string getName();
@@ -21,7 +22,10 @@ class Client {
     //I have added only the clientId getters and setters
     int getClientID();
     void setClientID(int clientID);
-    void askRoomInfo();
+    string getUserName();
+    void setUserName(string userName);
+    string getUserPassword();
+    void setUserPassword(string userPassword);
 private:
     string name;
     int age;
@@ -29,6 +33,7 @@ private:
     int clientId=0;
     int roomId;
     double calTotalbill=0;
-
+    string userName;
+    string userPassword;
 };
 #endif //CLIENT_H

@@ -1,4 +1,4 @@
-"D:\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\user\oop-group-project -B C:\Users\user\oop-group-project\cmake-build-debug
+"C:\IT Installations\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S "D:\IT files\L_assignments\oop-group-project" -B "D:\IT files\L_assignments\oop-group-project\cmake-build-debug"
 -- Configuring done (0.2s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/user/oop-group-project/cmake-build-debug
+-- Generating done (0.1s)
+-- Build files have been written to: D:/IT files/L_assignments/oop-group-project/cmake-build-debug

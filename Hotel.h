@@ -2,7 +2,6 @@
 #define HOTEL_H
 #include <vector>
 #include <iostream>
-
 #include "Client.h"
 #include "MemberDirect/Member.h"
 #include "RoomDirect/Room.h"

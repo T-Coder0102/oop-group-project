@@ -67,7 +67,6 @@ for(int i = 1; i <= 50; i++)
         cout<<"Please select your position: "<<endl;
         cout << "1. Client" << endl;
         cout << "2. Manager" << endl;
-        cout << "3. Reception" << endl;
         cout << "--------------------------------------" << endl;
         cout << "Enter the number of your choice: ";
         int input;
@@ -80,10 +79,6 @@ for(int i = 1; i <= 50; i++)
         else if(input==2) {
             cout<<"You selected Manager "<<endl;
             managerMain(myHotel,*boss);
-        }
-        else if(input==3){
-            cout<<"You selected Reception "<<endl;
-            cout<<"Currently, we don't have page for Reception!!!"<<endl;
         }
         else {
             break;

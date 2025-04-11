@@ -8,14 +8,18 @@ Reception::Reception(string name, int age, int yearsOfExperience, int ID, char g
 
 Client * Reception::askInfo(Hotel &hotel) {
     srand(time(0));
-    string name;int age;char gender;
+    string name,userName,userPassword;int age;char gender;
     cout<<"What is your name:"<<endl;
     cin>>name;
     cout<<"What is your age:"<<endl;
     cin>>age;
     cout<<"What is your gender:"<<endl;
     cin>>gender;
-    Client *c = new Client(name,age,gender,1000+rand()%1000);
+    cout<<"Create an username for your account:"<<endl;
+    cin>>userName;
+    cout<<"Enter your password:"<<endl;
+    cin>>userPassword;
+    Client *c = new Client(name,age,gender,1000+rand()%1000,userName,userPassword);
     hotel.addClientsToList(c);
     cout<<"Thank you for your information"<<endl;
     return c;

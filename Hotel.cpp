@@ -82,3 +82,8 @@ void Hotel::addTotalRevenue(double totalRevenue) {
 double Hotel::getTotalRevenue() {
     return totalRevenue;
 }
+
+
+
+
+

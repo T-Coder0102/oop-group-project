@@ -2,11 +2,13 @@
 
 #include "MemberDirect/Member.h"
 
-Client::Client(string name, int age,char gender,int clientId) {
+Client::Client(string name, int age,char gender,int clientId,string userName,string userPassword) {
     this->name = name;
     this->age = age;
     this->gender = gender;
     this->clientId = clientId;
+    this->userName = userName;
+    this->userPassword = userPassword;
 
 }
  const int Client::getID() {
@@ -48,7 +50,22 @@ void Client::setClientID(int clientId)
 {
     this->clientId = clientId;
 }
-void Client::askRoomInfo() {
-    cout<<"Could you tell what kind of rooms do you have right now??"<<endl;
+string Client::getUserName()
+{
+    return userName;
 }
+void Client::setUserName(string userName)
+{
+    this->userName = userName;
+}
+void Client::setUserPassword(string userPassword)
+{
+    this->userPassword = userPassword;
+}
+string Client::getUserPassword()
+{
+    return userPassword;
+}
+
+
 
