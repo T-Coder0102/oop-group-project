@@ -5,9 +5,13 @@
 void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaurant &res, Waiter &waiter){
   while(1)
   {
-    cout<<"1-Register"<<endl;
-    cout<<"2-Login"<<endl;
-    cout<<"3-Logout"<<endl;
+      cout << "\n---------- Client Page ----------" << endl;
+      cout << "  1. Register" << endl;
+      cout << "  2. Login" << endl;
+      cout << "  3. Logout" << endl;
+      cout << "-------------------------------" << endl;
+      cout << "  Enter your choice: ";
+
     bool authenticated=false;
       Client* tempor;
     int ans;
@@ -32,7 +36,7 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
         if(a->getUserName()==userName && a->getUserPassword()==passWord)
         {
           authenticated=true;
-          cout<<"Your account is authenticated"<<endl;
+          cout<<"Your account is authenticated! "<<endl;
             tempor=a;
           break;
         }
@@ -41,7 +45,15 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
       {
 
           while (true) {
-              cout<<"Reception: What kind of service do you want? (1-Cleaning the room,2-Deliver food to your room,3-Restaurant,4-Check out,5-Log out)"<<endl;
+              cout << "\nReception: What kind of service do you need?" << endl;
+              cout << "  1. Cleaning the Room" << endl;
+              cout << "  2. Deliver Food to Your Room" << endl;
+              cout << "  3. Visit the Restaurant" << endl;
+              cout << "  4. Check Out" << endl;
+              cout << "  5. Log Out" << endl;
+              cout << "--------------------------------------------" << endl;
+              cout << "\nEnter your choice: ";
+
               int choice;
               cin>>choice;
               if (choice == 1) {
@@ -49,20 +61,26 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
               }
               else if(choice == 2){
                   room_servicer.giveMenu(res);
-                  cout<<"You can choose your wanted meal."<<endl;
+                  cout << "\nPlease select the meal you'd like to order:" << endl;
                   string meal;
                   cin>>meal;
                   room_servicer.serveFood(meal,res,*tempor);
               }
               else if(choice==3){
-                  cout<<"Welcome to our Amazing Restaurant"<<endl;
+                  cout << "\nWelcome To Our Amazing Restaurant" << endl;
+                  cout << "===================================" << endl;
                   this_thread::sleep_for(chrono::seconds(1));
-                  cout<<"Do you want menu??  (1-Yes or 2-No)"<<endl;
+                  cout << "Would you like to see the menu?" << endl;
+                  cout << " [1] Yes" << endl;
+                  cout << " [2] No" << endl;
+                  cout << "-----------------------------" << endl;
+                  cout << "Enter your selection: ";
+
                   int answer;
                   cin>>answer;
                   if(answer==1){
                       waiter.giveMenu(res);
-                      cout<<"You can choose "<<endl;
+                      cout<<"You can choose: "<<endl;
                       string meal;
                       cin>>meal;
                       waiter.takeOrder(meal, *tempor, res);
@@ -70,7 +88,12 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
                       this_thread::sleep_for(chrono::seconds(3));
                       cout<<"Here is your"<<" "<<meal<<endl;
                       while(true){
-                          cout<<"Do you need something else (1-Yes or 2-No)"<<endl;
+                          cout << "\n=========================" << endl;
+                          cout << " Do you need anything else?" << endl;
+                          cout << " [1] Yes" << endl;
+                          cout << " [2] No" << endl;
+                          cout << "------------------------------" << endl;
+                          cout << "Enter your choice: ";
                           int some;
                           cin>>some;
                           if(some==1){
@@ -82,7 +105,7 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
                               cout<<"Here is your"<<" "<<meal<<endl;
                           }
                           else{
-                              cout<<"Thank for your Visit!!!"<<endl;
+                              cout<<"Thanks For Your Visit!"<<endl;
                               break;
                           }
                       }
@@ -91,7 +114,7 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
               else if(choice==4){
                   reception.checkOut(*tempor,hotel);
                   cout<<"Here is your total expenses during your stay in our hotel: $"<<tempor->getTotalbill()<<endl;
-                  cout<<"Thank you for staying in our hotel!!!"<<endl;
+                  cout<<"Thank you for staying in our hotel!"<<endl;
                   break;
               }else
                   {
