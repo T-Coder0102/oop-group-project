@@ -19,9 +19,13 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
     if(ans==1)
     {
         Client *temp = reception.askInfo(hotel);
-        reception.giveRoomInfo(hotel);
-          reception.bookRoom(hotel,*temp);
-          cout<<"Thank you!"<<endl;
+        if(temp!=nullptr) {
+            reception.giveRoomInfo(hotel);
+            reception.bookRoom(hotel,*temp);
+            cout<<"Thank you!"<<endl;
+        } else {
+            cout<<"Creation failed. Please, try again!"<<endl;
+        }
     }
     if(ans==2)
     {

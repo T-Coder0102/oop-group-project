@@ -9,6 +9,7 @@
 #include "./MemberDirect/Member.h"
 #include <cstdlib>
 #include <ctime>
+using namespace std;
 void managerMain(Hotel& hotel,Manager &boss)
 {
     string defaultUsername="boss",defaultPassword="boss2025";
@@ -39,7 +40,7 @@ void managerMain(Hotel& hotel,Manager &boss)
             string name;
             int age;
             int yearsOfExperience;
-            char gender;
+            string gender;
             double salary;
             string status;
             cout << "\n========= MANAGER OPTIONS =========" << endl;
