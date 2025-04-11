@@ -24,10 +24,12 @@ void managerMain(Hotel& hotel,Manager &boss)
         if(defaultPassword==passWord && defaultUsername==userName)
         {
             authenticated=true;
-            cout<<"Welcome to the Manager Menu"<<endl;
+            cout << "\n==============================" << endl;
+            cout << "     Welcome to Manager Page  " << endl;
+            cout << "==============================" << endl;
             break;
         }
-        cout<<"Wrong password"<<endl;
+        cout<<"Wrong password!"<<endl;
 
     }
     srand(time(0));
@@ -40,21 +42,29 @@ void managerMain(Hotel& hotel,Manager &boss)
             char gender;
             double salary;
             string status;
-            cout<<"What do you want to do?? (1-Hire employee, 2-Fire employee,3-List all the employees,4-Change the salaries of employees',5-Log out)"<<endl;
+            cout << "\n========= MANAGER OPTIONS =========" << endl;
+            cout << " What would you like to do?" << endl;
+            cout << " [1] Hire Employee" << endl;
+            cout << " [2] Fire Employee" << endl;
+            cout << " [3] List All Employees" << endl;
+            cout << " [4] Change Employee Salaries" << endl;
+            cout << " [5] Log Out" << endl;
+            cout << "-----------------------------------" << endl;
+            cout << "\nEnter your choice: ";
             int choice;
             cin>>choice;
             if(choice==1) {
-                cout<<"what is employee's name?"<<endl;
+                cout<<"What is employee's name?"<<endl;
                 cin>>name;
-                cout<<"what is employee's age?"<<endl;
+                cout<<"What is employee's age?"<<endl;
                 cin>>age;
-                cout<<"what is employee's years of experience?"<<endl;
+                cout<<"What is employee's years of experience?"<<endl;
                 cin>>yearsOfExperience;
-                cout<<"what is employee's gender?"<<endl;
+                cout<<"What is employee's gender?"<<endl;
                 cin>>gender;
-                cout<<"what is employee's salary?"<<endl;
+                cout<<"What is employee's salary?"<<endl;
                 cin>>salary;
-                cout<<"what is employee's status?"<<endl;
+                cout<<"What is employee's status?"<<endl;
                 cin>>status;
                 int id=rand()%(age+yearsOfExperience)+1;
                 if(status=="Reception"){
@@ -73,24 +83,31 @@ void managerMain(Hotel& hotel,Manager &boss)
             }
             if (choice==2) {
                 int job;
-                cout<<"Which type of employee do you want fire??(1-Reception,2-RoomServicer,3-Chef,4-Waiter)"<<endl;
+                cout << "\n====== EMPLOYEE TERMINATION MENU ======" << endl;
+                cout << " Select the type of employee to fire:" << endl;
+                cout << " [1] Receptionist" << endl;
+                cout << " [2] Room Servicer" << endl;
+                cout << " [3] Chef" << endl;
+                cout << " [4] Waiter" << endl;
+                cout << "---------------------------------------" << endl;
+                cout << "\nEnter your choice: ";
                 cin>>job;
                 if(job==1) {
                     int count=0;
                     for (int i=0;i<hotel.getMembersList().size();i++) {
                         if (hotel.getMembersList()[i]->getStatus()=="Reception") {
                             cout<<"Name of employee: "<<hotel.getMembersList()[i]->getName()<<endl;
-                            cout<<"Id of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
+                            cout<<"ID of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
                             cout<<endl;
                             count++;
                         }
                     }
-                    cout<<"Which employee do you want to fire??(Enter the ID of employee)"<<endl;
+                    cout<<"Which employee do you want to fire? (Enter the ID of employee)"<<endl;
                     int Id;
                     cin>>Id;
                     if(count<2)
                     {
-                        cout<<"You cannot fire anyone unless you have replacement for that position!!!"<<endl;
+                        cout<<"You cannot fire anyone unless you have replacement for that position!"<<endl;
                     }else
                     {
                         for(int i=0;i<hotel.getMembersList().size();i++) {
@@ -107,17 +124,17 @@ void managerMain(Hotel& hotel,Manager &boss)
                     for (int i=0;i<hotel.getMembersList().size();i++) {
                         if (hotel.getMembersList()[i]->getStatus()=="RoomServicer") {
                             cout<<"Name of employee: "<<hotel.getMembersList()[i]->getName()<<endl;
-                            cout<<"Id of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
+                            cout<<"ID of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
                             cout<<endl;
                             count++;
                         }
                     }
-                    cout<<"Which employee do you want to fire??(Enter the ID of employee)"<<endl;
+                    cout<<"Which employee do you want to fire? (Enter the ID of employee): "<<endl;
                     int Id;
                     cin>>Id;
                     if(count<2)
                     {
-                        cout<<"You cannot fire anyone unless you have replacement for that position!!!"<<endl;
+                        cout<<"You cannot fire anyone unless you have replacement for that position!"<<endl;
                     }else
                     {
                         for(int i=0;i<hotel.getMembersList().size();i++) {
@@ -133,17 +150,17 @@ void managerMain(Hotel& hotel,Manager &boss)
                     for (int i=0;i<hotel.getMembersList().size();i++) {
                         if (hotel.getMembersList()[i]->getStatus()=="Chef") {
                             cout<<"Name of employee: "<<hotel.getMembersList()[i]->getName()<<endl;
-                            cout<<"Id of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
+                            cout<<"ID of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
                             cout<<endl;
                             count++;
                         }
                     }
-                    cout<<"Which employee do you want to fire??(Enter the ID of employee)"<<endl;
+                    cout<<"Which employee do you want to fire ?(Enter the ID of employee): "<<endl;
                     int Id;
                     cin>>Id;
                     if(count<2)
                     {
-                        cout<<"You cannot fire anyone unless you have replacement for that position!!!"<<endl;
+                        cout<<"You cannot fire anyone unless you have replacement for that position!"<<endl;
                     }else
                     {
                         for(int i=0;i<hotel.getMembersList().size();i++) {
@@ -159,7 +176,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                     for (int i=0;i<hotel.getMembersList().size();i++) {
                         if (hotel.getMembersList()[i]->getStatus()=="Waiter") {
                             cout<<"Name of employee: "<<hotel.getMembersList()[i]->getName()<<endl;
-                            cout<<"Id of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
+                            cout<<"ID of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
                             cout<<endl;
                             count++;
                         }
@@ -200,8 +217,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                             cout<<endl;
                         }
                     }
-                    cout<<"Which employee do you want to change the salary of??(Write the ID of employee)"<<endl;
-                    int Id;
+                    cout << " Enter the ID of the employee whose salary you want to change:" << endl;                    int Id;
                     cin>>Id;
                     cout<<"To what amount do you want to change the salary??"<<endl;
                     double newSalary;
@@ -221,8 +237,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                             cout<<endl;
                         }
                     }
-                    cout<<"Which employee do you want to change the salary of??(Write the ID of employee)"<<endl;
-                    int Id;
+                    cout << " Enter the ID of the employee whose salary you want to change:" << endl;                    int Id;
                     cin>>Id;
                     cout<<"To what amount do you want to change the salary??"<<endl;
                     double newSalary;
@@ -241,8 +256,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                             cout<<endl;
                         }
                     }
-                    cout<<"Which employee do you want to change the salary of??(Write the ID of employee)"<<endl;
-                    int Id;
+                    cout << " Enter the ID of the employee whose salary you want to change:" << endl;                    int Id;
                     cin>>Id;
                     cout<<"To what amount do you want to change the salary??"<<endl;
                     double newSalary;
@@ -261,8 +275,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                             cout<<endl;
                         }
                     }
-                    cout<<"Which employee do you want to change the salary of??(Write the ID of employee)"<<endl;
-                    int Id;
+                    cout << " Enter the ID of the employee whose salary you want to change:" << endl;                    int Id;
                     cin>>Id;
                     cout<<"To what amount do you want to change the salary??"<<endl;
                     double newSalary;

@@ -61,29 +61,38 @@ for(int i = 1; i <= 50; i++)
     boss->addMember(*boss,myHotel);
     boss->addMember(*waiter,myHotel);
     while (true) {
-        cout << "======================================" << endl;
-        cout << "        Welcome to Our System " << endl;
-        cout << "--------------------------------------" << endl;
-        cout<<"Please select your position: "<<endl;
-        cout << "1. Client" << endl;
-        cout << "2. Manager" << endl;
-        cout << "--------------------------------------" << endl;
-        cout << "Enter the number of your choice: ";
+        cout << "\n==========================================" << endl;
+        cout << "         WELCOME TO OUR SYSTEM            " << endl;
+        cout << "==========================================" << endl;
+        cout << "               MAIN MENU                  " << endl;
+        cout << "------------------------------------------" << endl;
+        cout << " Please select your position:             " << endl;
+        cout << "                                          " << endl;
+        cout << "   [1] Client                             " << endl;
+        cout << "   [2] Manager                            " << endl;
+        cout << "   [Any other keys to Exit]               " << endl;
+        cout << "------------------------------------------" << endl;
+        cout << " Enter the number of your choice: ";
+
         int input;
-        cin>>input;
-        cout << "--------------------------------------" << endl;
-        if(input==1) {
-            cout<<"You selected Client "<<endl;
-            cmain(*reception,myHotel,*roomServicer,myRes, *waiter);
+        cin >> input;
+
+        cout << "------------------------------------------" << endl;
+
+        if (input == 1) {
+            cout << "\nYou selected: Client" << endl;
+            cmain(*reception, myHotel, *roomServicer, myRes, *waiter);
         }
-        else if(input==2) {
-            cout<<"You selected Manager "<<endl;
-            managerMain(myHotel,*boss);
+        else if (input == 2) {
+            cout << "\nYou selected: Manager" << endl;
+            managerMain(myHotel, *boss);
         }
         else {
+            cout << "\nExiting the system. Goodbye!" << endl;
             break;
         }
     }
+
 
 
 
