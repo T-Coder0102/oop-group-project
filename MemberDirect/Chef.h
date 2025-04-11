@@ -8,7 +8,7 @@ using namespace std;
 
 class Chef:public Member {
     public:
-    Chef(string name,int age,int yearsOfExperience,int ID,char gender,string status,double salary);
+    Chef(string name,int age,int yearsOfExperience,int ID,string gender,string status,double salary);
 
     void addMeal(Meal* meal,Restaurant &restaurant);
     void removeMeal(string meal,Restaurant &restaurant);

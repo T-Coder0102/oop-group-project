@@ -7,7 +7,7 @@
 class Reception : public Member {
 private:
     public:
-    Reception(string name,int age,int yearsOfExperience,int ID,char gender,string status,double salary );
+    Reception(string name,int age,int yearsOfExperience,int ID,string gender,string status,double salary );
     void giveRoomInfo(Hotel &hotel);
     Client * askInfo(Hotel &hotel);
     void checkOut(Client &client,Hotel &hotel);

@@ -7,7 +7,7 @@
 #include "../Hotel.h"
 class RoomService : public Member {
     public:
-    RoomService(string name,int age,int yearsOfExperience,int ID,char gender,string status,double salary);
+    RoomService(string name,int age,int yearsOfExperience,int ID,string gender,string status,double salary);
     void cleanRoom(int id,Hotel hotel);
     void serveFood(string meal,Restaurant &restaurant,Client &client);
     void giveMenu(Restaurant &res);

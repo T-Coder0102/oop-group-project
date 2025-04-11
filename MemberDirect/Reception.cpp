@@ -2,13 +2,13 @@
 #include <ctime>
 #include <cstdlib>
 
-Reception::Reception(string name, int age, int yearsOfExperience, int ID, char gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
+Reception::Reception(string name, int age, int yearsOfExperience, int ID, string gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
 {
 }
 
 Client * Reception::askInfo(Hotel &hotel) {
     srand(time(0));
-    string name,userName,userPassword;int age;char gender;
+    string name,userName,userPassword;int age;string gender;
     cout<<"What is your name:"<<endl;
     cin>>name;
     cout<<"What is your age:"<<endl;

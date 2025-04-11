@@ -2,7 +2,7 @@
 
 #include "MemberDirect/Member.h"
 
-Client::Client(string name, int age,char gender,int clientId,string userName,string userPassword) {
+Client::Client(string name, int age,string gender,int clientId,string userName,string userPassword) {
     this->name = name;
     this->age = age;
     this->gender = gender;
@@ -20,9 +20,7 @@ double Client::getTotalbill() {
  int Client::getRoomID() {
     return roomId;
 }
-const char Client::getGender() {
-    return gender;
-}
+
 const int Client::getAge() {
     return age;
 }

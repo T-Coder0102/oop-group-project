@@ -1,5 +1,5 @@
 #include "Member.h"
-Member::Member(string name, int age, int yearsOfExperience,int ID, char gender,string status,double salary) {
+Member::Member(string name, int age, int yearsOfExperience,int ID, string gender,string status,double salary) {
     this->name = name;
     this->age = age;
     this->yearsOfExperience = yearsOfExperience;
@@ -32,15 +32,8 @@ int Member::getID() {
 void Member::setID(int ID) {
     this->ID = ID;
 }
-char Member::getGender() {
-    return gender;
-}
-void Member::setGender(char gender) {
-    this->gender = gender;
-}
-double Member::getSalary() {
-    return salary;
-}
+
+
 void Member::setSalary(double salary) {
     this->salary = salary;
 }
@@ -49,6 +42,10 @@ string Member::getStatus() {
 }
 void Member::setStatus(string status) {
     this->status = status;
+}
+double Member::getSalary()
+{
+    return salary;
 }
 
 

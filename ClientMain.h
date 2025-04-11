@@ -18,7 +18,6 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
         reception.giveRoomInfo(hotel);
           reception.bookRoom(hotel,*temp);
           cout<<"Thank you!"<<endl;
-        temp->getGender();
     }
     if(ans==2)
     {

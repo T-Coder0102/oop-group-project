@@ -9,12 +9,11 @@ using namespace std;
 
 class Client {
     public:
-    Client(string name,int age,char gender,int clientId,string userName,string userPassword);
+    Client(string name,int age,string gender,int clientId,string userName,string userPassword);
     const int getID();
     double getTotalbill();
     const string getName();
     const int getAge();
-    const char getGender();
     int getRoomID();
     void setRoomId(int roomId);
     void setTotalbill(double bill);
@@ -29,7 +28,7 @@ class Client {
 private:
     string name;
     int age;
-    char gender;
+    string gender;
     int clientId=0;
     int roomId;
     double calTotalbill=0;

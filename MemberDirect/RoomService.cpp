@@ -4,7 +4,7 @@
 #include <thread>
 
 #include "../Restaurant.h"
-RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, char gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
+RoomService::RoomService(string name, int age, int yearsOfExperience, int ID, string gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
 {
 
 }

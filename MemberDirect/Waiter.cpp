@@ -1,6 +1,6 @@
 #include "Waiter.h"
 #include "../Restaurant.h"
-Waiter::Waiter(string name, int age, int yearsOfExperience, int ID, char gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
+Waiter::Waiter(string name, int age, int yearsOfExperience, int ID, string gender,string status,double salary):Member(name,age,yearsOfExperience,ID,gender,status,salary)
 {
 }
 void Waiter::takeOrder(string meal,Client &client,Restaurant &res)

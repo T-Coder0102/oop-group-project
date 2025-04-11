@@ -37,7 +37,7 @@ void managerMain(Hotel& hotel,Manager &boss)
             string name;
             int age;
             int yearsOfExperience;
-            char gender;
+            string gender;
             double salary;
             string status;
             cout<<"What do you want to do?? (1-Hire employee, 2-Fire employee,3-List all the employees,4-Change the salaries of employees',5-Log out)"<<endl;
@@ -48,6 +48,11 @@ void managerMain(Hotel& hotel,Manager &boss)
                 cin>>name;
                 cout<<"what is employee's age?"<<endl;
                 cin>>age;
+                if(age<0)
+                {
+                    cout<<"wrong input"<<endl;
+                    continue;
+                }
                 cout<<"what is employee's years of experience?"<<endl;
                 cin>>yearsOfExperience;
                 cout<<"what is employee's gender?"<<endl;
