@@ -33,6 +33,8 @@ void RoomService::serveFood(string meal, Restaurant &restaurant,Client &client)
         {
             cout<<"OK, your order will be delivered in a few minutes."<<endl;
             client.setTotalbill(a->getPrice());
+            this_thread::sleep_for(chrono::seconds(2));
+            cout<<"Your order has been delivered"<<endl;
             return;
         }
     }

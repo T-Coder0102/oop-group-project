@@ -55,14 +55,22 @@ void managerMain(Hotel& hotel,Manager &boss)
             int choice;
             cin>>choice;
             if(choice==1) {
+                cout << "\n========= Hiring =========" << endl;
                 cout<<"What is employee's name?"<<endl;
                 cin>>name;
-                cout<<"What is employee's age?"<<endl;
-                cin>>age;
+                while (age<18) {
+                    cout<<"What is employee's age?"<<endl;
+                    cin>>age;
+                }
                 cout<<"What is employee's years of experience?"<<endl;
                 cin>>yearsOfExperience;
-                cout<<"What is employee's gender?"<<endl;
-                cin>>gender;
+                while (true) {
+                    cout<<"What is your gender(M 0r F):"<<endl;
+                    cin>>gender;
+                    if (gender=="M"||gender=="F") {
+                        break;
+                    }
+                }
                 cout<<"What is employee's salary?"<<endl;
                 cin>>salary;
                 cout<<"What is employee's status?"<<endl;
@@ -81,6 +89,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                     Waiter *waiter= new Waiter(name,age,yearsOfExperience,id,gender,status,salary);
                     boss.addMember(*waiter,hotel);
                 }
+                cout << "-----------------------------------" << endl;
             }
             if (choice==2) {
                 int job;
@@ -90,6 +99,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                 cout << " [2] Room Servicer" << endl;
                 cout << " [3] Chef" << endl;
                 cout << " [4] Waiter" << endl;
+                cout << " [5] Changed-mind" << endl;
                 cout << "---------------------------------------" << endl;
                 cout << "\nEnter your choice: ";
                 cin>>job;
@@ -99,6 +109,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                         if (hotel.getMembersList()[i]->getStatus()=="Reception") {
                             cout<<"Name of employee: "<<hotel.getMembersList()[i]->getName()<<endl;
                             cout<<"ID of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
+                            cout<<"Salary of employee: "<<hotel.getMembersList()[i]->getSalary()<<endl;
                             cout<<endl;
                             count++;
                         }
@@ -126,6 +137,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                         if (hotel.getMembersList()[i]->getStatus()=="RoomServicer") {
                             cout<<"Name of employee: "<<hotel.getMembersList()[i]->getName()<<endl;
                             cout<<"ID of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
+                            cout<<"Salary of employee: "<<hotel.getMembersList()[i]->getSalary()<<endl;
                             cout<<endl;
                             count++;
                         }
@@ -152,6 +164,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                         if (hotel.getMembersList()[i]->getStatus()=="Chef") {
                             cout<<"Name of employee: "<<hotel.getMembersList()[i]->getName()<<endl;
                             cout<<"ID of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
+                            cout<<"Salary of employee: "<<hotel.getMembersList()[i]->getSalary()<<endl;
                             cout<<endl;
                             count++;
                         }
@@ -178,6 +191,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                         if (hotel.getMembersList()[i]->getStatus()=="Waiter") {
                             cout<<"Name of employee: "<<hotel.getMembersList()[i]->getName()<<endl;
                             cout<<"ID of employee: "<<hotel.getMembersList()[i]->getID()<<endl;
+                            cout<<"Salary of employee: "<<hotel.getMembersList()[i]->getSalary()<<endl;
                             cout<<endl;
                             count++;
                         }
@@ -198,12 +212,18 @@ void managerMain(Hotel& hotel,Manager &boss)
                         }
                     }
                 }
+                if (job==5) {
+                    continue;
+                }
             }
             if (choice==3) {
+                cout << "\n====== EMPLOYEE  MENU ======" << endl;
                 boss.displayMembers(hotel);
+                cout<<"---------------------------------------" << endl;
             }
             if(choice==4)
             {
+                cout << "\n====== SALARY CHANGING ======" << endl;
                 cout<<"Which type of employee do you want to change the salaries of ??(1-Reception,2-RoomServicer,3-Chef,4-Waiter)"<<endl;
                 int type;
                 cin>>type;
@@ -284,6 +304,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                     cout<<"You have changed the salary of employee to : $"<<newSalary<<endl;
                     boss.setEmployeeSalary(newSalary,Id,hotel);
                 }
+                cout<<"---------------------------------------" << endl;
             }
             if(choice==5)
             {
