@@ -42,7 +42,8 @@ void managerMain(Hotel& hotel,Manager &boss)
             int yearsOfExperience;
             string gender;
             double salary;
-            string status;
+            int status;
+            string stat[4]={"Reception","Chef","RoomServicer","Waiter"};
             cout << "\n========= MANAGER OPTIONS =========" << endl;
             cout << " What would you like to do?" << endl;
             cout << " [1] Hire Employee" << endl;
@@ -58,36 +59,75 @@ void managerMain(Hotel& hotel,Manager &boss)
                 cout << "\n========= Hiring =========" << endl;
                 cout<<"What is employee's name?"<<endl;
                 cin>>name;
-                while (age<18) {
-                    cout<<"What is employee's age?"<<endl;
-                    cin>>age;
-                }
-                cout<<"What is employee's years of experience?"<<endl;
-                cin>>yearsOfExperience;
-                while (true) {
-                    cout<<"What is your gender(M 0r F):"<<endl;
-                    cin>>gender;
-                    if (gender=="M"||gender=="F") {
+                while (age < 18) {
+                    cout << "What is employee's age?" << endl;
+                    cin >> age;
+                     if (cin.fail()) {
+                        cin.clear();
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        cout << "Invalid input for years of experience. Please enter a valid number." << endl;
+                    }
+                    else if (age < 18) {
+                        cout << "Employee must be at least 18 years old. Please enter again." << endl;
+                    }
+                    else {
                         break;
                     }
                 }
-                cout<<"What is employee's salary?"<<endl;
-                cin>>salary;
+                while (true) {
+                    cout<<"What is employee's years of experience?"<<endl;
+                    cin >> yearsOfExperience;
+                    if (cin.fail()) {
+                        cin.clear();
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        cout << "Invalid input for years of experience. Please enter a valid number." << endl;
+                    } else {
+                        break;
+                    }
+                }
+                while (true) {
+                    cout << "What is your gender (M or F):" << endl;
+                    cin >> gender;
+                    if (gender == "M" || gender == "F") {
+                        break;
+                    } else {
+                        cout << "Invalid gender input. Please enter 'M' or 'F'." << endl;
+                    }
+                }
+                while (true) {
+                    cout<<"What is employee's salary?"<<endl;
+                    cin>>salary;
+                    if (cin.fail()) {
+                        cin.clear();
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        cout << "Invalid input for years of experience. Please enter a valid number." << endl;
+                    } else {
+                        break;
+                    }
+                }
                 cout<<"What is employee's status?"<<endl;
+                cout<<"[1]Reception"<<endl;
+                cout<<"[2]Chef"<<endl;
+                cout<<"[3]RoomService"<<endl;
+                cout<<"[4]Waiter"<<endl;
                 cin>>status;
                 int id=rand()%(age+yearsOfExperience)+1;
-                if(status=="Reception"){
-                    Reception *reception = new Reception(name,age,yearsOfExperience,id,gender,status,salary);
+                if(status==1){
+                    Reception *reception = new Reception(name,age,yearsOfExperience,id,gender,stat[status-1],salary);
                     boss.addMember(*reception,hotel);
-                }if(status=="Chef"){
-                    Chef *chef = new Chef(name,age,yearsOfExperience,id,gender,status,salary);
+                    age=0;
+                }if(status==2){
+                    Chef *chef = new Chef(name,age,yearsOfExperience,id,gender,stat[status-1],salary);
                     boss.addMember(*chef,hotel);
-                }if(status=="RoomServicer"){
-                    RoomService* roomservicer= new RoomService(name,age,yearsOfExperience,id,gender,status,salary);
+                    age=0;
+                }if(status==3){
+                    RoomService* roomservicer= new RoomService(name,age,yearsOfExperience,id,gender,stat[status-1],salary);
                     boss.addMember(*roomservicer,hotel);
-                } if(status=="Waiter"){
-                    Waiter *waiter= new Waiter(name,age,yearsOfExperience,id,gender,status,salary);
+                    age=0;
+                } if(status==4){
+                    Waiter *waiter= new Waiter(name,age,yearsOfExperience,id,gender,stat[status-1],salary);
                     boss.addMember(*waiter,hotel);
+                    age=0;
                 }
                 cout << "-----------------------------------" << endl;
             }
@@ -196,7 +236,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                             count++;
                         }
                     }
-                    cout<<"Which employee do you want to fire??(Enter the ID of employee)"<<endl;
+                    cout<<"Which employee do you want to fire ?(Enter the ID of employee)"<<endl;
                     int Id;
                     cin>>Id;
                     if(count<2)
@@ -220,11 +260,12 @@ void managerMain(Hotel& hotel,Manager &boss)
                 cout << "\n====== EMPLOYEE  MENU ======" << endl;
                 boss.displayMembers(hotel);
                 cout<<"---------------------------------------" << endl;
+                this_thread::sleep_for(chrono::seconds(5));
             }
             if(choice==4)
             {
                 cout << "\n====== SALARY CHANGING ======" << endl;
-                cout<<"Which type of employee do you want to change the salaries of ??(1-Reception,2-RoomServicer,3-Chef,4-Waiter)"<<endl;
+                cout<<"Which type of employee do you want to change the salaries of ?(1-Reception,2-RoomServicer,3-Chef,4-Waiter)"<<endl;
                 int type;
                 cin>>type;
                 if(type==1)

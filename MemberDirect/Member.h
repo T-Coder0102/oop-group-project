@@ -20,6 +20,7 @@ class Member {
     void displayInfo();
     void setStatus(string status);
     string getStatus();
+    string getGender();
     private:
     string name;
     int age;

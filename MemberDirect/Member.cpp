@@ -47,6 +47,9 @@ double Member::getSalary()
 {
     return salary;
 }
+string Member::getGender() {
+    return gender;
+}
 
 
 void Member::displayInfo() {
