@@ -11,27 +11,30 @@ Client * Reception::askInfo(Hotel &hotel) {
     string name,userName,userPassword;int age;string gender;
     cout<<"What is your name:"<<endl;
     cin>>name;
-    while (age<18) {
+    while(1)
+    {
         cout<<"What is your age:"<<endl;
         cin>>age;
+        if(age>=18)break;
+        cin.ignore();
+        cout<<"Guest should be at least 18 years old"<<endl;
     }
-    while (true) {
-        cout<<"What is your gender(M 0r F):"<<endl;
+    while(1)
+    {
+        cout<<"What is your gender(M or F):"<<endl;
         cin>>gender;
-        if (gender=="M"||gender=="F") {
-            break;
-        }
+        if(gender=="M" || gender=="F" || gender=="m" || gender=="f")break;
+        cout<<"Acceptable genders are only M or F"<<endl;
     }
     cout<<"Create an username for your account:"<<endl;
     cin>>userName;
     cout<<"Enter your password:"<<endl;
     cin>>userPassword;
     int id=1000+rand()%1000;
-
-        Client *c = new Client(name,age,gender,id,userName,userPassword);
-        hotel.addClientsToList(c);
-        cout<<"Thank you for your information"<<endl;
-        return c;
+    Client *c = new Client(name,age,gender,id,userName,userPassword);
+    hotel.addClientsToList(c);
+    cout<<"Thank you for your information"<<endl;
+    return c;
 }
 void Reception::giveRoomInfo(Hotel &hotel) {
     cout<<"The list of free rooms:"<<endl;
@@ -49,16 +52,34 @@ void Reception::giveRoomInfo(Hotel &hotel) {
     }
     cout<<"The total number of standart rooms:"<<standart<<endl;
     cout<<"The price of standart room for a night is: "<<"$300"<<endl;
+    cout<<endl;
     cout<<"The total number of lux rooms:"<<lux<<endl;
     cout<<"The price of lux room for a night is $700"<<endl;
+    cout<<endl;
     cout<<"The total numbers of VIP rooms:"<<vip<<endl;
     cout<<"The price of VIP room for a night is $1000"<<endl;
+    cout<<endl;
 }
 void Reception::bookRoom(Hotel &hotel,Client &client) {
     string type;
+    int choice;
     while (true) {
-        cout<<"What kind room are you looking for? (Standart, Lux, VIP)"<<endl;
-        cin>>type;
+        cout<<"What kind room are you looking for?"<<endl;
+        cout<<"[1]-Standard"<<endl;
+        cout<<"[2]-Lux"<<endl;
+        cout<<"[3]-VIP"<<endl;
+        cin>>choice;
+        if(choice==1)
+        {
+            type="Standart";
+        }else if(choice==2)
+        {
+            type="Lux";
+        }
+        else
+        {
+            type="VIP";
+        }
         if (type=="Standart" || type=="Lux" || type=="VIP") {
             for (int i=0;i<hotel.getFreeRoomsList().size();i++) {
                 if (hotel.getFreeRoomsList()[i]->getStatus()==type) {

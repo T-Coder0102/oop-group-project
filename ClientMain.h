@@ -5,17 +5,24 @@
 void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaurant &res, Waiter &waiter){
   while(1)
   {
-      cout << "\n---------- Client Page ----------" << endl;
-      cout << "  1. Register" << endl;
-      cout << "  2. Login" << endl;
-      cout << "  3. Logout" << endl;
-      cout << "-------------------------------" << endl;
-      cout << "  Enter your choice: ";
+
 
     bool authenticated=false;
-      Client* tempor;
+    Client* tempor;
     int ans;
-    cin>>ans;
+    while(true)
+      {
+          cout << "\n---------- Client Page ----------" << endl;
+          cout << "  1. Register" << endl;
+          cout << "  2. Login" << endl;
+          cout << "  3. Logout" << endl;
+          cout << "-------------------------------" << endl;
+          cout << "  Enter your choice: ";
+          cin >> ans;
+          if(ans==1 || ans==2 || ans==3)break;
+          cin.ignore();
+          cout<<"Wrong input!!"<<endl;
+      }
     if(ans==1)
     {
         Client *temp = reception.askInfo(hotel);
@@ -122,7 +129,8 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
                   cout<<"Here is your total expenses during your stay in our hotel: $"<<tempor->getTotalbill()<<endl;
                   cout<<"Thank you for staying in our hotel!"<<endl;
                   break;
-              }else
+              }
+              else
                   {
                   break;
                   }

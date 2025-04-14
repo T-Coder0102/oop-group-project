@@ -59,7 +59,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                 cout << "\n========= Hiring =========" << endl;
                 cout<<"What is employee's name?"<<endl;
                 cin>>name;
-                while (age < 18) {
+                while (true) {
                     cout << "What is employee's age?" << endl;
                     cin >> age;
                      if (cin.fail()) {
