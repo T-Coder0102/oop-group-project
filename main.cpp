@@ -17,7 +17,7 @@ int main() {
    //  // Create a hotel instance
     Hotel myHotel;
     Restaurant myRes;
-    Manager *boss=new Manager("Oybek",18,0,232,"M","Manager",5000);
+    Manager *boss=new Manager("Oybek",18,0,232,"M","Manager",5000,"boss","boss2025");
 
 for(int i = 1; i <= 50; i++)
 {

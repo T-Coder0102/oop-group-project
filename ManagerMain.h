@@ -12,7 +12,8 @@
 using namespace std;
 void managerMain(Hotel& hotel,Manager &boss)
 {
-    string defaultUsername="boss",defaultPassword="boss2025";
+    string defaultUsername=boss.getUserName();
+    string defaultPassword=boss.getPassword();
     bool authenticated=false;
     string userName;
     string passWord;
@@ -49,8 +50,10 @@ void managerMain(Hotel& hotel,Manager &boss)
             cout << " [1] Hire Employee" << endl;
             cout << " [2] Fire Employee" << endl;
             cout << " [3] List All Employees" << endl;
-            cout << " [4] Change Employee Salaries" << endl;
-            cout << " [5] Log Out" << endl;
+            cout << " [4] List All Employees" << endl;
+            cout << " [5] Change Employee Salaries" << endl;
+            cout << " [6] Change password" << endl;
+            cout << " [7] Log Out" << endl;
             cout << "-----------------------------------" << endl;
             cout << "\nEnter your choice: ";
             int choice;
@@ -260,9 +263,14 @@ void managerMain(Hotel& hotel,Manager &boss)
                 cout << "\n====== EMPLOYEE  MENU ======" << endl;
                 boss.displayMembers(hotel);
                 cout<<"---------------------------------------" << endl;
-                this_thread::sleep_for(chrono::seconds(5));
             }
             if(choice==4)
+            {
+                cout << "\n====== CLIENTS  MENU ======" << endl;
+                boss.displayClients(hotel);
+                cout<<"----------------------------------------" << endl;
+            }
+            if(choice==5)
             {
                 cout << "\n====== SALARY CHANGING ======" << endl;
                 cout<<"Which type of employee do you want to change the salaries of ?(1-Reception,2-RoomServicer,3-Chef,4-Waiter)"<<endl;
@@ -347,7 +355,17 @@ void managerMain(Hotel& hotel,Manager &boss)
                 }
                 cout<<"---------------------------------------" << endl;
             }
-            if(choice==5)
+            if (choice==6)
+            {
+                string newPass;string newUser;
+                cout<<"Enter new username:"<<endl;
+                cin>>newUser;
+                cout<<"Enter new password:"<<endl;
+                cin>>newPass;
+                boss.setUserName(newUser);
+                boss.setPassword(newPass);
+            }
+            if(choice==7)
             {
                 break;
             }
