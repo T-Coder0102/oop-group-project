@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\IT Installations\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\IT Installations\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\IT files\L_assignments\oop-group-project"
+CMAKE_SOURCE_DIR = C:\Users\Asus\CLionProjects\oop-group-project1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\IT files\L_assignments\oop-group-project\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/oop-group-project.dir/depend.make
@@ -69,158 +69,158 @@ include CMakeFiles/oop-group-project.dir/progress.make
 include CMakeFiles/oop-group-project.dir/flags.make
 
 CMakeFiles/oop-group-project.dir/main.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/main.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/main.cpp
+CMakeFiles/oop-group-project.dir/main.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/main.cpp
 CMakeFiles/oop-group-project.dir/main.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop-group-project.dir/main.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/main.cpp.obj -MF CMakeFiles\oop-group-project.dir\main.cpp.obj.d -o CMakeFiles\oop-group-project.dir\main.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop-group-project.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/main.cpp.obj -MF CMakeFiles\oop-group-project.dir\main.cpp.obj.d -o CMakeFiles\oop-group-project.dir\main.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\main.cpp
 
 CMakeFiles/oop-group-project.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/main.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\main.cpp" > CMakeFiles\oop-group-project.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\main.cpp > CMakeFiles\oop-group-project.dir\main.cpp.i
 
 CMakeFiles/oop-group-project.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/main.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\main.cpp" -o CMakeFiles\oop-group-project.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\main.cpp -o CMakeFiles\oop-group-project.dir\main.cpp.s
 
 CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/RoomDirect/Room.cpp
+CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/RoomDirect/Room.cpp
 CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj -MF CMakeFiles\oop-group-project.dir\RoomDirect\Room.cpp.obj.d -o CMakeFiles\oop-group-project.dir\RoomDirect\Room.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\RoomDirect\Room.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj -MF CMakeFiles\oop-group-project.dir\RoomDirect\Room.cpp.obj.d -o CMakeFiles\oop-group-project.dir\RoomDirect\Room.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\RoomDirect\Room.cpp
 
 CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\RoomDirect\Room.cpp" > CMakeFiles\oop-group-project.dir\RoomDirect\Room.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\RoomDirect\Room.cpp > CMakeFiles\oop-group-project.dir\RoomDirect\Room.cpp.i
 
 CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\RoomDirect\Room.cpp" -o CMakeFiles\oop-group-project.dir\RoomDirect\Room.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\RoomDirect\Room.cpp -o CMakeFiles\oop-group-project.dir\RoomDirect\Room.cpp.s
 
 CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/Restaurant.cpp
+CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/Restaurant.cpp
 CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj -MF CMakeFiles\oop-group-project.dir\Restaurant.cpp.obj.d -o CMakeFiles\oop-group-project.dir\Restaurant.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\Restaurant.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj -MF CMakeFiles\oop-group-project.dir\Restaurant.cpp.obj.d -o CMakeFiles\oop-group-project.dir\Restaurant.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\Restaurant.cpp
 
 CMakeFiles/oop-group-project.dir/Restaurant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/Restaurant.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\Restaurant.cpp" > CMakeFiles\oop-group-project.dir\Restaurant.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\Restaurant.cpp > CMakeFiles\oop-group-project.dir\Restaurant.cpp.i
 
 CMakeFiles/oop-group-project.dir/Restaurant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/Restaurant.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\Restaurant.cpp" -o CMakeFiles\oop-group-project.dir\Restaurant.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\Restaurant.cpp -o CMakeFiles\oop-group-project.dir\Restaurant.cpp.s
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Member.cpp
+CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/Member.cpp
 CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\Member.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\Member.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\MemberDirect\Member.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\Member.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\Member.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Member.cpp
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\MemberDirect\Member.cpp" > CMakeFiles\oop-group-project.dir\MemberDirect\Member.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Member.cpp > CMakeFiles\oop-group-project.dir\MemberDirect\Member.cpp.i
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\MemberDirect\Member.cpp" -o CMakeFiles\oop-group-project.dir\MemberDirect\Member.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Member.cpp -o CMakeFiles\oop-group-project.dir\MemberDirect\Member.cpp.s
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Manager.cpp
+CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/Manager.cpp
 CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\Manager.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\Manager.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\MemberDirect\Manager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\Manager.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\Manager.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Manager.cpp
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\MemberDirect\Manager.cpp" > CMakeFiles\oop-group-project.dir\MemberDirect\Manager.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Manager.cpp > CMakeFiles\oop-group-project.dir\MemberDirect\Manager.cpp.i
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\MemberDirect\Manager.cpp" -o CMakeFiles\oop-group-project.dir\MemberDirect\Manager.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Manager.cpp -o CMakeFiles\oop-group-project.dir\MemberDirect\Manager.cpp.s
 
 CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/MemberDirect/RoomService.cpp
+CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/RoomService.cpp
 CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\RoomService.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\RoomService.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\MemberDirect\RoomService.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\RoomService.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\RoomService.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\RoomService.cpp
 
 CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\MemberDirect\RoomService.cpp" > CMakeFiles\oop-group-project.dir\MemberDirect\RoomService.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\RoomService.cpp > CMakeFiles\oop-group-project.dir\MemberDirect\RoomService.cpp.i
 
 CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\MemberDirect\RoomService.cpp" -o CMakeFiles\oop-group-project.dir\MemberDirect\RoomService.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\RoomService.cpp -o CMakeFiles\oop-group-project.dir\MemberDirect\RoomService.cpp.s
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Waiter.cpp
+CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/Waiter.cpp
 CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\Waiter.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\Waiter.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\MemberDirect\Waiter.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\Waiter.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\Waiter.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Waiter.cpp
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\MemberDirect\Waiter.cpp" > CMakeFiles\oop-group-project.dir\MemberDirect\Waiter.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Waiter.cpp > CMakeFiles\oop-group-project.dir\MemberDirect\Waiter.cpp.i
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\MemberDirect\Waiter.cpp" -o CMakeFiles\oop-group-project.dir\MemberDirect\Waiter.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Waiter.cpp -o CMakeFiles\oop-group-project.dir\MemberDirect\Waiter.cpp.s
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Reception.cpp
+CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/Reception.cpp
 CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\Reception.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\Reception.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\MemberDirect\Reception.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\Reception.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\Reception.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Reception.cpp
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\MemberDirect\Reception.cpp" > CMakeFiles\oop-group-project.dir\MemberDirect\Reception.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Reception.cpp > CMakeFiles\oop-group-project.dir\MemberDirect\Reception.cpp.i
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\MemberDirect\Reception.cpp" -o CMakeFiles\oop-group-project.dir\MemberDirect\Reception.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Reception.cpp -o CMakeFiles\oop-group-project.dir\MemberDirect\Reception.cpp.s
 
 CMakeFiles/oop-group-project.dir/Client.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/Client.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/Client.cpp
+CMakeFiles/oop-group-project.dir/Client.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/Client.cpp
 CMakeFiles/oop-group-project.dir/Client.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oop-group-project.dir/Client.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/Client.cpp.obj -MF CMakeFiles\oop-group-project.dir\Client.cpp.obj.d -o CMakeFiles\oop-group-project.dir\Client.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\Client.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oop-group-project.dir/Client.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/Client.cpp.obj -MF CMakeFiles\oop-group-project.dir\Client.cpp.obj.d -o CMakeFiles\oop-group-project.dir\Client.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\Client.cpp
 
 CMakeFiles/oop-group-project.dir/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/Client.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\Client.cpp" > CMakeFiles\oop-group-project.dir\Client.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\Client.cpp > CMakeFiles\oop-group-project.dir\Client.cpp.i
 
 CMakeFiles/oop-group-project.dir/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/Client.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\Client.cpp" -o CMakeFiles\oop-group-project.dir\Client.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\Client.cpp -o CMakeFiles\oop-group-project.dir\Client.cpp.s
 
 CMakeFiles/oop-group-project.dir/Hotel.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/Hotel.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/Hotel.cpp
+CMakeFiles/oop-group-project.dir/Hotel.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/Hotel.cpp
 CMakeFiles/oop-group-project.dir/Hotel.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oop-group-project.dir/Hotel.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/Hotel.cpp.obj -MF CMakeFiles\oop-group-project.dir\Hotel.cpp.obj.d -o CMakeFiles\oop-group-project.dir\Hotel.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\Hotel.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oop-group-project.dir/Hotel.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/Hotel.cpp.obj -MF CMakeFiles\oop-group-project.dir\Hotel.cpp.obj.d -o CMakeFiles\oop-group-project.dir\Hotel.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\Hotel.cpp
 
 CMakeFiles/oop-group-project.dir/Hotel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/Hotel.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\Hotel.cpp" > CMakeFiles\oop-group-project.dir\Hotel.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\Hotel.cpp > CMakeFiles\oop-group-project.dir\Hotel.cpp.i
 
 CMakeFiles/oop-group-project.dir/Hotel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/Hotel.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\Hotel.cpp" -o CMakeFiles\oop-group-project.dir\Hotel.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\Hotel.cpp -o CMakeFiles\oop-group-project.dir\Hotel.cpp.s
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
-CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/MemberDirect/Chef.cpp
+CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj: C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/Chef.cpp
 CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\Chef.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\Chef.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\MemberDirect\Chef.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj -MF CMakeFiles\oop-group-project.dir\MemberDirect\Chef.cpp.obj.d -o CMakeFiles\oop-group-project.dir\MemberDirect\Chef.cpp.obj -c C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Chef.cpp
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.i"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\MemberDirect\Chef.cpp" > CMakeFiles\oop-group-project.dir\MemberDirect\Chef.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Chef.cpp > CMakeFiles\oop-group-project.dir\MemberDirect\Chef.cpp.i
 
 CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.s"
-	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\MemberDirect\Chef.cpp" -o CMakeFiles\oop-group-project.dir\MemberDirect\Chef.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Asus\CLionProjects\oop-group-project1\MemberDirect\Chef.cpp -o CMakeFiles\oop-group-project.dir\MemberDirect\Chef.cpp.s
 
 # Object files for target oop-group-project
 oop__group__project_OBJECTS = \
@@ -254,7 +254,7 @@ oop-group-project.exe: CMakeFiles/oop-group-project.dir/build.make
 oop-group-project.exe: CMakeFiles/oop-group-project.dir/linkLibs.rsp
 oop-group-project.exe: CMakeFiles/oop-group-project.dir/objects1.rsp
 oop-group-project.exe: CMakeFiles/oop-group-project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable oop-group-project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable oop-group-project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\oop-group-project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -266,6 +266,6 @@ CMakeFiles/oop-group-project.dir/clean:
 .PHONY : CMakeFiles/oop-group-project.dir/clean
 
 CMakeFiles/oop-group-project.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\IT files\L_assignments\oop-group-project" "D:\IT files\L_assignments\oop-group-project" "D:\IT files\L_assignments\oop-group-project\cmake-build-debug" "D:\IT files\L_assignments\oop-group-project\cmake-build-debug" "D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles\oop-group-project.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Asus\CLionProjects\oop-group-project1 C:\Users\Asus\CLionProjects\oop-group-project1 C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug C:\Users\Asus\CLionProjects\oop-group-project1\cmake-build-debug\CMakeFiles\oop-group-project.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/oop-group-project.dir/depend
 
