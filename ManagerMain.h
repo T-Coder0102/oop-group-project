@@ -50,7 +50,7 @@ void managerMain(Hotel& hotel,Manager &boss)
             cout << " [1] Hire Employee" << endl;
             cout << " [2] Fire Employee" << endl;
             cout << " [3] List All Employees" << endl;
-            cout << " [4] List All Employees" << endl;
+            cout << " [4] List All Clients" << endl;
             cout << " [5] Change Employee Salaries" << endl;
             cout << " [6] Change password" << endl;
             cout << " [7] Log Out" << endl;
