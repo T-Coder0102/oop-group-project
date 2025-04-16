@@ -287,13 +287,18 @@ void managerMain(Hotel& hotel,Manager &boss)
                             cout<<endl;
                         }
                     }
-                    cout << " Enter the ID of the employee whose salary you want to change:" << endl;                    int Id;
+                    cout << " Enter the ID of the employee whose salary you want to change:" << endl;
+                    int Id;
                     cin>>Id;
                     cout<<"To what amount do you want to change the salary??"<<endl;
                     double newSalary;
                     cin>>newSalary;
-                    cout<<"You have changed the salary of employee to : $"<<newSalary<<endl;
-                    boss.setEmployeeSalary(newSalary,Id,hotel);
+                    if (newSalary > 0) {
+                        cout<<"You have changed the salary of employee to : $"<<newSalary<<endl;
+                        boss.setEmployeeSalary(newSalary,Id,hotel);
+                    } else {
+                        cout<<"Invalid Input"<<endl;
+                    }
 
                 }
                 if(type==2)
@@ -312,8 +317,12 @@ void managerMain(Hotel& hotel,Manager &boss)
                     cout<<"To what amount do you want to change the salary??"<<endl;
                     double newSalary;
                     cin>>newSalary;
-                    cout<<"You have changed the salary of employee to : $"<<newSalary<<endl;
-                    boss.setEmployeeSalary(newSalary,Id,hotel);
+                    if (newSalary > 0) {
+                        cout<<"You have changed the salary of employee to : $"<<newSalary<<endl;
+                        boss.setEmployeeSalary(newSalary,Id,hotel);
+                    } else {
+                        cout<<"Invalid Input"<<endl;
+                    }
                 }
                 if(type==3)
                 {
@@ -331,8 +340,12 @@ void managerMain(Hotel& hotel,Manager &boss)
                     cout<<"To what amount do you want to change the salary??"<<endl;
                     double newSalary;
                     cin>>newSalary;
-                    cout<<"You have changed the salary of employee to : $"<<newSalary<<endl;
-                    boss.setEmployeeSalary(newSalary,Id,hotel);
+                    if (newSalary > 0) {
+                        cout<<"You have changed the salary of employee to : $"<<newSalary<<endl;
+                        boss.setEmployeeSalary(newSalary,Id,hotel);
+                    } else {
+                        cout<<"Invalid Input"<<endl;
+                    }
                 }
                 if(type==4)
                 {
@@ -350,8 +363,12 @@ void managerMain(Hotel& hotel,Manager &boss)
                     cout<<"To what amount do you want to change the salary??"<<endl;
                     double newSalary;
                     cin>>newSalary;
-                    cout<<"You have changed the salary of employee to : $"<<newSalary<<endl;
-                    boss.setEmployeeSalary(newSalary,Id,hotel);
+                    if (newSalary>0) {
+                        cout<<"You have changed the salary of employee to : $"<<newSalary<<endl;
+                        boss.setEmployeeSalary(newSalary,Id,hotel);
+                    }else {
+                        cout<<"Invalid Input"<<endl;
+                    }
                 }
                 cout<<"---------------------------------------" << endl;
             }

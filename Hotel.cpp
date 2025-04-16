@@ -1,4 +1,5 @@
 #include "Hotel.h"
+using namespace std;
 vector<Client *> Hotel::getClientsList() {
     return clients;
 }
@@ -6,15 +7,14 @@ void Hotel::addClientsToList(Client* client) {
     clients.push_back(client);
 }
 
-void Hotel::setSalaryOfEmployee(double salaryOfEmployee, int ID)
-{
-    for (int i = 0; i < members.size(); i++)
-    {
-        if (members[i]->getID()==ID)
+void Hotel::setSalaryOfEmployee(double salaryOfEmployee, int ID){
+        for (int i = 0; i < members.size(); i++)
         {
-            members[i]->setSalary(salaryOfEmployee);
+            if (members[i]->getID()==ID)
+            {
+                members[i]->setSalary(salaryOfEmployee);
+            }
         }
-    }
 }
 
 void Hotel::removeClient(Client& client)

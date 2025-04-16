@@ -16,7 +16,7 @@ Client * Reception::askInfo(Hotel &hotel) {
         cin >> age;
         if (cin.fail()) {
             cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cin.ignore();
             cout << "Invalid input for years of experience. Please enter a valid number." << endl;
         }
         else if (age < 18) {
