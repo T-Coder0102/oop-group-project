@@ -93,9 +93,9 @@ void managerMain(Hotel& hotel,Manager &boss)
                     cin >> gender;
                     if (gender == "M" || gender == "F") {
                         break;
-                    } else {
-                        cout << "Invalid gender input. Please enter 'M' or 'F'." << endl;
                     }
+                        cout << "Invalid gender input. Please enter 'M' or 'F'." << endl;
+
                 }
                 while (true) {
                     cout<<"What is employee's salary?"<<endl;
@@ -120,7 +120,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                     boss.addMember(*reception,hotel);
                     age=0;
                 }if(status==2){
-                    Chef *chef = new Chef(name,age,yearsOfExperience,id,gender,stat[status-1],salary);
+                    Chef *chef = new Chef(name,age,yearsOfExperience,id,gender,stat[status-1],salary,"chef","chef2025");
                     boss.addMember(*chef,hotel);
                     age=0;
                 }if(status==3){

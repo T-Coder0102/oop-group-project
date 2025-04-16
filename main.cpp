@@ -11,6 +11,7 @@
 #include "RoomDirect/Room.h"
 #include "ClientMain.h"
 #include "ManagerMain.h"
+#include "ChefMain.h"
 using namespace std;
 
 int main() {
@@ -36,7 +37,7 @@ for(int i = 1; i <= 50; i++)
 
     RoomService *roomServicer= new RoomService("ASile",43,1,343,"M","RoomServicer",1000);
     Reception *reception= new Reception("Mike",34,13,204,"M","Reception",1500);
-    Chef *chef= new Chef("Oybek",18,1,204,"M","Chef",2000);
+    Chef *chef= new Chef("Oybek",18,1,204,"M","Chef",2000,"chef","chef2025");
     Waiter *waiter=new Waiter("Og'abek",18,1,204,"M","Waiter",1200);
     Meal* newMeal= new Meal("Desert",30);
     Meal* newMeal1= new Meal("Desert1",40);
@@ -77,11 +78,10 @@ for(int i = 1; i <= 50; i++)
         cout << "                                          " << endl;
         cout << "   [1] Client                             " << endl;
         cout << "   [2] Manager                            " << endl;
-        cout << "                               " << endl;
+        cout << "   [3] Chef                            " << endl;
         cout << "------------------------------------------" << endl;
         this_thread::sleep_for(chrono::milliseconds(250));
         cout << " Enter the number of your choice: ";
-
         int input;
         cin >> input;
 
@@ -94,6 +94,12 @@ for(int i = 1; i <= 50; i++)
         else if (input == 2) {
             cout << "\nYou selected: Manager" << endl;
             managerMain(myHotel, *boss);
+        }
+        else if(input=3)
+        {
+            cout << "\nYou selected: Chef" << endl;
+            chefMain(*chef,myRes);
+
         }
         else if (input==123456789) {
             break;

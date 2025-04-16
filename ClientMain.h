@@ -5,8 +5,6 @@
 void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaurant &res, Waiter &waiter){
   while(1)
   {
-
-
     bool authenticated=false;
     Client* tempor;
     int ans;

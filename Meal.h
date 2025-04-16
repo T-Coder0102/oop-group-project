@@ -4,7 +4,7 @@
 using namespace std;
 class Meal
 {
-
+public:
     Meal(string name,double price)
     {
         this->name = name;
@@ -34,7 +34,7 @@ class Meal
     private:
     string name;
     double price;
-    public:
+
 };
 
 

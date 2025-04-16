@@ -25,16 +25,4 @@ add_executable(oop-group-project main.cpp
         MemberDirect/Chef.cpp
         MemberDirect/Chef.h
         Meal.h
-        InternDirect/InternDef.cpp
-        InternDirect/InternDef.h
-        InternDirect/InternChef.cpp
-        InternDirect/InternChef.h
-        InternDirect/InternManager.cpp
-        InternDirect/InternManager.h
-        InternDirect/InternReception.cpp
-        InternDirect/InternReception.h
-        InternDirect/InternRoomService.cpp
-        InternDirect/InternRoomService.h
-        InternDirect/InternWaiter.cpp
-        InternDirect/InternWaiter.h
 )

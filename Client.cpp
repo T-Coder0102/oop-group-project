@@ -9,7 +9,6 @@ Client::Client(string name, int age,string gender,int clientId,string userName,s
     this->clientId = clientId;
     this->userName = userName;
     this->userPassword = userPassword;
-
 }
  const int Client::getID() {
     return clientId;

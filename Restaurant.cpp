@@ -10,10 +10,12 @@ void Restaurant::addMealToMenu(Meal* meal)
 void Restaurant::removeMealFromMenu(string meal)
 {
     for(int i =0; i<menu.size();i++){
-        if(meal==menu[i]->getName()){
+        if(menu[i]->getName()==meal){
             menu.erase(menu.begin()+i);
+            return;
         }
     }
+    cout<<"No meal found"<<endl;
 }
 
 
