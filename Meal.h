@@ -4,10 +4,7 @@
 using namespace std;
 class Meal
 {
-private:
-    string name;
-    double price;
-    public:
+
     Meal(string name,double price)
     {
         this->name = name;
@@ -34,6 +31,10 @@ private:
         cout<<"Name of meal: "<<name<<endl;
         cout<<"Price of meal: $"<<price<<endl;
     }
+    private:
+    string name;
+    double price;
+    public:
 };
 
 
