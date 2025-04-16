@@ -51,7 +51,8 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
             tempor=a;
           break;
         }
-      }if (!authenticated) {
+      }
+        if (!authenticated) {
           cout<<"You don't have an account to login!"<<endl;
       }
       if(authenticated)

@@ -84,19 +84,19 @@ void Manager::displayClients(Hotel &hotel) {
         }
         cout<<endl;
         cout<<"*---------------------*---------------*---------------*---------------*---------------*---------------*"<<endl;
-        cout << "|Client ID: |";
+        cout << "|Client ID:           |";
         for (int j = i; j < end; j++) {
             cout << left << setw(15) << (hotel.getClientsList()[j]->getClientID())<<"|";
         }
         cout<<endl;
         cout<<"*---------------------*---------------*---------------*---------------*---------------*---------------*"<<endl;
-        cout << "|Room ID:              |";
+        cout << "|Room ID:             |";
         for (int j = i; j < end; j++) {
             cout << left << setw(15) << (hotel.getClientsList()[j]->getRoomID())<<"|";
         }
         cout<<endl;
         cout<<"*---------------------*---------------*---------------*---------------*---------------*---------------*"<<endl;
-        cout << "|Total bill spent:              |";
+        cout << "|Total bill spent:     |";
         for (int j = i; j < end; j++) {
             cout << left << setw(15) << ("$"+to_string(hotel.getClientsList()[j]->getTotalbill()))<<"|";
         }
