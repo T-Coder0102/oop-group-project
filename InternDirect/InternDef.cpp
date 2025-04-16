@@ -1,41 +1,41 @@
 
 #include "InternDef.h"
 InternDef::InternDef(string name, int age, int ID, string gender, string status) {
-    this->name;
-    this->age;
-    this->ID;
-    this->gender;
-    this->status;
+    this->name = name;
+    this->age = age;
+    this->ID = ID;
+    this->gender = gender;
+    this->status = status;
 }
-int InternDef::GetAge() {
+int InternDef::getAge() {
     return age;
 }
-string InternDef::GetName() {
+string InternDef::getName() {
     return name;
 }
-int InternDef::GetId() {
+int InternDef::getId() {
     return ID;
 }
-string InternDef::GetGender() {
+string InternDef::getGender() {
     return gender;
 }
-string InternDef::GetStatus() {
+string InternDef::getStatus() {
     return status;
 }
-void InternDef::SetName(string name) {
-    this->name;
+void InternDef::setName(string name) {
+  this->name = name;
 }
-void InternDef::SetAge(int age) {
-    this->age;
+void InternDef::setAge(int age) {
+  this->age = age;
 }
-void InternDef::SetId(int ID) {
-    this->ID;
+void InternDef::setId(int ID) {
+  this->ID = ID;
 }
-void InternDef::SetGender(string gender) {
-    this->gender;
+void InternDef::setGender(string gender) {
+  this->gender = gender;
 }
-void InternDef::SetStatus(string status) {
-    this->status;
+void InternDef::setStatus(string status) {
+  this->status = status;
 }
 
 

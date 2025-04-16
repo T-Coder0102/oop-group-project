@@ -8,6 +8,6 @@ using namespace std;
 class InternRoomService:public InternDef {
 public:
     InternRoomService(string name, int age, int ID, string gender, string status);
-    void DoIntern() override;
+    void doIntern() override;
 };
 #endif //INTERNROOMSERVICE_H

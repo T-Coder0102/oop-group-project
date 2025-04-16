@@ -7,7 +7,7 @@ using namespace std;
 class InternManager:public InternDef {
 public:
     InternManager(string name, int age, int ID, string gender, string status);
-    void DoIntern() override;
+    void doIntern() override;
 };
 
 #endif //INTERNMANAGER_H

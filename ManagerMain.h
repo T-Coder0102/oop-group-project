@@ -35,7 +35,7 @@ void managerMain(Hotel& hotel,Manager &boss)
 
     }
     srand(time(0));
-    if(authenticated==true)
+    if(authenticated)
     {
         while(true){
             string name;

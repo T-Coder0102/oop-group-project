@@ -7,10 +7,12 @@ using namespace std;
 
 void chefMain(Chef &chef,Restaurant &myRes)
 {
+    bool authenticated=false;
     while(1)
     {
-        bool authenticated=false;
-        cout<<"Welcome to Chef Page"<<endl;
+        cout << "\n==============================" << endl;
+        cout << "     Welcome to Chef Page  " << endl;
+        cout << "==============================" << endl;
         string username, password;
         cout<<"Please enter your username:"<<endl;
         cin>>username;
@@ -20,17 +22,24 @@ void chefMain(Chef &chef,Restaurant &myRes)
         {
             authenticated=true;
             cout<<"Authenticated"<<endl;
+            cout << "\n==============================" << endl;
+            cout << "     Welcome to Chef Page  " << endl;
+            cout << "==============================" << endl;
+            break;
+
         }
+    }
         if(authenticated)
         {
             while(1)
             {
-                cout<<"Welcome to Chef Main Page"<<endl;
+                cout << "\n========= CHEF OPTIONS =========" << endl;
                 cout<<"[1]-Add New Meal to Menu"<<endl;
                 cout<<"[2]-Remove Meal from Menu"<<endl;
                 cout<<"[3]-Display Menu"<<endl;
                 cout<<"[4]-Change username and password"<<endl;
                 cout<<"[5]-Exit"<<endl;
+                cout<<"--------------------------------------"<<endl;
                 int choice;
                 cout<<"Enter your choice:"<<endl;
                 cin>>choice;
@@ -45,7 +54,7 @@ void chefMain(Chef &chef,Restaurant &myRes)
                     chef.addMeal(newMeal,myRes);
                     cout<<"You added new meal called: "<<meal<<endl;
                 }
-                else if(choice==2)
+                if(choice==2)
                 {
                     while(1)
                     {
@@ -68,7 +77,7 @@ void chefMain(Chef &chef,Restaurant &myRes)
                     chef.removeMeal(meal,myRes);
                     cout<<"You removed meal called: "<<meal<<endl;
                 }
-                else if(choice==3)
+                if(choice==3)
                 {
                     for(Meal* meal:myRes.getMenu())
                     {
@@ -76,24 +85,25 @@ void chefMain(Chef &chef,Restaurant &myRes)
                         cout<<endl;
                     }
                 }
-                else if(choice==4)
+                if(choice==4)
                 {
+                    string newUsername;string newPassword;
                     cout<<"Enter new username:"<<endl;
-                    cin>>username;
+                    cin>>newUsername;
                     cout<<"Enter new password:"<<endl;
-                    cin>>password;
-                    chef.setUserName(username);
-                    chef.setPassWord(password);
+                    cin>>newPassword;
+                    chef.setUserName(newUsername);
+                    chef.setPassWord(newPassword);
                     cout<<"You changed username and password"<<endl;
                 }
-                else
+                if(choice==5)
                 {
                     break;
                 }
 
             }
         }
-    }
+
 
 };
 #endif //CHEFMAIN_H

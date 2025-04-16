@@ -7,7 +7,7 @@ using namespace std;
 class InternChef:public InternDef {
 public:
     InternChef(string name, int age, int ID, string gender, string status);
-    void DoIntern() override;
+    void doIntern() override;
 };
 
 #endif //INTERNCHEF_H

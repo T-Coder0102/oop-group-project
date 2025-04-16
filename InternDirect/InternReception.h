@@ -7,6 +7,6 @@ using namespace std;
 class InternReception:public InternDef {
 public:
     InternReception(string name, int age, int ID, string gender, string status);
-    void DoIntern() override;
+    void doIntern() override;
 };
 #endif //INTERNRECEPTION_H

@@ -12,17 +12,17 @@ private:
     string status;
 public:
     InternDef(string name,int age,int ID,string gender,string status);
-    virtual void DoIntern()=0;
-    string GetName();
-    int GetAge();
-    int GetId();
-    string GetGender();
-    string GetStatus();
-    void SetName(string name);
-    void SetAge(int age);
-    void SetId(int ID);
-    void SetGender(string gender);
-    void SetStatus(string status);
+    virtual void doIntern()=0;
+    string getName();
+    int getAge();
+    int getId();
+    string getGender();
+    string getStatus();
+    void setName(string name);
+    void setAge(int age);
+    void setId(int ID);
+    void setGender(string gender);
+    void setStatus(string status);
 
 };
 #endif //INTERNDEF_H
