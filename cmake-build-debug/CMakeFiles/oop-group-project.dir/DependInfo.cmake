@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Asus/CLionProjects/oop-group-project1/Client.cpp" "CMakeFiles/oop-group-project.dir/Client.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/Client.cpp.obj.d"
-  "C:/Users/Asus/CLionProjects/oop-group-project1/Hotel.cpp" "CMakeFiles/oop-group-project.dir/Hotel.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/Hotel.cpp.obj.d"
-  "C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/Chef.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj.d"
-  "C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/Manager.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.obj.d"
-  "C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/Member.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.obj.d"
-  "C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/Reception.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj.d"
-  "C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/RoomService.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.obj.d"
-  "C:/Users/Asus/CLionProjects/oop-group-project1/MemberDirect/Waiter.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.obj.d"
-  "C:/Users/Asus/CLionProjects/oop-group-project1/Restaurant.cpp" "CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/Restaurant.cpp.obj.d"
-  "C:/Users/Asus/CLionProjects/oop-group-project1/RoomDirect/Room.cpp" "CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.obj.d"
-  "C:/Users/Asus/CLionProjects/oop-group-project1/main.cpp" "CMakeFiles/oop-group-project.dir/main.cpp.obj" "gcc" "CMakeFiles/oop-group-project.dir/main.cpp.obj.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/Client.cpp" "CMakeFiles/oop-group-project.dir/Client.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/Client.cpp.o.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/Hotel.cpp" "CMakeFiles/oop-group-project.dir/Hotel.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/Hotel.cpp.o.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Chef.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.o.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Manager.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/Manager.cpp.o.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Member.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/Member.cpp.o.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Reception.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.o.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/RoomService.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/RoomService.cpp.o.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/MemberDirect/Waiter.cpp" "CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/MemberDirect/Waiter.cpp.o.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/Restaurant.cpp" "CMakeFiles/oop-group-project.dir/Restaurant.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/Restaurant.cpp.o.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/RoomDirect/Room.cpp" "CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/RoomDirect/Room.cpp.o.d"
+  "/Users/t.joldasbayev/CLionProjects/oop-group-project/main.cpp" "CMakeFiles/oop-group-project.dir/main.cpp.o" "gcc" "CMakeFiles/oop-group-project.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

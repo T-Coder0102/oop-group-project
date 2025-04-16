@@ -1,3 +1,3 @@
-C:/Users/Asus/CLionProjects/oop-group-project1/cmake-build-debug/CMakeFiles/oop-group-project.dir
-C:/Users/Asus/CLionProjects/oop-group-project1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Asus/CLionProjects/oop-group-project1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/t.joldasbayev/CLionProjects/oop-group-project/cmake-build-debug/CMakeFiles/oop-group-project.dir
+/Users/t.joldasbayev/CLionProjects/oop-group-project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/t.joldasbayev/CLionProjects/oop-group-project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

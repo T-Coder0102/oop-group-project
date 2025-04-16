@@ -11,13 +11,20 @@ Client * Reception::askInfo(Hotel &hotel) {
     string name,userName,userPassword;int age;string gender;
     cout<<"What is your name:"<<endl;
     cin>>name;
-    while(1)
-    {
-        cout<<"What is your age:"<<endl;
-        cin>>age;
-        if(age>=18)break;
-        cin.ignore();
-        cout<<"Guest should be at least 18 years old"<<endl;
+    while (true) {
+        cout << "How old are you?" << endl;
+        cin >> age;
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << "Invalid input for years of experience. Please enter a valid number." << endl;
+        }
+        else if (age < 18) {
+            cout << "Guest must be at least 18 years old. Please enter again." << endl;
+        }
+        else {
+            break;
+        }
     }
     while(1)
     {
