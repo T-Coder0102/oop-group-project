@@ -386,8 +386,6 @@ void managerMain(Hotel& hotel,Manager &boss)
             {
                 break;
             }
-
-
         }
     }
 };
