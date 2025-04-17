@@ -82,6 +82,24 @@ void Hotel::addTotalRevenue(double totalRevenue) {
 double Hotel::getTotalRevenue() {
     return totalRevenue;
 }
+vector<InternDef*> Hotel::getInternDefsList()
+{
+    return interns;
+}
+void Hotel::addInternDefs(InternDef* internDef)
+{
+    interns.push_back(internDef);
+}
+void Hotel::displayInternDefs()
+{
+    for(InternDef* a:interns)
+    {
+        a->getDetailsOfInterns();
+        cout<<endl;
+    }
+}
+
+
 
 
 

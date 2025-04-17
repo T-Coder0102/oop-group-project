@@ -5,6 +5,7 @@
 #include "Client.h"
 #include "MemberDirect/Member.h"
 #include "RoomDirect/Room.h"
+#include "InternDirect/InternDef.h"
 using namespace std;
 class Hotel {
     public:
@@ -23,12 +24,16 @@ class Hotel {
     void addTotalRevenue(double totalRevenue);
     void setSalaryOfEmployee(double salaryOfEmployee,int ID);
     double getTotalRevenue();
+    vector<InternDef*> getInternDefsList();
+    void addInternDefs(InternDef* internDef);
+    void displayInternDefs();
 private:
     double totalRevenue=0;
     vector<Client*> clients;
     vector<Member*> members;
     vector<Room*> Freerooms;
     vector<Room*> NFreeRooms;
+    vector<InternDef*> interns;
 
 };
 #endif //HOTEL_H

@@ -4,12 +4,7 @@
 #include<string>
 using namespace std;
 class InternDef {
-private:
-    string name;
-    int age;
-    int ID;
-    string gender;
-    string status;
+
 public:
     InternDef(string name,int age,int ID,string gender,string status);
     virtual void doIntern()=0;
@@ -23,6 +18,12 @@ public:
     void setId(int ID);
     void setGender(string gender);
     void setStatus(string status);
-
+    void getDetailsOfInterns();
+private:
+    string name;
+    int age;
+    int ID;
+    string gender;
+    string status;
 };
 #endif //INTERNDEF_H

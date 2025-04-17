@@ -12,6 +12,12 @@
 #include "ClientMain.h"
 #include "ManagerMain.h"
 #include "ChefMain.h"
+#include "InternDirect/InternChef.h"
+#include "InternDirect/InternDef.h"
+#include "InternDirect/InternWaiter.h"
+#include "InternDirect/InternRoomService.h"
+#include "InternDirect/InternReception.h"
+#include "InternDirect/InternManager.h"
 using namespace std;
 
 int main() {
@@ -39,6 +45,19 @@ for(int i = 1; i <= 50; i++)
     Reception *reception= new Reception("Mike",34,13,204,"M","Reception",1500);
     Chef *chef= new Chef("Oybek",18,1,204,"M","Chef",2000,"chef","chef2025");
     Waiter *waiter=new Waiter("Og'abek",18,1,204,"M","Waiter",1200);
+
+    InternChef* chef_intern=new InternChef("Aziz",19,205,"M","InternChef");
+    InternReception* reception_intern=new InternReception("Islom",20,206,"M","InternReception");
+    InternWaiter* waiter_intern=new InternWaiter("Bakhtiyor",21,207,"M","InternWaiter");
+    InternRoomService* room_service_intern=new InternRoomService("Zilola",18,208,"F","InternRoomService");
+    InternManager* manager_intern=new InternManager("Asal",22,209,"F","InternManager");
+
+    myHotel.addInternDefs(chef_intern);
+    myHotel.addInternDefs(reception_intern);
+    myHotel.addInternDefs(waiter_intern);
+    myHotel.addInternDefs(room_service_intern);
+    myHotel.addInternDefs(manager_intern);
+
     Meal* newMeal= new Meal("Desert",30);
     Meal* newMeal1= new Meal("Desert1",40);
     Meal* newMeal2= new Meal("Desert2",50);

@@ -5,6 +5,12 @@
 #include"./MemberDirect/Chef.h"
 #include "MemberDirect/RoomService.h"
 #include "MemberDirect/Waiter.h"
+#include "InternDirect/InternChef.h"
+#include "InternDirect/InternDef.h"
+#include "InternDirect/InternWaiter.h"
+#include "InternDirect/InternRoomService.h"
+#include "InternDirect/InternReception.h"
+#include "InternDirect/InternManager.h"
 
 #include "./MemberDirect/Member.h"
 #include <cstdlib>
@@ -52,8 +58,9 @@ void managerMain(Hotel& hotel,Manager &boss)
             cout << " [3] List All Employees" << endl;
             cout << " [4] List All Clients" << endl;
             cout << " [5] Change Employee Salaries" << endl;
-            cout << " [6] Change password" << endl;
-            cout << " [7] Log Out" << endl;
+            cout << " [6] Manage Interns" << endl;
+            cout << " [7] Change password" << endl;
+            cout << " [8] Log Out" << endl;
             cout << "-----------------------------------" << endl;
             cout << "\nEnter your choice: ";
             int choice;
@@ -372,7 +379,106 @@ void managerMain(Hotel& hotel,Manager &boss)
                 }
                 cout<<"---------------------------------------" << endl;
             }
-            if (choice==6)
+            if(choice==6)
+            {
+                while(true)
+                {
+                    cout<<"What do you want to do with interns"<<endl;
+                    cout<<"[1]-Add a new intern"<<endl;
+                    cout<<"[2]-Display all interns"<<endl;
+                    cout<<"[3]-Test the interns"<<endl;
+                    cout<<"[4]-Back"<<endl;
+                    int choice;
+                    while (true) {
+                        cout << "Enter your choice" << endl;
+                        cin >> choice;
+                        if (cin.fail()) {
+                            cin.clear();
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                            cout << "Please enter a valid number." << endl;
+                        }
+                        else {
+                            break;
+                        }
+                    }
+                    if(choice==1) {
+                        string stat[5]={"Reception","Chef","RoomServicer","Waiter","Manager"};
+                        cout << "\n========= Hiring =========" << endl;
+                        cout<<"What is intern's name?"<<endl;
+                        cin>>name;
+                        while (true) {
+                            cout << "What is intern's age?" << endl;
+                            cin >> age;
+                            if (cin.fail()) {
+                                cin.clear();
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                                cout << "Please enter a valid number." << endl;
+                            }
+                            else {
+                                break;
+                            }
+                        }
+                        while (true) {
+                            cout << "What is your gender (M or F):" << endl;
+                            cin >> gender;
+                            if (gender == "M" || gender == "F") {
+                                break;
+                            }
+                            cout << "Invalid gender input. Please enter 'M' or 'F'." << endl;
+
+                        }
+
+                        cout<<"What is employee's status?"<<endl;
+                        cout<<"[1]Reception"<<endl;
+                        cout<<"[2]Chef"<<endl;
+                        cout<<"[3]RoomService"<<endl;
+                        cout<<"[4]Waiter"<<endl;
+                        cout<<"[5]Manager"<<endl;
+                        cin>>status;
+                        int id=rand()%(age+yearsOfExperience)+1;
+                        if(status==1){
+                            InternReception *intern_reception = new InternReception(name,age,id,gender,stat[status-1]);
+                            hotel.addInternDefs(intern_reception);
+                            age=0;
+                        }if(status==2){
+                            InternChef *chef = new InternChef(name,age,id,gender,stat[status-1]);
+                            hotel.addInternDefs(chef);
+                            age=0;
+                        }if(status==3){
+                            InternRoomService* roomservicer= new InternRoomService(name,age,id,gender,stat[status-1]);
+                            hotel.addInternDefs(roomservicer);
+                            age=0;
+                        } if(status==4){
+                            InternWaiter *waiter= new InternWaiter(name,age,id,gender,stat[status-1]);
+                            hotel.addInternDefs(waiter);
+                            age=0;
+                        }if(status==5){
+                            InternManager *intern_manager= new InternManager(name,age,id,gender,stat[status-1]);
+                            hotel.addInternDefs(intern_manager);
+                            age=0;
+                        }
+                        cout << "-----------------------------------" << endl;
+                    }
+                    if(choice==2)
+                    {
+                        cout<<"Interns in the Hotel"<<endl;
+                        hotel.displayInternDefs();
+                    }
+                    if(choice==3)
+                    {
+                        for(InternDef* a:hotel.getInternDefsList())
+                        {
+                            a->doIntern();
+                            cout<<endl;
+                        }
+                    }
+                    if(choice==4)
+                    {
+                        break;
+                    }
+                }
+            }
+            if (choice==7)
             {
                 string newPass;string newUser;
                 cout<<"Enter new username:"<<endl;
@@ -382,7 +488,7 @@ void managerMain(Hotel& hotel,Manager &boss)
                 boss.setUserName(newUser);
                 boss.setPassword(newPass);
             }
-            if(choice==7)
+            if(choice==8)
             {
                 break;
             }

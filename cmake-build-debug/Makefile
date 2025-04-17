@@ -176,6 +176,150 @@ Hotel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/Hotel.cpp.s
 .PHONY : Hotel.cpp.s
 
+InternDirect/InternChef.obj: InternDirect/InternChef.cpp.obj
+.PHONY : InternDirect/InternChef.obj
+
+# target to build an object file
+InternDirect/InternChef.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.obj
+.PHONY : InternDirect/InternChef.cpp.obj
+
+InternDirect/InternChef.i: InternDirect/InternChef.cpp.i
+.PHONY : InternDirect/InternChef.i
+
+# target to preprocess a source file
+InternDirect/InternChef.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.i
+.PHONY : InternDirect/InternChef.cpp.i
+
+InternDirect/InternChef.s: InternDirect/InternChef.cpp.s
+.PHONY : InternDirect/InternChef.s
+
+# target to generate assembly for a file
+InternDirect/InternChef.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.s
+.PHONY : InternDirect/InternChef.cpp.s
+
+InternDirect/InternDef.obj: InternDirect/InternDef.cpp.obj
+.PHONY : InternDirect/InternDef.obj
+
+# target to build an object file
+InternDirect/InternDef.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.obj
+.PHONY : InternDirect/InternDef.cpp.obj
+
+InternDirect/InternDef.i: InternDirect/InternDef.cpp.i
+.PHONY : InternDirect/InternDef.i
+
+# target to preprocess a source file
+InternDirect/InternDef.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.i
+.PHONY : InternDirect/InternDef.cpp.i
+
+InternDirect/InternDef.s: InternDirect/InternDef.cpp.s
+.PHONY : InternDirect/InternDef.s
+
+# target to generate assembly for a file
+InternDirect/InternDef.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.s
+.PHONY : InternDirect/InternDef.cpp.s
+
+InternDirect/InternManager.obj: InternDirect/InternManager.cpp.obj
+.PHONY : InternDirect/InternManager.obj
+
+# target to build an object file
+InternDirect/InternManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.obj
+.PHONY : InternDirect/InternManager.cpp.obj
+
+InternDirect/InternManager.i: InternDirect/InternManager.cpp.i
+.PHONY : InternDirect/InternManager.i
+
+# target to preprocess a source file
+InternDirect/InternManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.i
+.PHONY : InternDirect/InternManager.cpp.i
+
+InternDirect/InternManager.s: InternDirect/InternManager.cpp.s
+.PHONY : InternDirect/InternManager.s
+
+# target to generate assembly for a file
+InternDirect/InternManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.s
+.PHONY : InternDirect/InternManager.cpp.s
+
+InternDirect/InternReception.obj: InternDirect/InternReception.cpp.obj
+.PHONY : InternDirect/InternReception.obj
+
+# target to build an object file
+InternDirect/InternReception.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.obj
+.PHONY : InternDirect/InternReception.cpp.obj
+
+InternDirect/InternReception.i: InternDirect/InternReception.cpp.i
+.PHONY : InternDirect/InternReception.i
+
+# target to preprocess a source file
+InternDirect/InternReception.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.i
+.PHONY : InternDirect/InternReception.cpp.i
+
+InternDirect/InternReception.s: InternDirect/InternReception.cpp.s
+.PHONY : InternDirect/InternReception.s
+
+# target to generate assembly for a file
+InternDirect/InternReception.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.s
+.PHONY : InternDirect/InternReception.cpp.s
+
+InternDirect/InternRoomService.obj: InternDirect/InternRoomService.cpp.obj
+.PHONY : InternDirect/InternRoomService.obj
+
+# target to build an object file
+InternDirect/InternRoomService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.obj
+.PHONY : InternDirect/InternRoomService.cpp.obj
+
+InternDirect/InternRoomService.i: InternDirect/InternRoomService.cpp.i
+.PHONY : InternDirect/InternRoomService.i
+
+# target to preprocess a source file
+InternDirect/InternRoomService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.i
+.PHONY : InternDirect/InternRoomService.cpp.i
+
+InternDirect/InternRoomService.s: InternDirect/InternRoomService.cpp.s
+.PHONY : InternDirect/InternRoomService.s
+
+# target to generate assembly for a file
+InternDirect/InternRoomService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.s
+.PHONY : InternDirect/InternRoomService.cpp.s
+
+InternDirect/InternWaiter.obj: InternDirect/InternWaiter.cpp.obj
+.PHONY : InternDirect/InternWaiter.obj
+
+# target to build an object file
+InternDirect/InternWaiter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.obj
+.PHONY : InternDirect/InternWaiter.cpp.obj
+
+InternDirect/InternWaiter.i: InternDirect/InternWaiter.cpp.i
+.PHONY : InternDirect/InternWaiter.i
+
+# target to preprocess a source file
+InternDirect/InternWaiter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.i
+.PHONY : InternDirect/InternWaiter.cpp.i
+
+InternDirect/InternWaiter.s: InternDirect/InternWaiter.cpp.s
+.PHONY : InternDirect/InternWaiter.s
+
+# target to generate assembly for a file
+InternDirect/InternWaiter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop-group-project.dir\build.make CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.s
+.PHONY : InternDirect/InternWaiter.cpp.s
+
 MemberDirect/Chef.obj: MemberDirect/Chef.cpp.obj
 .PHONY : MemberDirect/Chef.obj
 
@@ -407,6 +551,24 @@ help:
 	@echo ... Hotel.obj
 	@echo ... Hotel.i
 	@echo ... Hotel.s
+	@echo ... InternDirect/InternChef.obj
+	@echo ... InternDirect/InternChef.i
+	@echo ... InternDirect/InternChef.s
+	@echo ... InternDirect/InternDef.obj
+	@echo ... InternDirect/InternDef.i
+	@echo ... InternDirect/InternDef.s
+	@echo ... InternDirect/InternManager.obj
+	@echo ... InternDirect/InternManager.i
+	@echo ... InternDirect/InternManager.s
+	@echo ... InternDirect/InternReception.obj
+	@echo ... InternDirect/InternReception.i
+	@echo ... InternDirect/InternReception.s
+	@echo ... InternDirect/InternRoomService.obj
+	@echo ... InternDirect/InternRoomService.i
+	@echo ... InternDirect/InternRoomService.s
+	@echo ... InternDirect/InternWaiter.obj
+	@echo ... InternDirect/InternWaiter.i
+	@echo ... InternDirect/InternWaiter.s
 	@echo ... MemberDirect/Chef.obj
 	@echo ... MemberDirect/Chef.i
 	@echo ... MemberDirect/Chef.s

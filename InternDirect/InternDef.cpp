@@ -37,6 +37,13 @@ void InternDef::setGender(string gender) {
 void InternDef::setStatus(string status) {
   this->status = status;
 }
+void InternDef::getDetailsOfInterns(){
+  cout<<"Name: "<<this->name<<endl;
+  cout<<"Age: "<<this->age<<endl;
+  cout<<"ID: "<<this->ID<<endl;
+  cout<<"Gender: "<<this->gender<<endl;
+  cout<<"Status: "<<this->status<<endl;
+}
 
 
 
