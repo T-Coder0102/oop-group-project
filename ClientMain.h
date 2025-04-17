@@ -16,10 +16,19 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
           cout << "  3. Logout" << endl;
           cout << "-------------------------------" << endl;
           cout << "  Enter your choice: ";
-          cin >> ans;
-          if(ans==1 || ans==2 || ans==3)break;
-          cin.ignore();
-          cout<<"Wrong input!!"<<endl;
+        while (true) {
+            cout << " Enter the number of your choice: ";
+            cin >> ans;
+            if (cin.fail()) {
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                cout << " Please enter a valid number." << endl;
+            }
+            else {
+                break;
+            }
+        }
+          break;
       }
     if(ans==1)
     {
@@ -67,7 +76,18 @@ void cmain(Reception &reception, Hotel &hotel,RoomService &room_servicer,Restaur
               cout << "\nEnter your choice: ";
 
               int choice;
-              cin>>choice;
+              while (true) {
+                  cout << " Enter the number of your choice: ";
+                  cin >> choice;
+                  if (cin.fail()) {
+                      cin.clear();
+                      cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                      cout << " Please enter a valid number." << endl;
+                  }
+                  else {
+                      break;
+                  }
+              }
               if (choice == 1) {
                   room_servicer.cleanRoom(tempor->getRoomID(),hotel);
               }
