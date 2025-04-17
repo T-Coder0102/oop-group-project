@@ -56,21 +56,6 @@ void chefMain(Chef &chef,Restaurant &myRes)
                 }
                 if(choice==2)
                 {
-                    while(1)
-                    {
-                        int response;
-                        cout<<"Do you need the menu??([1]-Yes,[2]-No)"<<endl;
-                        if(response==1)
-                        {
-                            for(Meal* meal:myRes.getMenu())
-                            {
-                                meal->getDetails();
-                                cout<<endl;
-                            }
-                            break;
-                        }
-                        break;
-                    }
                     string meal;
                     cout<<"Enter the meal you want to remove"<<endl;
                     cin>>meal;
