@@ -100,9 +100,20 @@ for(int i = 1; i <= 50; i++)
         cout << "   [3] Chef                            " << endl;
         cout << "------------------------------------------" << endl;
         this_thread::sleep_for(chrono::milliseconds(250));
-        cout << " Enter the number of your choice: ";
+
         int input;
-        cin >> input;
+        while (true) {
+             cout << " Enter the number of your choice: ";
+            cin >> input;
+            if (cin.fail()) {
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                cout << " Please enter a valid number." << endl;
+            }
+            else {
+                break;
+            }
+        }
 
         cout << "------------------------------------------" << endl;
 
@@ -110,17 +121,17 @@ for(int i = 1; i <= 50; i++)
             cout << "\nYou selected: Client" << endl;
             cmain(*reception, myHotel, *roomServicer, myRes, *waiter);
         }
-        else if (input == 2) {
+        if (input == 2) {
             cout << "\nYou selected: Manager" << endl;
             managerMain(myHotel, *boss);
         }
-        else if(input=3)
+        if(input==3)
         {
             cout << "\nYou selected: Chef" << endl;
             chefMain(*chef,myRes);
 
         }
-        else if (input==123456789) {
+        if (input==123456789) {
             break;
         }
     }

@@ -222,6 +222,90 @@ CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.s"
 	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\MemberDirect\Chef.cpp" -o CMakeFiles\oop-group-project.dir\MemberDirect\Chef.cpp.s
 
+CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
+CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/InternDirect/InternDef.cpp
+CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.obj"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.obj -MF CMakeFiles\oop-group-project.dir\InternDirect\InternDef.cpp.obj.d -o CMakeFiles\oop-group-project.dir\InternDirect\InternDef.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\InternDirect\InternDef.cpp"
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.i"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\InternDirect\InternDef.cpp" > CMakeFiles\oop-group-project.dir\InternDirect\InternDef.cpp.i
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.s"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\InternDirect\InternDef.cpp" -o CMakeFiles\oop-group-project.dir\InternDirect\InternDef.cpp.s
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
+CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/InternDirect/InternChef.cpp
+CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.obj"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.obj -MF CMakeFiles\oop-group-project.dir\InternDirect\InternChef.cpp.obj.d -o CMakeFiles\oop-group-project.dir\InternDirect\InternChef.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\InternDirect\InternChef.cpp"
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.i"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\InternDirect\InternChef.cpp" > CMakeFiles\oop-group-project.dir\InternDirect\InternChef.cpp.i
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.s"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\InternDirect\InternChef.cpp" -o CMakeFiles\oop-group-project.dir\InternDirect\InternChef.cpp.s
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
+CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/InternDirect/InternReception.cpp
+CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.obj"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.obj -MF CMakeFiles\oop-group-project.dir\InternDirect\InternReception.cpp.obj.d -o CMakeFiles\oop-group-project.dir\InternDirect\InternReception.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\InternDirect\InternReception.cpp"
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.i"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\InternDirect\InternReception.cpp" > CMakeFiles\oop-group-project.dir\InternDirect\InternReception.cpp.i
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.s"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\InternDirect\InternReception.cpp" -o CMakeFiles\oop-group-project.dir\InternDirect\InternReception.cpp.s
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
+CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/InternDirect/InternWaiter.cpp
+CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.obj"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.obj -MF CMakeFiles\oop-group-project.dir\InternDirect\InternWaiter.cpp.obj.d -o CMakeFiles\oop-group-project.dir\InternDirect\InternWaiter.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\InternDirect\InternWaiter.cpp"
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.i"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\InternDirect\InternWaiter.cpp" > CMakeFiles\oop-group-project.dir\InternDirect\InternWaiter.cpp.i
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.s"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\InternDirect\InternWaiter.cpp" -o CMakeFiles\oop-group-project.dir\InternDirect\InternWaiter.cpp.s
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
+CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/InternDirect/InternManager.cpp
+CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.obj"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.obj -MF CMakeFiles\oop-group-project.dir\InternDirect\InternManager.cpp.obj.d -o CMakeFiles\oop-group-project.dir\InternDirect\InternManager.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\InternDirect\InternManager.cpp"
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.i"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\InternDirect\InternManager.cpp" > CMakeFiles\oop-group-project.dir\InternDirect\InternManager.cpp.i
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.s"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\InternDirect\InternManager.cpp" -o CMakeFiles\oop-group-project.dir\InternDirect\InternManager.cpp.s
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.obj: CMakeFiles/oop-group-project.dir/flags.make
+CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.obj: D:/IT\ files/L_assignments/oop-group-project/InternDirect/InternRoomService.cpp
+CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.obj: CMakeFiles/oop-group-project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.obj"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.obj -MF CMakeFiles\oop-group-project.dir\InternDirect\InternRoomService.cpp.obj.d -o CMakeFiles\oop-group-project.dir\InternDirect\InternRoomService.cpp.obj -c "D:\IT files\L_assignments\oop-group-project\InternDirect\InternRoomService.cpp"
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.i"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\IT files\L_assignments\oop-group-project\InternDirect\InternRoomService.cpp" > CMakeFiles\oop-group-project.dir\InternDirect\InternRoomService.cpp.i
+
+CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.s"
+	C:\ITINST~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\IT files\L_assignments\oop-group-project\InternDirect\InternRoomService.cpp" -o CMakeFiles\oop-group-project.dir\InternDirect\InternRoomService.cpp.s
+
 # Object files for target oop-group-project
 oop__group__project_OBJECTS = \
 "CMakeFiles/oop-group-project.dir/main.cpp.obj" \
@@ -234,7 +318,13 @@ oop__group__project_OBJECTS = \
 "CMakeFiles/oop-group-project.dir/MemberDirect/Reception.cpp.obj" \
 "CMakeFiles/oop-group-project.dir/Client.cpp.obj" \
 "CMakeFiles/oop-group-project.dir/Hotel.cpp.obj" \
-"CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj"
+"CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj" \
+"CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.obj" \
+"CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.obj" \
+"CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.obj" \
+"CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.obj" \
+"CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.obj" \
+"CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.obj"
 
 # External object files for target oop-group-project
 oop__group__project_EXTERNAL_OBJECTS =
@@ -250,11 +340,17 @@ oop-group-project.exe: CMakeFiles/oop-group-project.dir/MemberDirect/Reception.c
 oop-group-project.exe: CMakeFiles/oop-group-project.dir/Client.cpp.obj
 oop-group-project.exe: CMakeFiles/oop-group-project.dir/Hotel.cpp.obj
 oop-group-project.exe: CMakeFiles/oop-group-project.dir/MemberDirect/Chef.cpp.obj
+oop-group-project.exe: CMakeFiles/oop-group-project.dir/InternDirect/InternDef.cpp.obj
+oop-group-project.exe: CMakeFiles/oop-group-project.dir/InternDirect/InternChef.cpp.obj
+oop-group-project.exe: CMakeFiles/oop-group-project.dir/InternDirect/InternReception.cpp.obj
+oop-group-project.exe: CMakeFiles/oop-group-project.dir/InternDirect/InternWaiter.cpp.obj
+oop-group-project.exe: CMakeFiles/oop-group-project.dir/InternDirect/InternManager.cpp.obj
+oop-group-project.exe: CMakeFiles/oop-group-project.dir/InternDirect/InternRoomService.cpp.obj
 oop-group-project.exe: CMakeFiles/oop-group-project.dir/build.make
 oop-group-project.exe: CMakeFiles/oop-group-project.dir/linkLibs.rsp
 oop-group-project.exe: CMakeFiles/oop-group-project.dir/objects1.rsp
 oop-group-project.exe: CMakeFiles/oop-group-project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable oop-group-project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\IT files\L_assignments\oop-group-project\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable oop-group-project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\oop-group-project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
